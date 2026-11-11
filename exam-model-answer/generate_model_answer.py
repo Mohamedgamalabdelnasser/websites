@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
-"""Generate BS131 7th Week Exam model answer PDF."""
+"""Generate a clear, polished BS131 model-answer PDF."""
 
 from pathlib import Path
 
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT, TA_RIGHT
+from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import cm, mm
+from reportlab.lib.units import cm
 from reportlab.platypus import (
     HRFlowable,
     KeepTogether,
-    ListFlowable,
-    ListItem,
     Paragraph,
     SimpleDocTemplate,
     Spacer,
@@ -21,592 +19,487 @@ from reportlab.platypus import (
 )
 
 OUT_DIR = Path(__file__).resolve().parent
+WEB_DIR = OUT_DIR / "web"
 ARTIFACTS = Path("/opt/cursor/artifacts")
 PDF_NAME = "BS131_7th_Week_Exam_Model_Answer.pdf"
 
+SEA = colors.HexColor("#083344")
+SEA2 = colors.HexColor("#0E4A5C")
+TEAL = colors.HexColor("#0F766E")
+TEAL_SOFT = colors.HexColor("#CCFBF1")
+FOAM = colors.HexColor("#F0FDFA")
+INK = colors.HexColor("#102A33")
+MUTE = colors.HexColor("#5B7380")
+LINE = colors.HexColor("#D7E4EA")
+SOFT = colors.HexColor("#F3FAFB")
+DARK_CALC = colors.HexColor("#0B3140")
+CALC_TEXT = colors.HexColor("#D9F7F2")
+WHITE = colors.white
 
-def make_styles():
+
+def styles():
     base = getSampleStyleSheet()
-    styles = {
-        "cover_title": ParagraphStyle(
-            "cover_title",
-            parent=base["Title"],
-            fontName="Helvetica-Bold",
-            fontSize=18,
-            leading=22,
-            alignment=TA_CENTER,
-            textColor=colors.HexColor("#0B2E4A"),
-            spaceAfter=6,
+    return {
+        "brand": ParagraphStyle(
+            "brand", parent=base["Normal"], fontName="Helvetica",
+            fontSize=8.5, leading=11, textColor=colors.HexColor("#99F6E4"),
+            alignment=TA_CENTER, spaceAfter=4,
         ),
-        "cover_sub": ParagraphStyle(
-            "cover_sub",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=11,
-            leading=15,
-            alignment=TA_CENTER,
-            textColor=colors.HexColor("#1F3A4D"),
-            spaceAfter=3,
-        ),
-        "meta": ParagraphStyle(
-            "meta",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=9.5,
-            leading=13,
-            alignment=TA_CENTER,
-            textColor=colors.HexColor("#334155"),
-            spaceAfter=2,
-        ),
-        "h1": ParagraphStyle(
-            "h1",
-            parent=base["Heading1"],
-            fontName="Helvetica-Bold",
-            fontSize=13,
-            leading=17,
-            textColor=colors.HexColor("#0B2E4A"),
-            spaceBefore=12,
-            spaceAfter=6,
-            borderPadding=3,
-        ),
-        "h2": ParagraphStyle(
-            "h2",
-            parent=base["Heading2"],
-            fontName="Helvetica-Bold",
-            fontSize=11,
-            leading=14,
-            textColor=colors.HexColor("#1B4D6A"),
-            spaceBefore=8,
+        "title": ParagraphStyle(
+            "title", parent=base["Normal"], fontName="Times-Bold",
+            fontSize=26, leading=28, textColor=WHITE, alignment=TA_CENTER,
             spaceAfter=4,
         ),
-        "body": ParagraphStyle(
-            "body",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=10,
-            leading=14,
-            alignment=TA_JUSTIFY,
-            textColor=colors.HexColor("#111827"),
-            spaceAfter=4,
+        "sub": ParagraphStyle(
+            "sub", parent=base["Normal"], fontName="Helvetica",
+            fontSize=10, leading=13, textColor=colors.HexColor("#DFF7F4"),
+            alignment=TA_CENTER, spaceAfter=2,
         ),
-        "step": ParagraphStyle(
-            "step",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=10,
-            leading=14,
-            leftIndent=8,
-            textColor=colors.HexColor("#111827"),
-            spaceAfter=2,
+        "chip": ParagraphStyle(
+            "chip", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=8.5, leading=10, textColor=WHITE, alignment=TA_CENTER,
         ),
-        "formula": ParagraphStyle(
-            "formula",
-            parent=base["Normal"],
-            fontName="Courier",
-            fontSize=9.5,
-            leading=13,
-            leftIndent=14,
-            textColor=colors.HexColor("#0F172A"),
-            spaceBefore=2,
-            spaceAfter=2,
-            backColor=colors.HexColor("#F1F5F9"),
+        "qh": ParagraphStyle(
+            "qh", parent=base["Normal"], fontName="Times-Bold",
+            fontSize=16, leading=18, textColor=SEA, spaceBefore=2, spaceAfter=2,
         ),
-        "answer": ParagraphStyle(
-            "answer",
-            parent=base["Normal"],
-            fontName="Helvetica-Bold",
-            fontSize=10.5,
-            leading=14,
-            textColor=colors.HexColor("#065F46"),
-            spaceBefore=3,
-            spaceAfter=6,
-            leftIndent=4,
+        "part": ParagraphStyle(
+            "part", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=8, leading=10, textColor=TEAL, spaceBefore=6, spaceAfter=4,
         ),
-        "note": ParagraphStyle(
-            "note",
-            parent=base["Normal"],
-            fontName="Helvetica-Oblique",
-            fontSize=9,
-            leading=12,
-            textColor=colors.HexColor("#475569"),
-            spaceAfter=4,
+        "ask": ParagraphStyle(
+            "ask", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=9.5, leading=12.5, textColor=INK, spaceAfter=2,
         ),
-        "footer": ParagraphStyle(
-            "footer",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=8,
-            alignment=TA_CENTER,
-            textColor=colors.HexColor("#64748B"),
+        "why": ParagraphStyle(
+            "why", parent=base["Normal"], fontName="Helvetica",
+            fontSize=8.8, leading=11.5, textColor=MUTE, spaceAfter=2,
         ),
-        "table_cell": ParagraphStyle(
-            "table_cell",
-            parent=base["Normal"],
-            fontName="Helvetica",
-            fontSize=9.5,
-            leading=12,
-            alignment=TA_CENTER,
+        "calc": ParagraphStyle(
+            "calc", parent=base["Normal"], fontName="Courier",
+            fontSize=8.6, leading=11.5, textColor=CALC_TEXT, spaceAfter=0,
         ),
-        "table_head": ParagraphStyle(
-            "table_head",
-            parent=base["Normal"],
-            fontName="Helvetica-Bold",
-            fontSize=9.5,
-            leading=12,
-            alignment=TA_CENTER,
-            textColor=colors.white,
+        "ans": ParagraphStyle(
+            "ans", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=10.2, leading=13, textColor=TEAL, spaceAfter=0,
+        ),
+        "tag": ParagraphStyle(
+            "tag", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=7.5, leading=9, textColor=WHITE, alignment=TA_CENTER,
+        ),
+        "th": ParagraphStyle(
+            "th", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=8.5, leading=10, textColor=WHITE, alignment=TA_CENTER,
+        ),
+        "td": ParagraphStyle(
+            "td", parent=base["Normal"], fontName="Helvetica",
+            fontSize=9, leading=11, textColor=INK, alignment=TA_CENTER,
+        ),
+        "td_fill": ParagraphStyle(
+            "td_fill", parent=base["Normal"], fontName="Helvetica-Bold",
+            fontSize=9, leading=11, textColor=TEAL, alignment=TA_CENTER,
+        ),
+        "foot": ParagraphStyle(
+            "foot", parent=base["Normal"], fontName="Helvetica",
+            fontSize=7.5, leading=9, textColor=MUTE, alignment=TA_CENTER,
         ),
     }
-    return styles
 
 
-def hr():
-    return HRFlowable(
-        width="100%",
-        thickness=1,
-        color=colors.HexColor("#0B2E4A"),
-        spaceBefore=2,
-        spaceAfter=8,
-    )
+def hero(st):
+    left = [
+        Paragraph("AASTMT  ·  NAUTICAL DEPARTMENT", st["brand"]),
+        Paragraph("MODEL ANSWER", st["title"]),
+        Paragraph("Introduction to Navigation (BS131) — 7th Week Exam", st["sub"]),
+        Spacer(1, 8),
+        Table(
+            [[
+                Paragraph("06 April 2025", st["chip"]),
+                Paragraph("1 Hour", st["chip"]),
+                Paragraph("20 Marks", st["chip"]),
+            ]],
+            colWidths=[5.2 * cm, 5.2 * cm, 5.2 * cm],
+        ),
+    ]
+    inner = Table([[left]], colWidths=[16.8 * cm])
+    inner.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), SEA2),
+        ("BOX", (0, 0), (-1, -1), 0, SEA2),
+        ("LEFTPADDING", (0, 0), (-1, -1), 16),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 16),
+        ("TOPPADDING", (0, 0), (-1, -1), 16),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 14),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+    ]))
+    return inner
 
 
-def soft_hr():
-    return HRFlowable(
-        width="100%",
-        thickness=0.5,
-        color=colors.HexColor("#94A3B8"),
-        spaceBefore=4,
-        spaceAfter=6,
-    )
-
-
-def answer_box(text, styles):
-    data = [[Paragraph(text, styles["answer"])]]
-    t = Table(data, colWidths=[17.2 * cm])
-    t.setStyle(
-        TableStyle(
-            [
-                ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#ECFDF5")),
-                ("BOX", (0, 0), (-1, -1), 0.8, colors.HexColor("#059669")),
-                ("LEFTPADDING", (0, 0), (-1, -1), 8),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 8),
-                ("TOPPADDING", (0, 0), (-1, -1), 6),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
-            ]
-        )
-    )
+def q_header(title, marks, st):
+    data = [[
+        Paragraph(title, st["qh"]),
+        Paragraph(marks, ParagraphStyle(
+            "mk", parent=st["ans"], fontSize=8.5, textColor=TEAL, alignment=TA_CENTER,
+        )),
+    ]]
+    t = Table(data, colWidths=[13.6 * cm, 3.2 * cm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), SOFT),
+        ("BOX", (0, 0), (-1, -1), 0.8, LINE),
+        ("BACKGROUND", (1, 0), (1, 0), TEAL_SOFT),
+        ("LEFTPADDING", (0, 0), (0, 0), 10),
+        ("RIGHTPADDING", (1, 0), (1, 0), 8),
+        ("TOPPADDING", (0, 0), (-1, -1), 8),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("ALIGN", (1, 0), (1, 0), "CENTER"),
+    ]))
     return t
 
 
-def section_banner(title, styles):
-    data = [[Paragraph(title, ParagraphStyle(
-        "banner",
-        fontName="Helvetica-Bold",
-        fontSize=12,
-        leading=15,
-        textColor=colors.white,
-        alignment=TA_LEFT,
-    ))]]
-    t = Table(data, colWidths=[17.2 * cm])
-    t.setStyle(
-        TableStyle(
-            [
-                ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#0B2E4A")),
-                ("LEFTPADDING", (0, 0), (-1, -1), 10),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 10),
-                ("TOPPADDING", (0, 0), (-1, -1), 7),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
-            ]
-        )
-    )
+def ask_box(text, st):
+    t = Table([[Paragraph(text, st["ask"])]], colWidths=[16.8 * cm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), SOFT),
+        ("BOX", (0, 0), (-1, -1), 0.6, LINE),
+        ("LEFTPADDING", (0, 0), (-1, -1), 9),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 9),
+        ("TOPPADDING", (0, 0), (-1, -1), 7),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+    ]))
     return t
+
+
+def calc_box(text, st):
+    t = Table([[Paragraph(text.replace("\n", "<br/>"), st["calc"])]], colWidths=[16.8 * cm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, -1), DARK_CALC),
+        ("LEFTPADDING", (0, 0), (-1, -1), 9),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 9),
+        ("TOPPADDING", (0, 0), (-1, -1), 7),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+    ]))
+    return t
+
+
+def answer_box(text, st):
+    data = [[
+        Paragraph("ANSWER", st["tag"]),
+        Paragraph(text, st["ans"]),
+    ]]
+    t = Table(data, colWidths=[2.3 * cm, 14.5 * cm])
+    t.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (0, 0), TEAL),
+        ("BACKGROUND", (1, 0), (1, 0), FOAM),
+        ("BOX", (0, 0), (-1, -1), 1.2, TEAL),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("LEFTPADDING", (0, 0), (0, 0), 4),
+        ("RIGHTPADDING", (0, 0), (0, 0), 4),
+        ("LEFTPADDING", (1, 0), (1, 0), 10),
+        ("RIGHTPADDING", (1, 0), (1, 0), 8),
+        ("TOPPADDING", (0, 0), (-1, -1), 8),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
+    ]))
+    return t
+
+
+def block(parts):
+    return KeepTogether(parts)
 
 
 def build_pdf(path: Path):
-    styles = make_styles()
+    st = styles()
     doc = SimpleDocTemplate(
         str(path),
         pagesize=A4,
-        leftMargin=1.9 * cm,
-        rightMargin=1.9 * cm,
-        topMargin=1.6 * cm,
-        bottomMargin=1.6 * cm,
-        title="BS131 7th Week Exam — Model Answer",
+        leftMargin=1.7 * cm,
+        rightMargin=1.7 * cm,
+        topMargin=1.2 * cm,
+        bottomMargin=1.3 * cm,
+        title="BS131 Model Answer",
         author="Model Answer",
-        subject="Introduction to Navigation BS131",
     )
-
     story = []
 
-    # Cover / header
+    # Hero
+    story.append(hero(st))
+    story.append(Spacer(1, 10))
     story.append(Paragraph(
-        "ARAB ACADEMY FOR SCIENCE, TECHNOLOGY &amp; MARITIME TRANSPORT",
-        styles["cover_sub"],
-    ))
-    story.append(Paragraph(
-        "College of Maritime Transport &amp; Technology — Nautical Department",
-        styles["cover_sub"],
+        "Final answers are highlighted in green. Short workings are shown only where needed.",
+        st["why"],
     ))
     story.append(Spacer(1, 6))
-    story.append(Paragraph("MODEL ANSWER", styles["cover_title"]))
+
+    # -------- Q1 --------
+    story.append(q_header("Question 1 — Definitions &amp; Positions", "7 Marks", st))
+    story.append(Paragraph("A · COMPLETE THE SENTENCES", st["part"]))
+
+    story.append(block([
+        ask_box("1-a. Parallel of latitude … parallel to the plane of ……………", st),
+        Paragraph("Plane of the parallel is parallel to the equatorial plane.", st["why"]),
+        answer_box("the Equator", st),
+        Spacer(1, 6),
+    ]))
+    story.append(block([
+        ask_box("1-b. Rhumb line … cuts all …………… at the same angle.", st),
+        Paragraph("Constant course ⇒ same angle with every meridian.", st["why"]),
+        answer_box("Meridians", st),
+        Spacer(1, 6),
+    ]))
+    story.append(block([
+        ask_box("1-c. Meridians are semi great circles joining ……………", st),
+        Paragraph("Each meridian joins the poles and is perpendicular to the equator.", st["why"]),
+        answer_box("the North and South Poles", st),
+        Spacer(1, 4),
+    ]))
+
+    story.append(Paragraph("B · POSITION CALCULATIONS", st["part"]))
+    story.append(block([
+        ask_box(
+            "B-1. A: 28° 30.8′ S, 057° 28.6′ W &nbsp;&nbsp;→&nbsp;&nbsp; "
+            "B: 29° 42.6′ N, 069° 33.4′ W",
+            st,
+        ),
+        Spacer(1, 3),
+        calc_box("D.Lat  = 29° 42.6′ − (−28° 30.8′) = 58° 13.4′ N\n"
+                 "D.Long = 069° 33.4′ W − 057° 28.6′ W = 12° 04.8′ W", st),
+        Spacer(1, 3),
+        answer_box("D.Lat = 58° 13.4′ N &nbsp;&nbsp;|&nbsp;&nbsp; D.Long = 12° 04.8′ W", st),
+        Spacer(1, 7),
+    ]))
+    story.append(block([
+        ask_box(
+            "B-2. Start 33° 24.8′ N, 172° 15.6′ E &nbsp;·&nbsp; "
+            "D.Lat 22° 56.7′ S &nbsp;·&nbsp; D.Long 011° 57.8′ E",
+            st,
+        ),
+        Spacer(1, 3),
+        calc_box("Lat  = 33° 24.8′ N − 22° 56.7′ = 10° 28.1′ N\n"
+                 "Long = 172° 15.6′ E + 011° 57.8′ E = 184° 13.4′ E = 175° 46.6′ W", st),
+        Spacer(1, 3),
+        answer_box("10° 28.1′ N , 175° 46.6′ W", st),
+        Spacer(1, 8),
+    ]))
+
+    # -------- Q2 --------
+    story.append(q_header("Question 2 — Figure Extraction &amp; Gnomonic Chart", "6 Marks", st))
+    story.append(Paragraph("A · FROM THE FIGURE", st["part"]))
     story.append(Paragraph(
-        "Introduction to Navigation (BS131) — 7th Week Exam",
-        styles["cover_sub"],
-    ))
-    story.append(Spacer(1, 4))
-    story.append(Paragraph(
-        "Date: 06 April 2025 &nbsp;&nbsp;|&nbsp;&nbsp; Duration: 1 Hour &nbsp;&nbsp;|&nbsp;&nbsp; Total: 20 Marks",
-        styles["meta"],
-    ))
-    story.append(Paragraph(
-        "Detailed worked solutions with rules, intermediate steps, and final answers",
-        styles["meta"],
-    ))
-    story.append(Spacer(1, 4))
-    story.append(hr())
-
-    # ===================== Q1 =====================
-    story.append(section_banner("Question (1) — 7 Marks &nbsp;&nbsp;|&nbsp;&nbsp; CLO (1), (2) · PLO (a), (d)", styles))
-    story.append(Spacer(1, 8))
-    story.append(Paragraph("A) Complete the following sentences", styles["h2"]))
-
-    story.append(Paragraph("<b>1-a.</b> Parallel of latitude is a small circle, the plane of which is parallel to the plane of ……………", styles["body"]))
-    story.append(Paragraph("A parallel of latitude is formed by the intersection of the Earth with a plane parallel to the equatorial plane. Therefore every parallel lies parallel to the equator.", styles["step"]))
-    story.append(answer_box("Answer: the Equator", styles))
-
-    story.append(Paragraph("<b>1-b.</b> Rhumb line is the line on the earth's surface which cuts all …………… at the same angle.", styles["body"]))
-    story.append(Paragraph("By definition, a rhumb line (loxodrome) maintains a constant true course, so it intersects every meridian at the same angle.", styles["step"]))
-    story.append(answer_box("Answer: Meridians (meridians of longitude)", styles))
-
-    story.append(Paragraph("<b>1-c.</b> Meridians are semi great circles joining …………… and are perpendicular to the equator.", styles["body"]))
-    story.append(Paragraph("Each meridian is a semi-great circle running from the North Pole to the South Pole and cutting the equator at 90°.", styles["step"]))
-    story.append(answer_box("Answer: the North and South Poles (the poles)", styles))
-
-    story.append(soft_hr())
-    story.append(Paragraph("B) Position calculations", styles["h2"]))
-    story.append(Paragraph("<b>B-1.</b> Calculate D.Lat and D.Long between Pos. A and Pos. B", styles["body"]))
-    story.append(Paragraph("Pos. A = 28° 30.8′ S , 057° 28.6′ W", styles["step"]))
-    story.append(Paragraph("Pos. B = 29° 42.6′ N , 069° 33.4′ W", styles["step"]))
-    story.append(Spacer(1, 3))
-    story.append(Paragraph("<b>Difference of Latitude (D.Lat)</b>", styles["body"]))
-    story.append(Paragraph("Sign convention used: North (+), South (−).", styles["note"]))
-    story.append(Paragraph("Lat A = −28° 30.8′ &nbsp;&nbsp; Lat B = +29° 42.6′", styles["formula"]))
-    story.append(Paragraph("D.Lat = Lat B − Lat A = 29° 42.6′ − (−28° 30.8′) = 29° 42.6′ + 28° 30.8′", styles["formula"]))
-    story.append(Paragraph("D.Lat = 58° 13.4′ North &nbsp;(vessel changes latitude northward from A to B)", styles["formula"]))
-    story.append(Spacer(1, 3))
-    story.append(Paragraph("<b>Difference of Longitude (D.Long)</b>", styles["body"]))
-    story.append(Paragraph("Both longitudes are West; Pos. B is further west than Pos. A.", styles["note"]))
-    story.append(Paragraph("D.Long = 069° 33.4′ W − 057° 28.6′ W = 012° 04.8′ West", styles["formula"]))
-    story.append(answer_box(
-        "Final Answer (B-1): &nbsp; D.Lat = 58° 13.4′ N &nbsp;&nbsp;|&nbsp;&nbsp; D.Long = 12° 04.8′ W",
-        styles,
+        "M.N = 6° W of T.N · C.N = 2° E of T.N · Heading from C.N = 085° · Lighthouse from T.N = 122°",
+        st["why"],
     ))
 
-    story.append(Paragraph("<b>B-2.</b> Find the coordinates of the final position", styles["body"]))
-    story.append(Paragraph("Pos. A = 33° 24.8′ N , 172° 15.6′ E", styles["step"]))
-    story.append(Paragraph("D.Lat = 22° 56.7′ S &nbsp;&nbsp; D.Long = 011° 57.8′ E", styles["step"]))
-    story.append(Spacer(1, 3))
-    story.append(Paragraph("<b>Final Latitude</b>", styles["body"]))
-    story.append(Paragraph("Final Lat = 33° 24.8′ N − 22° 56.7′ = 10° 28.1′ N", styles["formula"]))
-    story.append(Paragraph("<b>Final Longitude</b>", styles["body"]))
-    story.append(Paragraph("Final Long (raw) = 172° 15.6′ E + 011° 57.8′ E = 184° 13.4′ E", styles["formula"]))
-    story.append(Paragraph(
-        "Longitude cannot exceed 180°. Convert the excess over 180° to West longitude:",
-        styles["step"],
-    ))
-    story.append(Paragraph("184° 13.4′ E = (360° − 184° 13.4′) W = 175° 46.6′ W", styles["formula"]))
-    story.append(Paragraph("Alternatively: excess east of 180° is 4° 13.4′, so West = 180° − 4° 13.4′ = 175° 46.6′ W.", styles["note"]))
-    story.append(answer_box(
-        "Final Answer (B-2): &nbsp; 10° 28.1′ N , 175° 46.6′ W",
-        styles,
-    ))
-
-    # ===================== Q2 =====================
-    story.append(Spacer(1, 8))
-    story.append(section_banner("Question (2) — 6 Marks &nbsp;&nbsp;|&nbsp;&nbsp; CLO (3), (4), (6) · PLO (a), (d)", styles))
-    story.append(Spacer(1, 8))
-    story.append(Paragraph("A) Extract the following values from the figure", styles["h2"]))
-    story.append(Paragraph(
-        "From the printed diagram: Magnetic North (M.N) lies <b>6° West</b> of True North (T.N); "
-        "Compass North (C.N) lies <b>2° East</b> of T.N; the heading arc from C.N is <b>085°</b>; "
-        "the lighthouse bearing arc from T.N is <b>122°</b>.",
-        styles["body"],
-    ))
-
-    story.append(Paragraph("<b>1) Variation</b>", styles["body"]))
-    story.append(Paragraph("Variation is the angle between True North and Magnetic North.", styles["step"]))
-    story.append(Paragraph("M.N is 6° to the West of T.N ⇒ Variation = 6° W", styles["formula"]))
-    story.append(answer_box("Variation = 6° W", styles))
-
-    story.append(Paragraph("<b>2) Total Compass Error</b>", styles["body"]))
-    story.append(Paragraph("Total Compass Error (C.E.) is the angle between True North and Compass North.", styles["step"]))
-    story.append(Paragraph("C.N is 2° to the East of T.N ⇒ Total C.E. = 2° E", styles["formula"]))
-    story.append(Paragraph("Check rule: <i>Error East, Compass Least</i> — compass courses will be less than true courses.", styles["note"]))
-    story.append(answer_box("Total Compass Error = 2° E", styles))
-
-    story.append(Paragraph("<b>3) Compass Course</b>", styles["body"]))
-    story.append(Paragraph("The figure labels the course arc from Compass North to the ship’s heading as 085°.", styles["step"]))
-    story.append(answer_box("Compass Course = 085° C", styles))
-
-    story.append(Paragraph("<b>4) True Course</b>", styles["body"]))
-    story.append(Paragraph("Apply total compass error (Error East → add to compass to obtain true):", styles["step"]))
-    story.append(Paragraph("True Course = Compass Course + C.E. (E) = 085° + 2° = 087° T", styles["formula"]))
-    story.append(Paragraph("Cross-check via Magnetic Course:", styles["note"]))
-    story.append(Paragraph("C.E. = Var + Dev ⇒ +2° = (−6°) + Dev ⇒ Dev = 8° E", styles["formula"]))
-    story.append(Paragraph("Mag. Course = Comp. Course + Dev (E) = 085° + 8° = 093° M", styles["formula"]))
-    story.append(Paragraph("True Course = Mag. Course − Var (W) = 093° − 6° = 087° T ✓", styles["formula"]))
-    story.append(answer_box("True Course = 087° T", styles))
-
-    story.append(Paragraph("<b>5) True Bearing</b>", styles["body"]))
-    story.append(Paragraph("The figure labels the bearing arc from True North to the lighthouse line as 122°.", styles["step"]))
-    story.append(answer_box("True Bearing = 122° T", styles))
-
-    story.append(Paragraph("<b>6) Relative Bearing</b>", styles["body"]))
-    story.append(Paragraph("Relative bearing = True Bearing − True Course (starboard / Green if positive).", styles["step"]))
-    story.append(Paragraph("Relative Bearing = 122° − 087° = 035° Green (Starboard)", styles["formula"]))
-    story.append(answer_box("Relative Bearing = 035° Green (to Starboard)", styles))
-
-    # Summary table for Q2A
-    story.append(Paragraph("Summary of extracted / calculated values", styles["h2"]))
-    q2_data = [
-        [Paragraph(x, styles["table_head"]) for x in ["Quantity", "Value"]],
-        [Paragraph("Variation", styles["table_cell"]), Paragraph("6° W", styles["table_cell"])],
-        [Paragraph("Total Compass Error", styles["table_cell"]), Paragraph("2° E", styles["table_cell"])],
-        [Paragraph("Compass Course", styles["table_cell"]), Paragraph("085° C", styles["table_cell"])],
-        [Paragraph("True Course", styles["table_cell"]), Paragraph("087° T", styles["table_cell"])],
-        [Paragraph("True Bearing", styles["table_cell"]), Paragraph("122° T", styles["table_cell"])],
-        [Paragraph("Relative Bearing", styles["table_cell"]), Paragraph("035° Green", styles["table_cell"])],
+    # compact 2-col answers for direct reads
+    pairs = [
+        ("Variation", "6° W", False, ""),
+        ("Total Compass Error", "2° E", False, ""),
+        ("Compass Course", "085° C", False, ""),
+        ("True Course", "087° T", True, "085° + 2° E = 087° T"),
+        ("True Bearing", "122° T", False, ""),
+        ("Relative Bearing", "035° Green", True, "122° − 087° = 035° Green"),
     ]
-    q2_table = Table(q2_data, colWidths=[9 * cm, 8.2 * cm])
-    q2_table.setStyle(
-        TableStyle(
-            [
-                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#0B2E4A")),
-                ("BACKGROUND", (0, 1), (-1, 1), colors.HexColor("#F8FAFC")),
-                ("BACKGROUND", (0, 3), (-1, 3), colors.HexColor("#F8FAFC")),
-                ("BACKGROUND", (0, 5), (-1, 5), colors.HexColor("#F8FAFC")),
-                ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#94A3B8")),
-                ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-                ("TOPPADDING", (0, 0), (-1, -1), 5),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
-            ]
-        )
-    )
-    story.append(q2_table)
+    for i in range(0, len(pairs), 2):
+        left = pairs[i]
+        right = pairs[i + 1]
+        cells = []
+        for label, val, has_calc, calc in (left, right):
+            bits = [Paragraph(label, st["ask"])]
+            if has_calc:
+                bits.append(Spacer(1, 2))
+                bits.append(Paragraph(calc, ParagraphStyle(
+                    "cmini", parent=st["why"], fontName="Courier", fontSize=8, textColor=MUTE,
+                )))
+            bits.append(Spacer(1, 3))
+            bits.append(answer_box(val, st))
+            cells.append(bits)
+        row = Table([[cells[0], cells[1]]], colWidths=[8.2 * cm, 8.2 * cm])
+        row.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (0, 0), 6),
+            ("LEFTPADDING", (1, 0), (1, 0), 6),
+            ("RIGHTPADDING", (1, 0), (1, 0), 0),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+        ]))
+        story.append(row)
 
-    story.append(Spacer(1, 10))
-    story.append(Paragraph("B) Insert the appropriate term (Gnomonic Projection — North Polar Aspect)", styles["h2"]))
-    story.append(Paragraph(
-        "On a gnomonic chart a straight line is a <b>great-circle track</b>. The Seattle–London track shows "
-        "an initial course near Seattle of about <b>029°</b> and a final course near London of about <b>129°</b>. "
-        "The three marked points on the track are identified as follows:",
-        styles["body"],
-    ))
-    story.append(Paragraph("1 → point near departure / start of the GC track → <b>Initial Course</b>", styles["step"]))
-    story.append(Paragraph("2 → highest-latitude point of the great circle (nearest the pole) → <b>Vertex</b>", styles["step"]))
-    story.append(Paragraph("3 → point near arrival / end of the GC track → <b>Final Course</b>", styles["step"]))
-    story.append(answer_box(
-        "1. Initial Course (Initial Great Circle Course)&nbsp;&nbsp;&nbsp;"
-        "2. Vertex&nbsp;&nbsp;&nbsp;"
-        "3. Final Course (Final Great Circle Course)",
-        styles,
-    ))
-    story.append(Paragraph(
-        "Note: Intermediate open circles at successive meridians are also the transfer waypoints used when converting the GC track to rhumb-line legs on a Mercator chart.",
-        styles["note"],
-    ))
-
-    # ===================== Q3 =====================
+    story.append(Paragraph("B · GNOMONIC TERMS (Seattle → London)", st["part"]))
+    story.append(answer_box("1. Initial Course &nbsp;&nbsp;·&nbsp;&nbsp; 2. Vertex &nbsp;&nbsp;·&nbsp;&nbsp; 3. Final Course", st))
     story.append(Spacer(1, 8))
-    story.append(section_banner("Question (3) — 7 Marks &nbsp;&nbsp;|&nbsp;&nbsp; CLO (3), (6) · PLO (a), (d)", styles))
-    story.append(Spacer(1, 8))
-    story.append(Paragraph("A) Fill in the missed values of the following table", styles["h2"]))
-    story.append(Paragraph(
-        "Rule used (Compass ↔ Magnetic): &nbsp; Mag. Course = Comp. Course ± Deviation, "
-        "where <b>East deviation is added</b> to compass to obtain magnetic, and <b>West deviation is subtracted</b> "
-        "(equivalently: Deviation East ⇒ Compass Least).",
-        styles["body"],
-    ))
 
-    story.append(Paragraph("<b>Row 1:</b> C.Course = 155°, Dev. = 3° W, Mag.Course = ?", styles["body"]))
-    story.append(Paragraph("Mag. Course = 155° − 3° (W) = 152° M", styles["formula"]))
+    # -------- Q3 --------
+    story.append(q_header("Question 3 — Compass, Bearings &amp; Gyro", "7 Marks", st))
+    story.append(Paragraph("A · FILL THE TABLE", st["part"]))
+    story.append(Paragraph("Rule: Mag = Comp ± Dev &nbsp;(East add · West subtract)", st["why"]))
+    story.append(calc_box("1) Mag = 155° − 3° W = 152° M\n2) Comp = 273° − 5° E = 268° C", st))
+    story.append(Spacer(1, 4))
 
-    story.append(Paragraph("<b>Row 2:</b> Dev. = 5° E, Mag.Course = 273°, C.Course = ?", styles["body"]))
-    story.append(Paragraph("Comp. Course = 273° − 5° (E) = 268° C", styles["formula"]))
-    story.append(Paragraph("Check: 268° + 5° E = 273° M ✓", styles["note"]))
-
-    filled = [
-        [Paragraph(x, styles["table_head"]) for x in ["", "C.Course", "Dev.", "Mag.Course"]],
+    table = Table([
+        [Paragraph(x, st["th"]) for x in ["", "C.Course", "Dev.", "Mag.Course"]],
         [
-            Paragraph("1", styles["table_cell"]),
-            Paragraph("155°", styles["table_cell"]),
-            Paragraph("3° W", styles["table_cell"]),
-            Paragraph("<b>152° M</b>", styles["table_cell"]),
+            Paragraph("1", st["td"]),
+            Paragraph("155°", st["td"]),
+            Paragraph("3° W", st["td"]),
+            Paragraph("152° M", st["td_fill"]),
         ],
         [
-            Paragraph("2", styles["table_cell"]),
-            Paragraph("<b>268° C</b>", styles["table_cell"]),
-            Paragraph("5° E", styles["table_cell"]),
-            Paragraph("273°", styles["table_cell"]),
+            Paragraph("2", st["td"]),
+            Paragraph("268° C", st["td_fill"]),
+            Paragraph("5° E", st["td"]),
+            Paragraph("273°", st["td"]),
         ],
+    ], colWidths=[1.8 * cm, 5 * cm, 5 * cm, 5 * cm])
+    table.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), SEA),
+        ("BACKGROUND", (3, 1), (3, 1), TEAL_SOFT),
+        ("BACKGROUND", (1, 2), (1, 2), TEAL_SOFT),
+        ("BOX", (0, 0), (-1, -1), 0.8, LINE),
+        ("INNERGRID", (0, 0), (-1, -1), 0.5, LINE),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("TOPPADDING", (0, 0), (-1, -1), 6),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+    ]))
+    story.append(table)
+
+    story.append(Paragraph("B · BEARINGS", st["part"]))
+    b_row = Table([[
+        [
+            ask_box("B-1. T.Co 023° · Rel 045° Red", st),
+            Spacer(1, 3),
+            calc_box("023° − 045° = −022° → 338° T", st),
+            Spacer(1, 3),
+            answer_box("338° T", st),
+        ],
+        [
+            ask_box("B-2. T.Co 111° · T.Bg 140°", st),
+            Spacer(1, 3),
+            calc_box("140° − 111° = 029° Green", st),
+            Spacer(1, 3),
+            answer_box("029° Green", st),
+        ],
+    ]], colWidths=[8.2 * cm, 8.2 * cm])
+    b_row.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("RIGHTPADDING", (0, 0), (0, 0), 6),
+        ("LEFTPADDING", (1, 0), (1, 0), 6),
+        ("LEFTPADDING", (0, 0), (0, 0), 0),
+        ("RIGHTPADDING", (1, 0), (1, 0), 0),
+    ]))
+    story.append(b_row)
+
+    story.append(Paragraph("C · ERRORS &amp; CONVERTED BEARINGS", st["part"]))
+    story.append(Paragraph("True 333° T · Compass 322° C · Gyro 335° · Dev 5° E", st["why"]))
+
+    c_items = [
+        ("1. Total Compass Error", "333° − 322° = 11° E", "11° E"),
+        ("2. Variation", "C.E. − Dev = 11° − 5° = 6° E", "6° E"),
+        ("3. Gyro Error", "335° − 333° = 2° High", "2° High"),
+        ("4. T.Bg 359° → Comp &amp; Gyro", "359−11=348° C · 359+2=001° G", "348° C  |  001° G"),
     ]
-    ft = Table(filled, colWidths=[2.2 * cm, 5 * cm, 5 * cm, 5 * cm])
-    ft.setStyle(
-        TableStyle(
-            [
-                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#0B2E4A")),
-                ("BACKGROUND", (3, 1), (3, 1), colors.HexColor("#D1FAE5")),
-                ("BACKGROUND", (1, 2), (1, 2), colors.HexColor("#D1FAE5")),
-                ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#94A3B8")),
-                ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-                ("TOPPADDING", (0, 0), (-1, -1), 6),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
-            ]
-        )
-    )
+    for i in range(0, 4, 2):
+        a = c_items[i]
+        b = c_items[i + 1]
+        row = Table([[
+            [ask_box(a[0], st), Spacer(1, 3), calc_box(a[1], st), Spacer(1, 3), answer_box(a[2], st)],
+            [ask_box(b[0], st), Spacer(1, 3), calc_box(b[1], st), Spacer(1, 3), answer_box(b[2], st)],
+        ]], colWidths=[8.2 * cm, 8.2 * cm])
+        row.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("RIGHTPADDING", (0, 0), (0, 0), 6),
+            ("LEFTPADDING", (1, 0), (1, 0), 6),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+        ]))
+        story.append(row)
+
+    # Quick sheet — full-width clear table (no truncation)
     story.append(Spacer(1, 4))
-    story.append(ft)
-    story.append(Spacer(1, 6))
-    story.append(answer_box("Row 1 Mag.Course = 152° M &nbsp;&nbsp;|&nbsp;&nbsp; Row 2 C.Course = 268° C", styles))
-
-    story.append(Paragraph("B) Relative / True bearings", styles["h2"]))
-    story.append(Paragraph(
-        "<b>B-1.</b> T.Co = 023°, Relative bearing of lighthouse = 045° <b>Red</b>. Find T.Bg.",
-        styles["body"],
-    ))
-    story.append(Paragraph(
-        "Convention: <b>Red = Port (left)</b> → subtract relative bearing from the ship’s true course. "
-        "<b>Green = Starboard (right)</b> → add.",
-        styles["note"],
-    ))
-    story.append(Paragraph("T.Bg = T.Co − Rel.Bg (Red) = 023° − 045° = −022°", styles["formula"]))
-    story.append(Paragraph("Normalize to the 000°–360° range: −022° + 360° = 338°", styles["formula"]))
-    story.append(answer_box("True Bearing of the lighthouse = 338° T", styles))
-
-    story.append(Paragraph(
-        "<b>B-2.</b> T.Co = 111°, True bearing of lighthouse = 140°. Find Relative bearing.",
-        styles["body"],
-    ))
-    story.append(Paragraph("Relative Bearing = T.Bg − T.Co = 140° − 111° = 029°", styles["formula"]))
-    story.append(Paragraph("Positive result ⇒ object is on the starboard side ⇒ Green.", styles["step"]))
-    story.append(answer_box("Relative Bearing = 029° Green (Starboard)", styles))
-
-    story.append(Paragraph("C) Compass &amp; Gyro errors", styles["h2"]))
-    story.append(Paragraph(
-        "Given: True Course = 333° T &nbsp;|&nbsp; Compass Course = 322° C &nbsp;|&nbsp; "
-        "Gyro Course = 335° &nbsp;|&nbsp; Deviation = 5° E",
-        styles["body"],
-    ))
-
-    story.append(Paragraph("<b>C-1. Total Compass Error</b>", styles["body"]))
-    story.append(Paragraph("C.E. = True Course − Compass Course = 333° − 322° = 11°", styles["formula"]))
-    story.append(Paragraph("Compass is less than True ⇒ Error is Easterly (<i>Error East, Compass Least</i>).", styles["step"]))
-    story.append(answer_box("Total Compass Error = 11° E", styles))
-
-    story.append(Paragraph("<b>C-2. Variation</b>", styles["body"]))
-    story.append(Paragraph("Using signed values (East +, West −): &nbsp; C.E. = Variation + Deviation", styles["step"]))
-    story.append(Paragraph("+11° = Variation + (+5°) ⇒ Variation = +6° = 6° E", styles["formula"]))
-    story.append(Paragraph("Check:", styles["note"]))
-    story.append(Paragraph("Mag. Course = Comp. + Dev (E) = 322° + 5° = 327° M", styles["formula"]))
-    story.append(Paragraph("True Course = Mag. + Var (E) = 327° + 6° = 333° T ✓", styles["formula"]))
-    story.append(answer_box("Variation = 6° E", styles))
-
-    story.append(Paragraph("<b>C-3. Gyro Error</b>", styles["body"]))
-    story.append(Paragraph("Gyro Error = Gyro Course − True Course = 335° − 333° = 2°", styles["formula"]))
-    story.append(Paragraph("Gyro reading is greater than true ⇒ Gyro is <b>High</b> by 2°.", styles["step"]))
-    story.append(answer_box("Gyro Error = 2° High (2° H)", styles))
-
-    story.append(Paragraph("<b>C-4. Compass bearing &amp; Gyro bearing if True Bearing = 359° T</b>", styles["body"]))
-    story.append(Paragraph("Apply the same errors found above (errors are constant for the given heading situation):", styles["step"]))
-    story.append(Paragraph("Compass Bearing = True Bearing − C.E. (E) = 359° − 11° = 348° C", styles["formula"]))
-    story.append(Paragraph("Gyro Bearing = True Bearing + Gyro Error (High) = 359° + 2° = 361° ≡ 001° G", styles["formula"]))
-    story.append(answer_box(
-        "Compass Bearing = 348° C &nbsp;&nbsp;|&nbsp;&nbsp; Gyro Bearing = 001° G",
-        styles,
-    ))
-
-    # Final summary
-    story.append(Spacer(1, 10))
-    story.append(section_banner("Quick Reference — Final Answers Only", styles))
-    story.append(Spacer(1, 8))
-
-    summary = [
-        [Paragraph(x, styles["table_head"]) for x in ["Item", "Final Answer"]],
-        [Paragraph("Q1-A a / b / c", styles["table_cell"]),
-         Paragraph("Equator / Meridians / North &amp; South Poles", styles["table_cell"])],
-        [Paragraph("Q1-B1 D.Lat / D.Long", styles["table_cell"]),
-         Paragraph("58° 13.4′ N / 12° 04.8′ W", styles["table_cell"])],
-        [Paragraph("Q1-B2 Final Position", styles["table_cell"]),
-         Paragraph("10° 28.1′ N , 175° 46.6′ W", styles["table_cell"])],
-        [Paragraph("Q2-A (Var / CE / C.Co / T.Co / T.Bg / Rel)", styles["table_cell"]),
-         Paragraph("6°W / 2°E / 085°C / 087°T / 122°T / 035°G", styles["table_cell"])],
-        [Paragraph("Q2-B Terms 1 / 2 / 3", styles["table_cell"]),
-         Paragraph("Initial Course / Vertex / Final Course", styles["table_cell"])],
-        [Paragraph("Q3-A Mag / Comp", styles["table_cell"]),
-         Paragraph("152° M / 268° C", styles["table_cell"])],
-        [Paragraph("Q3-B1 T.Bg", styles["table_cell"]),
-         Paragraph("338° T", styles["table_cell"])],
-        [Paragraph("Q3-B2 Rel.Bg", styles["table_cell"]),
-         Paragraph("029° Green", styles["table_cell"])],
-        [Paragraph("Q3-C CE / Var / GE", styles["table_cell"]),
-         Paragraph("11°E / 6°E / 2° High", styles["table_cell"])],
-        [Paragraph("Q3-C4 Comp.Bg / Gyro.Bg", styles["table_cell"]),
-         Paragraph("348° C / 001° G", styles["table_cell"])],
+    story.append(q_header("Quick Sheet — Final Answers Only", "Summary", st))
+    story.append(Spacer(1, 4))
+    quick = [
+        ("Q1-A", "Equator / Meridians / North &amp; South Poles"),
+        ("Q1-B1", "D.Lat 58° 13.4′ N &nbsp;&nbsp;·&nbsp;&nbsp; D.Long 12° 04.8′ W"),
+        ("Q1-B2", "10° 28.1′ N , 175° 46.6′ W"),
+        ("Q2-A", "Var 6°W · CE 2°E · C.Co 085°C · T.Co 087°T · T.Bg 122°T · Rel 035°G"),
+        ("Q2-B", "1 Initial Course · 2 Vertex · 3 Final Course"),
+        ("Q3-A", "Mag 152° M · Comp 268° C"),
+        ("Q3-B", "T.Bg 338° T · Rel 029° Green"),
+        ("Q3-C", "CE 11°E · Var 6°E · GE 2° High · Comp.Bg 348°C · Gyro.Bg 001°G"),
     ]
-    st = Table(summary, colWidths=[7.2 * cm, 10 * cm])
-    st.setStyle(
-        TableStyle(
-            [
-                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#0B2E4A")),
-                ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#F1F5F9")]),
-                ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#94A3B8")),
-                ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-                ("TOPPADDING", (0, 0), (-1, -1), 5),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 5),
-                ("LEFTPADDING", (0, 0), (-1, -1), 6),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 6),
-            ]
-        )
-    )
-    story.append(st)
-
-    story.append(Spacer(1, 14))
-    story.append(hr())
+    qrows = [[Paragraph("Item", st["th"]), Paragraph("Final Answer", st["th"])]]
+    for code, val in quick:
+        qrows.append([
+            Paragraph(code, st["td_fill"]),
+            Paragraph(val, ParagraphStyle(
+                "qans", parent=st["td"], fontName="Helvetica-Bold",
+                alignment=TA_LEFT, textColor=TEAL, fontSize=9, leading=12,
+            )),
+        ])
+    qt = Table(qrows, colWidths=[2.6 * cm, 14.2 * cm])
+    qt.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), SEA),
+        ("BACKGROUND", (0, 1), (-1, -1), FOAM),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [FOAM, WHITE]),
+        ("BOX", (0, 0), (-1, -1), 1.0, TEAL),
+        ("INNERGRID", (0, 0), (-1, -1), 0.5, LINE),
+        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 8),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+        ("TOPPADDING", (0, 0), (-1, -1), 7),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+    ]))
+    story.append(qt)
+    story.append(Spacer(1, 10))
+    story.append(HRFlowable(width="100%", thickness=0.6, color=LINE))
+    story.append(Spacer(1, 4))
     story.append(Paragraph(
-        "End of Model Answer — Introduction to Navigation (BS131) · 7th Week Exam · 20 Marks",
-        styles["footer"],
-    ))
-    story.append(Paragraph(
-        "Rules applied: Cadet (Compass Add East True) · Error East/Compass Least · Red = Port / Green = Starboard · Gyro High/Low",
-        styles["footer"],
+        "Cadet (Compass Add East True)  ·  Error East / Compass Least  ·  Red = Port  ·  Green = Starboard  ·  Gyro High/Low",
+        st["foot"],
     ))
 
-    def add_page_number(canvas, doc_):
+    def page_no(canvas, _doc):
         canvas.saveState()
-        page = canvas.getPageNumber()
+        canvas.setFillColor(MUTE)
         canvas.setFont("Helvetica", 8)
-        canvas.setFillColor(colors.HexColor("#64748B"))
-        canvas.drawCentredString(
-            A4[0] / 2,
-            1.0 * cm,
-            f"BS131 Model Answer  ·  Page {page}",
-        )
+        canvas.drawCentredString(A4[0] / 2, 0.85 * cm, f"BS131 Model Answer  ·  {canvas.getPageNumber()}")
         canvas.restoreState()
 
-    doc.build(story, onFirstPage=add_page_number, onLaterPages=add_page_number)
+    doc.build(story, onFirstPage=page_no, onLaterPages=page_no)
     return path
 
 
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    WEB_DIR.mkdir(parents=True, exist_ok=True)
     ARTIFACTS.mkdir(parents=True, exist_ok=True)
+
     primary = OUT_DIR / PDF_NAME
     build_pdf(primary)
-    artifact = ARTIFACTS / PDF_NAME
-    artifact.write_bytes(primary.read_bytes())
-    print(f"Wrote {primary}")
-    print(f"Wrote {artifact}")
-    print(f"Size: {primary.stat().st_size} bytes")
+    web_pdf = WEB_DIR / PDF_NAME
+    web_pdf.write_bytes(primary.read_bytes())
+    art = ARTIFACTS / PDF_NAME
+    art.write_bytes(primary.read_bytes())
+
+    # refresh page previews
+    try:
+        import pymupdf
+        doc = pymupdf.open(primary)
+        for i, page in enumerate(doc):
+            pix = page.get_pixmap(matrix=pymupdf.Matrix(1.6, 1.6), alpha=False)
+            name = f"BS131_model_answer_page_{i + 1}.png"
+            pix.save(WEB_DIR / name)
+            pix.save(ARTIFACTS / name)
+        # remove stale page 5 if fewer pages now
+        for extra in WEB_DIR.glob("BS131_model_answer_page_*.png"):
+            n = int(extra.stem.rsplit("_", 1)[-1])
+            if n > doc.page_count:
+                extra.unlink(missing_ok=True)
+        print(f"pages={doc.page_count}")
+    except Exception as e:
+        print("preview skip:", e)
+
+    print(f"Wrote {primary} ({primary.stat().st_size} bytes)")
+    print(f"Wrote {web_pdf}")
+    print(f"Wrote {art}")
 
 
 if __name__ == "__main__":
