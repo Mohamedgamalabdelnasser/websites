@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BS131 Model Answer — 7th Week Exam</title>
+  <style>
+    :root {
+      --navy: #0b2e4a;
+      --teal: #1b4d6a;
+      --green: #065f46;
+      --green-bg: #ecfdf5;
+      --green-border: #059669;
+      --ink: #111827;
+      --muted: #475569;
+      --line: #94a3b8;
+      --soft: #f1f5f9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #dbeafe 0%, transparent 40%),
+        radial-gradient(circle at top right, #e2e8f0 0%, transparent 35%),
+        #f8fafc;
+      line-height: 1.55;
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 24px 18px 64px; }
+    header {
+      background: var(--navy);
+      color: #fff;
+      border-radius: 14px;
+      padding: 22px 22px 18px;
+      box-shadow: 0 10px 30px rgba(11, 46, 74, 0.18);
+    }
+    header .kicker {
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      opacity: 0.85;
+      margin-bottom: 6px;
+    }
+    header h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.35rem, 3vw, 1.85rem);
+      line-height: 1.25;
+    }
+    header p { margin: 4px 0; opacity: 0.92; font-size: 0.95rem; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      border-radius: 10px;
+      padding: 11px 16px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border: 0;
+      cursor: pointer;
+    }
+    .btn-primary { background: #10b981; color: #042f2e; }
+    .btn-secondary { background: #fff; color: var(--navy); }
+    .btn-ghost { background: rgba(255,255,255,0.12); color: #fff; border: 1px solid rgba(255,255,255,0.25); }
+    section {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 18px 18px 10px;
+      margin-top: 16px;
+    }
+    .banner {
+      background: var(--navy);
+      color: #fff;
+      margin: -18px -18px 14px;
+      padding: 12px 18px;
+      border-radius: 12px 12px 0 0;
+      font-weight: 700;
+    }
+    h2 { color: var(--teal); font-size: 1.05rem; margin: 14px 0 8px; }
+    h3 { font-size: 0.98rem; margin: 12px 0 6px; }
+    .step, p { margin: 0 0 8px; }
+    .formula {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: var(--soft);
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      margin: 6px 0 10px;
+      overflow-x: auto;
+    }
+    .note { color: var(--muted); font-style: italic; font-size: 0.92rem; }
+    .answer {
+      background: var(--green-bg);
+      border: 1.5px solid var(--green-border);
+      color: var(--green);
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin: 8px 0 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 14px;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: center;
+    }
+    th { background: var(--navy); color: #fff; }
+    tr:nth-child(even) td { background: #f8fafc; }
+    td.ok { background: #d1fae5 !important; font-weight: 700; }
+    .pages { display: grid; gap: 14px; }
+    .pages figure {
+      margin: 0;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .pages img { width: 100%; display: block; }
+    .pages figcaption {
+      padding: 8px 12px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid #e2e8f0;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 22px;
+    }
+    @media print {
+      body { background: #fff; }
+      header .actions, .preview-block { display: none; }
+      section { break-inside: avoid; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">ARAB ACADEMY FOR SCIENCE, TECHNOLOGY &amp; MARITIME TRANSPORT · Nautical Department</div>
+      <h1>MODEL ANSWER — Introduction to Navigation (BS131)</h1>
+      <p>7th Week Exam · 06 April 2025 · 1 Hour · 20 Marks</p>
+      <p>Detailed worked solutions with rules, intermediate steps, and final answers</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="BS131_7th_Week_Exam_Model_Answer.pdf" download>
+          Download PDF
+        </a>
+        <a class="btn btn-secondary" href="BS131_7th_Week_Exam_Model_Answer.pdf" target="_blank" rel="noopener">
+          Open PDF in browser
+        </a>
+        <a class="btn btn-ghost" href="#preview">View page images</a>
+      </div>
+    </header>
+
+    <section>
+      <div class="banner">Question (1) — 7 Marks | CLO (1), (2) · PLO (a), (d)</div>
+
+      <h2>A) Complete the following sentences</h2>
+
+      <h3>1-a.</h3>
+      <p>Parallel of latitude is a small circle, the plane of which is parallel to the plane of ……………</p>
+      <p class="step">A parallel of latitude is formed by the intersection of the Earth with a plane parallel to the equatorial plane.</p>
+      <div class="answer">Answer: the Equator</div>
+
+      <h3>1-b.</h3>
+      <p>Rhumb line is the line on the earth's surface which cuts all …………… at the same angle.</p>
+      <p class="step">A rhumb line (loxodrome) maintains a constant true course, so it intersects every meridian at the same angle.</p>
+      <div class="answer">Answer: Meridians (meridians of longitude)</div>
+
+      <h3>1-c.</h3>
+      <p>Meridians are semi great circles joining …………… and are perpendicular to the equator.</p>
+      <p class="step">Each meridian is a semi-great circle running from the North Pole to the South Pole and cutting the equator at 90°.</p>
+      <div class="answer">Answer: the North and South Poles (the poles)</div>
+
+      <h2>B) Position calculations</h2>
+      <h3>B-1. D.Lat and D.Long</h3>
+      <p>Pos. A = 28° 30.8′ S , 057° 28.6′ W<br>Pos. B = 29° 42.6′ N , 069° 33.4′ W</p>
+      <p class="note">Sign convention: North (+), South (−).</p>
+      <div class="formula">D.Lat = 29° 42.6′ − (−28° 30.8′) = 58° 13.4′ N</div>
+      <div class="formula">D.Long = 069° 33.4′ W − 057° 28.6′ W = 12° 04.8′ W</div>
+      <div class="answer">Final Answer (B-1): D.Lat = 58° 13.4′ N | D.Long = 12° 04.8′ W</div>
+
+      <h3>B-2. Final position</h3>
+      <p>Pos. A = 33° 24.8′ N , 172° 15.6′ E<br>D.Lat = 22° 56.7′ S · D.Long = 011° 57.8′ E</p>
+      <div class="formula">Final Lat = 33° 24.8′ N − 22° 56.7′ = 10° 28.1′ N</div>
+      <div class="formula">Final Long (raw) = 172° 15.6′ E + 011° 57.8′ E = 184° 13.4′ E</div>
+      <div class="formula">184° 13.4′ E ≡ 175° 46.6′ W (longitude normalized past 180°)</div>
+      <div class="answer">Final Answer (B-2): 10° 28.1′ N , 175° 46.6′ W</div>
+    </section>
+
+    <section>
+      <div class="banner">Question (2) — 6 Marks | CLO (3), (4), (6) · PLO (a), (d)</div>
+
+      <h2>A) Extract values from the figure</h2>
+      <p>M.N is 6° West of T.N; C.N is 2° East of T.N; heading from C.N = 085°; lighthouse from T.N = 122°.</p>
+
+      <div class="answer">Variation = 6° W</div>
+      <div class="answer">Total Compass Error = 2° E</div>
+      <div class="answer">Compass Course = 085° C</div>
+      <div class="formula">True Course = 085° + 2° (E) = 087° T</div>
+      <div class="answer">True Course = 087° T</div>
+      <div class="answer">True Bearing = 122° T</div>
+      <div class="formula">Relative Bearing = 122° − 087° = 035° Green (Starboard)</div>
+      <div class="answer">Relative Bearing = 035° Green</div>
+
+      <table>
+        <thead><tr><th>Quantity</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>Variation</td><td>6° W</td></tr>
+          <tr><td>Total Compass Error</td><td>2° E</td></tr>
+          <tr><td>Compass Course</td><td>085° C</td></tr>
+          <tr><td>True Course</td><td>087° T</td></tr>
+          <tr><td>True Bearing</td><td>122° T</td></tr>
+          <tr><td>Relative Bearing</td><td>035° Green</td></tr>
+        </tbody>
+      </table>
+
+      <h2>B) Gnomonic Projection terms</h2>
+      <p class="step">1 → Initial Course &nbsp;·&nbsp; 2 → Vertex &nbsp;·&nbsp; 3 → Final Course</p>
+      <div class="answer">1. Initial Course &nbsp;&nbsp; 2. Vertex &nbsp;&nbsp; 3. Final Course</div>
+    </section>
+
+    <section>
+      <div class="banner">Question (3) — 7 Marks | CLO (3), (6) · PLO (a), (d)</div>
+
+      <h2>A) Fill the table</h2>
+      <p class="note">Mag = Comp ± Dev (East added to compass → magnetic; West subtracted).</p>
+      <div class="formula">Row 1: Mag = 155° − 3° W = 152° M</div>
+      <div class="formula">Row 2: Comp = 273° − 5° E = 268° C</div>
+      <table>
+        <thead><tr><th></th><th>C.Course</th><th>Dev.</th><th>Mag.Course</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>155°</td><td>3° W</td><td class="ok">152° M</td></tr>
+          <tr><td>2</td><td class="ok">268° C</td><td>5° E</td><td>273°</td></tr>
+        </tbody>
+      </table>
+
+      <h2>B) Relative / True bearings</h2>
+      <p><b>B-1.</b> T.Co = 023°, Rel = 045° Red</p>
+      <div class="formula">T.Bg = 023° − 045° = −022° → 338° T</div>
+      <div class="answer">True Bearing = 338° T</div>
+
+      <p><b>B-2.</b> T.Co = 111°, T.Bg = 140°</p>
+      <div class="formula">Rel = 140° − 111° = 029° Green</div>
+      <div class="answer">Relative Bearing = 029° Green</div>
+
+      <h2>C) Compass &amp; Gyro errors</h2>
+      <p>True 333° T · Compass 322° C · Gyro 335° · Dev 5° E</p>
+      <div class="formula">C.E. = 333° − 322° = 11° E</div>
+      <div class="answer">Total Compass Error = 11° E</div>
+      <div class="formula">Var = C.E. − Dev = 11° − 5° = 6° E</div>
+      <div class="answer">Variation = 6° E</div>
+      <div class="formula">Gyro Error = 335° − 333° = 2° High</div>
+      <div class="answer">Gyro Error = 2° High</div>
+      <div class="formula">Comp.Bg = 359° − 11° = 348° C</div>
+      <div class="formula">Gyro.Bg = 359° + 2° = 001° G</div>
+      <div class="answer">Compass Bearing = 348° C | Gyro Bearing = 001° G</div>
+    </section>
+
+    <section>
+      <div class="banner">Quick Reference — Final Answers Only</div>
+      <table>
+        <thead><tr><th>Item</th><th>Final Answer</th></tr></thead>
+        <tbody>
+          <tr><td>Q1-A a / b / c</td><td>Equator / Meridians / North &amp; South Poles</td></tr>
+          <tr><td>Q1-B1</td><td>58° 13.4′ N / 12° 04.8′ W</td></tr>
+          <tr><td>Q1-B2</td><td>10° 28.1′ N , 175° 46.6′ W</td></tr>
+          <tr><td>Q2-A</td><td>6°W / 2°E / 085°C / 087°T / 122°T / 035°G</td></tr>
+          <tr><td>Q2-B</td><td>Initial Course / Vertex / Final Course</td></tr>
+          <tr><td>Q3-A</td><td>152° M / 268° C</td></tr>
+          <tr><td>Q3-B1 / B2</td><td>338° T / 029° Green</td></tr>
+          <tr><td>Q3-C</td><td>11°E / 6°E / 2° High · 348°C / 001°G</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="preview-block" id="preview">
+      <div class="banner">PDF page preview (images)</div>
+      <div class="pages">
+        <figure>
+          <img src="BS131_model_answer_page_1.png" alt="Model answer page 1" />
+          <figcaption>Page 1</figcaption>
+        </figure>
+        <figure>
+          <img src="BS131_model_answer_page_2.png" alt="Model answer page 2" />
+          <figcaption>Page 2</figcaption>
+        </figure>
+        <figure>
+          <img src="BS131_model_answer_page_3.png" alt="Model answer page 3" />
+          <figcaption>Page 3</figcaption>
+        </figure>
+        <figure>
+          <img src="BS131_model_answer_page_4.png" alt="Model answer page 4" />
+          <figcaption>Page 4</figcaption>
+        </figure>
+        <figure>
+          <img src="BS131_model_answer_page_5.png" alt="Model answer page 5" />
+          <figcaption>Page 5</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      End of Model Answer — BS131 7th Week Exam<br>
+      Rules: Cadet (Compass Add East True) · Error East / Compass Least · Red = Port / Green = Starboard · Gyro High/Low
+    </footer>
+  </div>
+</body>
+</html>
