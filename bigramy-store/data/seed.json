@@ -1,0 +1,3435 @@
+{
+  "brand": {
+    "name": "BIG RAMY LABS",
+    "tagline": "GO BIG OR GO HOME!",
+    "currency": "EGP",
+    "accent": "#f0c417",
+    "text": "#1a1a1a",
+    "sale": "#f83a3a",
+    "site_url": "https://eg.bigramylabs.com"
+  },
+  "nav": [
+    {
+      "label": "Shop All",
+      "href": "/collections/all"
+    },
+    {
+      "label": "Best Sellers",
+      "href": "/collections/best-sellers"
+    },
+    {
+      "label": "Proteins",
+      "href": "/collections/essential-proteins"
+    },
+    {
+      "label": "Creatine",
+      "href": "/collections/creatine"
+    },
+    {
+      "label": "Amino Acids",
+      "href": "/collections/amino-acids-eaas"
+    },
+    {
+      "label": "Pre-Workout",
+      "href": "/collections/pre-workout"
+    },
+    {
+      "label": "Bundles",
+      "href": "/collections/bundles"
+    }
+  ],
+  "categories": [
+    {
+      "handle": "essential-proteins",
+      "title": "Essential Proteins",
+      "count": 9,
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Essential-Proteins.png?v=1750839555"
+    },
+    {
+      "handle": "creatine",
+      "title": "Creatine",
+      "count": 4,
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Creatine..png?v=1750839614"
+    },
+    {
+      "handle": "amino-acids-eaas",
+      "title": "Amino Acids & EAAs",
+      "count": 9,
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CITRULLINE_-_90_gm_Front.jpg?v=1787645810"
+    },
+    {
+      "handle": "pre-workout",
+      "title": "Pre-Workout",
+      "count": 5,
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CITRULLINE_-_90_gm_Front.jpg?v=1787645810"
+    }
+  ],
+  "reviews": [
+    {
+      "author": "A.",
+      "date": "2026-11-20",
+      "text": "ماشاء الله",
+      "rating": 5
+    },
+    {
+      "author": "ا.ح.",
+      "date": "2026-11-13",
+      "text": "جيد جدا",
+      "rating": 5
+    },
+    {
+      "author": "M.H.",
+      "date": "2026-11-05",
+      "text": "جميل والذوبان تحفة",
+      "rating": 5
+    },
+    {
+      "author": "I.",
+      "date": "2026-11-04",
+      "text": "فرق معايا في تعويض الطاقة في المجهود اليومي في العمل والتمرين",
+      "rating": 5
+    },
+    {
+      "author": "A.",
+      "date": "2026-11-04",
+      "text": "طعم شيكولاتة فول سوداني تحفة بس ذوبان محتاج يتحسن شوية",
+      "rating": 4
+    },
+    {
+      "author": "C.",
+      "date": "2026-11-02",
+      "text": "High quality brand",
+      "rating": 5
+    },
+    {
+      "author": "C.",
+      "date": "2026-11-02",
+      "text": "Excellent",
+      "rating": 5
+    },
+    {
+      "author": "ا.",
+      "date": "2026-10-30",
+      "text": "جامد حرفيا",
+      "rating": 5
+    },
+    {
+      "author": "M.K.",
+      "date": "2026-10-26",
+      "text": "مميز أن ف كرياتين حجم صغير والجوده دى",
+      "rating": 5
+    },
+    {
+      "author": "م.ا.",
+      "date": "2026-10-24",
+      "text": "الاوردر وصل بعد يوم عمل واحد بالظبط الله ينور استمرو",
+      "rating": 5
+    }
+  ],
+  "frontpage_handles": [
+    "creatine-5000mg-unflavored",
+    "red-rex-creatine-5000mg-unflavored-copy",
+    "red-rex-100-beef-isolate-protein-4lb",
+    "red-rex-creatine-hcl-1500mg-fruit-punch",
+    "red-rex-big-whey",
+    "red-rex-citrulline-90-gm",
+    "red-rex-big-mass-gainer",
+    "red-rex-glutamine-5000mg-unflavored",
+    "red-rex-eaa-creatine-hcl",
+    "red-rex-beef-mass-gainer-copy",
+    "red-rex-stomp-preworkout-copy",
+    "copy-of-red-rex-glutamine-5000mg"
+  ],
+  "products": [
+    {
+      "shopify_id": 11024614850844,
+      "handle": "red-rex-beef-mass-plus-1",
+      "title": "RED REX BEEF MASS PLUS",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Weight Gainer",
+      "tags": [
+        "Beef Protein",
+        "Carbohydrates",
+        "Isolate Protein",
+        "Mass",
+        "Muscle",
+        "Protein",
+        "Weight Gain"
+      ],
+      "body_html": "<h3 data-sourcepos=\"7:1-7:64\"><strong>RED REX BEEF MASS PLUS: Your Ultimate Growth Accelerator</strong></h3>\n<p data-sourcepos=\"9:1-9:299\">Ready to pack on serious size and strength? <strong>RED REX BEEF MASS PLUS</strong> is the perfect weight gain tool, engineered to help you crush your muscle-building goals. This gainer delivers high calories through ideal macronutrient levels, helping you hit your daily intake to build significant muscle mass.</p>\n<hr data-sourcepos=\"11:1-11:3\">\n<h3 data-sourcepos=\"13:1-13:49\"><strong>Fuel Your Gains with Premium Ingredients:</strong></h3>\n<ul data-sourcepos=\"15:1-20:0\">\n<li data-sourcepos=\"15:1-15:140\">\n<strong>Massive Calorie Count:</strong> Each serving contains a powerful <strong>1,340 calories</strong>, providing the substantial energy needed for muscle growth.</li>\n<li data-sourcepos=\"16:1-16:214\">\n<strong>Rich in Carbohydrates:</strong> With <strong>284 grams of Carbohydrates</strong>, including fast and medium-digesting sources like Maltodextrin and Pea Starch, you get sustained energy for intense workouts and optimal muscle fuel.</li>\n<li data-sourcepos=\"17:1-17:176\">\n<strong>50g Hydrolyzed Beef Protein Isolate:</strong> This high-quality, rapidly absorbed protein builds and preserves muscle mass, providing an ideal amount for muscle protein synthesis.</li>\n<li data-sourcepos=\"18:1-18:80\">\n<strong>Ultra-Lean Profile:</strong> Contains only <strong>1 gram of Fat</strong>, ensuring clean gains.</li>\n<li data-sourcepos=\"19:1-20:0\">\n<strong>Added Creatine HCL:</strong> This advanced creatine form supplies the energy your muscles need for strength gains, boosts muscle power during high-intensity exercise, and improves athletic performance.</li>\n</ul>\n<hr data-sourcepos=\"21:1-21:3\">\n<p data-sourcepos=\"23:1-23:159\">Making <strong>RED REX BEEF MASS PLUS</strong> part of your daily post-workout plan is a sure-fire strategy to achieve serious growth and amplify your athletic performance.</p>",
+      "body_text": "RED REX BEEF MASS PLUS: Your Ultimate Growth Accelerator Ready to pack on serious size and strength? RED REX BEEF MASS PLUS is the perfect weight gain tool, engineered to help you crush your muscle-building goals. This gainer delivers high calories through ideal macronutrient levels, helping you hit your daily intake to build significant muscle mass. Fuel Your Gains with Premium Ingredients: Massive Calorie Count: Each serving contains a powerful 1,340 calories , providing the substantial energy needed for muscle growth. Rich in Carbohydrates: With 284 grams of Carbohydrates , including fast and medium-digesting sources like Maltodextrin and Pea Starch, you get sustained energy for intense workouts and optimal muscle fuel. 50g Hydrolyzed Beef Protein Isolate: This high-quality, rapidly absorbed protein builds and preserves muscle mass, providing an ideal amount for muscle protein synthesis. Ultra-Lean Profile: Contains only 1 gram of Fat , ensuring clean gains. Added Creatine HCL: This advanced creatine form supplies the energy your muscles need for strength gains, boosts muscle power during high-intensity exercise, and improves athletic performance. Making RED REX BEEF MASS PLUS part of your daily post-workout plan is a sure-fire strategy to achieve serious growth and amplify your athletic performance.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX-LOCAL-BEEFMASSPLUS-CHOCOLATE-6lbFront.jpg?v=1792917876",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX-LOCAL-BEEFMASSPLUS-CHOCOLATE-6lbBack001.jpg?v=1792917875",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX-LOCAL-BEEFMASSPLUS-CHOCOLATE-6lbBack.jpg?v=1792917876",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_CHOCOLATE_PEANUT_BUTTER_-_6lb_Front.jpg?v=1792918321",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_CHOCOLATE_PEANUT_BUTTER_-_6lb_Back_001.jpg?v=1792918324",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_CHOCOLATE_PEANUT_BUTTER_-_6lb_Back.jpg?v=1792918324",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_VANILLA_-_6lb_Front.jpg?v=1792918503",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_VANILLA_-_6lb_Back_001.jpg?v=1792918509",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_VANILLA_-_6lb_Back.jpg?v=1792918511",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_STRAWBERRY_-_6lb_Front.jpg?v=1792918667",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_STRAWBERRY_-_6lb_Back_001.jpg?v=1792918668",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_PLUS_-_STRAWBERRY_-_6lb_Back.jpg?v=1792918669"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "CHOCOLATE PEANUT BUTTER",
+            "Strawberry",
+            "Vanilla"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 54768025731356,
+          "title": "Chocolate",
+          "price": 1950.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-060",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54768025764124,
+          "title": "CHOCOLATE PEANUT BUTTER",
+          "price": 1950.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-073",
+          "available": true,
+          "option1": "CHOCOLATE PEANUT BUTTER",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54768025796892,
+          "title": "Strawberry",
+          "price": 1950.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-104",
+          "available": true,
+          "option1": "Strawberry",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54768025829660,
+          "title": "Vanilla",
+          "price": 1950.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-072",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 11019922440476,
+      "handle": "casein",
+      "title": "CASEIN",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [],
+      "body_html": "<h1 data-pm-slice=\"1 1 []\"><span>RED REX Casein: Slow-Release Protein for Overnight Recovery</span></h1>\n<p><span>Looking for a protein source that supports sustained muscle recovery and growth? RED REX Casein delivers high-quality micellar casein protein, designed to provide a slow, steady release of amino acids to your muscles. With 25g of protein per serving, 110 calories, and 0g added sugar, it’s an excellent choice for supporting your daily protein intake and muscle recovery, especially before bedtime. Enjoy the delicious Strawberry flavor!</span></p>\n<h2><span>Fuel Your Gains with Slow-Release Protein</span></h2>\n<ul data-spread=\"false\">\n<li>\n<p><strong><span>25g Protein per Serving:</span></strong><span> Supports muscle repair, recovery, and growth.</span></p>\n</li>\n<li>\n<p><strong><span>Slow-Digesting Formula:</span></strong><span> Provides a gradual release of amino acids over time.</span></p>\n</li>\n<li>\n<p><strong><span>110 Calories per Serving:</span></strong><span> A convenient addition to your daily nutrition plan.</span></p>\n</li>\n<li>\n<p><strong><span>0g Added Sugar:</span></strong><span> Helps you manage your added sugar intake.</span></p>\n</li>\n<li>\n<p><strong><span>Flavor:</span></strong><span> Enjoy a delicious, creamy-tasting protein shake.</span></p>\n</li>\n<li>\n<p><strong><span>900g Pack Size:</span></strong><span> Ideal for consistent use as part of your fitness routine.</span></p>\n</li>\n</ul>\n<p><span>RED REX Casein is a great option for athletes and fitness enthusiasts looking to maintain their protein intake and support muscle recovery during longer periods without food, including overnight.</span></p>",
+      "body_text": "RED REX Casein: Slow-Release Protein for Overnight Recovery Looking for a protein source that supports sustained muscle recovery and growth? RED REX Casein delivers high-quality micellar casein protein, designed to provide a slow, steady release of amino acids to your muscles. With 25g of protein per serving, 110 calories, and 0g added sugar, it’s an excellent choice for supporting your daily protein intake and muscle recovery, especially before bedtime. Enjoy the delicious Strawberry flavor! Fuel Your Gains with Slow-Release Protein 25g Protein per Serving: Supports muscle repair, recovery, and growth. Slow-Digesting Formula: Provides a gradual release of amino acids over time. 110 Calories per Serving: A convenient addition to your daily nutrition plan. 0g Added Sugar: Helps you manage your added sugar intake. Flavor: Enjoy a delicious, creamy-tasting protein shake. 900g Pack Size: Ideal for consistent use as part of your fitness routine. RED REX Casein is a great option for athletes and fitness enthusiasts looking to maintain their protein intake and support muscle recovery during longer periods without food, including overnight.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_STRAWBERRY_-_900_gm_Front.jpg?v=1792586463",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_CHOCOLATE_-_900_gm_Front_1.jpg?v=1792586674",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_VANILLA_-_900_gm_Front.jpg?v=1792587146",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_STRAWBERRY_-_900_gm_Back_001.jpg?v=1792586468",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_STRAWBERRY_-_900_gm_Back.jpg?v=1792586469",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_CHOCOLATE_-_900_gm_Back_1.jpg?v=1792586676",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_CHOCOLATE_-_900_gm_Back_001_1.jpg?v=1792586675",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_VANILLA_-_900_gm_Back_001.jpg?v=1792587148",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CASEIN_-_VANILLA_-_900_gm_Back.jpg?v=1792587149"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Strawberry",
+            "Chocolate",
+            "Vanilla"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "1.5 kg"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 54745665798428,
+          "title": "Strawberry / 1.5 kg",
+          "price": 2900.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-154",
+          "available": false,
+          "option1": "Strawberry",
+          "option2": "1.5 kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54745665831196,
+          "title": "Chocolate / 1.5 kg",
+          "price": 2900.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-153",
+          "available": false,
+          "option1": "Chocolate",
+          "option2": "1.5 kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54745665863964,
+          "title": "Vanilla / 1.5 kg",
+          "price": 2900.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-155",
+          "available": false,
+          "option1": "Vanilla",
+          "option2": "1.5 kg",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10981964677404,
+      "handle": "red-rex-gym-shaker-600-ml-sca_clone_freegift",
+      "title": "🎁 RED REX GYM SHAKER 600 ML (100% off)",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "",
+      "tags": [
+        "bogos-gift"
+      ],
+      "body_html": "<h2>\n                This product is used for the app\n                <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">\n                    <strong>BOGOS.io Free Gift BOGO Bundle</strong>\n                </span>\n                <strong> to work. </strong>\n            </h2>\n\n            <p>\n                Please do not delete/edit it while the offers are still running!\n                <br>\n                If you need assistance, please contact us via Live chat in-app or email us at:\n                <span style=\"color: #2b00ff;\">\n                    <a href=\"mailto:help@bogos.io\" target=\"_blank\" style=\"color: #2b00ff;\" rel=\"noopener noreferrer\">help@bogos.io</a>.\n                </span>\n            </p>",
+      "body_text": "This product is used for the app BOGOS.io Free Gift BOGO Bundle to work. Please do not delete/edit it while the offers are still running! If you need assistance, please contact us via Live chat in-app or email us at: help@bogos.io .",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/ChatGPT_Image_Aug_3_2026_05_48_35_PM.png?v=1785859721"
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 54595679748380,
+          "title": "Default Title",
+          "price": 0.0,
+          "compare_at_price": null,
+          "sku": "PM22-0004",
+          "available": true,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10981962940700,
+      "handle": "red-rex-cream-of-rice-1-srv-sca_clone_freegift",
+      "title": "🎁 RED REX CREAM OF RICE (1 SRV) (100% off)",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "",
+      "tags": [
+        "bogos-gift"
+      ],
+      "body_html": "<h2>\n                This product is used for the app\n                <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">\n                    <strong>BOGOS.io Free Gift BOGO Bundle</strong>\n                </span>\n                <strong> to work. </strong>\n            </h2>\n\n            <p>\n                Please do not delete/edit it while the offers are still running!\n                <br>\n                If you need assistance, please contact us via Live chat in-app or email us at:\n                <span style=\"color: #2b00ff;\">\n                    <a href=\"mailto:help@bogos.io\" target=\"_blank\" style=\"color: #2b00ff;\" rel=\"noopener noreferrer\">help@bogos.io</a>.\n                </span>\n            </p>",
+      "body_text": "This product is used for the app BOGOS.io Free Gift BOGO Bundle to work. Please do not delete/edit it while the offers are still running! If you need assistance, please contact us via Live chat in-app or email us at: help@bogos.io .",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX-LOCAL-CREAMOFRICE-APPLECINNAMON-30gm_1srv_Front.jpg?v=1789645355"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Banana Creampie",
+            "Apple Cinnamon",
+            "Strawberry Ripple"
+          ]
+        },
+        {
+          "name": "size",
+          "values": [
+            "30 gm"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 54595676209436,
+          "title": "Banana Creampie / 30 gm",
+          "price": 29.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-317",
+          "available": true,
+          "option1": "Banana Creampie",
+          "option2": "30 gm",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54595676242204,
+          "title": "Apple Cinnamon / 30 gm",
+          "price": 29.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-318",
+          "available": true,
+          "option1": "Apple Cinnamon",
+          "option2": "30 gm",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54595676274972,
+          "title": "Strawberry Ripple / 30 gm",
+          "price": 29.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-316",
+          "available": true,
+          "option1": "Strawberry Ripple",
+          "option2": "30 gm",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10711729471772,
+      "handle": "bundle-2",
+      "title": "THE BULKING BUNDLE",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "",
+      "tags": [],
+      "body_html": "<h2 data-path-to-node=\"4\"><b data-index-in-node=\"0\" data-path-to-node=\"4\">GET BIG! Build size and weight with a stack made for growing.</b></h2>\n<h3 data-path-to-node=\"5\"><b data-index-in-node=\"0\" data-path-to-node=\"5\">This bundle combines the tools you need to bulk up:</b></h3>\n<ol data-path-to-node=\"6\" start=\"1\">\n<li>\n<h4 data-path-to-node=\"6,0,0\"><a rel=\"noopener\" href=\"https://eg.bigramylabs.com/products/red-rex-big-mass-gainer\" target=\"_blank\"><b data-index-in-node=\"0\" data-path-to-node=\"6,0,0\">BIG MASS GAINER for extra calories and size</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"6,1,0\"><a rel=\"noopener\" href=\"https://eg.bigramylabs.com/products/red-rex-creatine-5000mg-unflavored-copy?_pos=3&amp;_psq=crea&amp;_ss=e&amp;_v=1.0\" target=\"_blank\"><b data-index-in-node=\"0\" data-path-to-node=\"6,1,0\">FLAVORED CREATINE for power and strength</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"6,2,0\"><a rel=\"noopener\" href=\"https://eg.bigramylabs.com/products/red-rex-beef-aminos-tablets?_pos=1&amp;_psq=amino&amp;_ss=e&amp;_v=1.0\" target=\"_blank\"><b data-index-in-node=\"0\" data-path-to-node=\"6,2,0\">BEEF AMINOS for extra muscle food</b></a></h4>\n</li>\n<li>\n<h4>\n<strong><a href=\"https://eg.bigramylabs.com/products/red-rex-gym-shaker-600-ml\" target=\"_blank\">A FREE GYM SHAKER!</a></strong><b data-index-in-node=\"0\" data-path-to-node=\"6,2,0\"></b>\n</h4>\n</li>\n</ol>\n<h5 data-path-to-node=\"7\"><b data-index-in-node=\"0\" data-path-to-node=\"7\">one big growth pack. If you have a hard time gaining weight, this gives your body the calories and nutrients it needs to get bigger. These products work together to help you lift heavier and pack on mass.</b></h5>",
+      "body_text": "GET BIG! Build size and weight with a stack made for growing. This bundle combines the tools you need to bulk up: BIG MASS GAINER for extra calories and size FLAVORED CREATINE for power and strength BEEF AMINOS for extra muscle food A FREE GYM SHAKER! one big growth pack. If you have a hard time gaining weight, this gives your body the calories and nutrients it needs to get bigger. These products work together to help you lift heavier and pack on mass.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/2_1.png?v=1766924155"
+      ],
+      "options": [
+        {
+          "name": "RED REX CREATINE 5000MG FLAVORED (Flavor)",
+          "values": [
+            "Mango",
+            "Orange"
+          ]
+        },
+        {
+          "name": "RED REX BIG MASS GAINER (Flavor)",
+          "values": [
+            "Chocolate",
+            "Strawberry",
+            "Vanilla"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53583749775644,
+          "title": "Mango / Chocolate",
+          "price": 5862.24,
+          "compare_at_price": 5247.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53619845398812,
+          "title": "Mango / Strawberry",
+          "price": 5862.24,
+          "compare_at_price": 5247.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53619845431580,
+          "title": "Mango / Vanilla",
+          "price": 5862.24,
+          "compare_at_price": 5247.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Vanilla",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53619256492316,
+          "title": "Orange / Chocolate",
+          "price": 5862.24,
+          "compare_at_price": 5247.0,
+          "sku": "",
+          "available": true,
+          "option1": "Orange",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53619845464348,
+          "title": "Orange / Strawberry",
+          "price": 5862.24,
+          "compare_at_price": 5247.0,
+          "sku": "",
+          "available": true,
+          "option1": "Orange",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53619845497116,
+          "title": "Orange / Vanilla",
+          "price": 5862.24,
+          "compare_at_price": 5247.0,
+          "sku": "",
+          "available": true,
+          "option1": "Orange",
+          "option2": "Vanilla",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10711730487580,
+      "handle": "bundle-4",
+      "title": "ENERGY AND STRENGTH",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "",
+      "tags": [],
+      "body_html": "<h2 data-path-to-node=\"16\"><b data-index-in-node=\"0\" data-path-to-node=\"16\">PRE-WORKOUT POWER! Get ready to train with everything you need for energy.</b></h2>\n<h3 data-path-to-node=\"17\"><b data-index-in-node=\"0\" data-path-to-node=\"17\">This bundle combines the pre-training needs:</b></h3>\n<ol data-path-to-node=\"18\" start=\"1\">\n<li>\n<h4 data-path-to-node=\"18,0,0\"><a rel=\"noopener\" href=\"https://eg.bigramylabs.com/products/red-rex-stomp-preworkout-copy?_pos=1&amp;_psq=STOMP&amp;_ss=e&amp;_v=1.0\" target=\"_blank\"><b data-index-in-node=\"0\" data-path-to-node=\"18,0,0\">STOMP PREWORKOUT for energy and focus</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"18,1,0\"><a rel=\"noopener\" href=\"https://eg.bigramylabs.com/products/red-rex-100-beef-isolate-protein-4lb?_pos=2&amp;_psq=ISOLATE&amp;_ss=e&amp;_v=1.0\" target=\"_blank\"><b data-index-in-node=\"0\" data-path-to-node=\"18,1,0\">100% BEEF PROTEIN ISOLATE to protect your muscles</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"18,2,0\"><a rel=\"noopener\" href=\"https://eg.bigramylabs.com/products/red-rex-eaa-creatine-hcl?_pos=1&amp;_psq=EAA&amp;_ss=e&amp;_v=1.0\" target=\"_blank\"><b data-index-in-node=\"0\" data-path-to-node=\"18,2,0\">EAA + CREATINE HCL for strength and endurance</b></a></h4>\n</li>\n<li>\n<h4>\n<strong><a href=\"https://eg.bigramylabs.com/products/red-rex-gym-shaker-600-ml\" target=\"_blank\">A FREE GYM SHAKER!</a></strong><b data-index-in-node=\"0\" data-path-to-node=\"6,2,0\"></b><b data-index-in-node=\"0\" data-path-to-node=\"12,2,0\"></b><b data-index-in-node=\"0\" data-path-to-node=\"18,2,0\"></b>\n</h4>\n</li>\n</ol>\n<h5 data-path-to-node=\"19\"><b data-index-in-node=\"0\" data-path-to-node=\"19\">one complete workout stack. This makes sure you are ready to go before you even lift a weight. It gives you the energy to push harder and keeps your muscles fed while you train.</b></h5>",
+      "body_text": "PRE-WORKOUT POWER! Get ready to train with everything you need for energy. This bundle combines the pre-training needs: STOMP PREWORKOUT for energy and focus 100% BEEF PROTEIN ISOLATE to protect your muscles EAA + CREATINE HCL for strength and endurance A FREE GYM SHAKER! one complete workout stack. This makes sure you are ready to go before you even lift a weight. It gives you the energy to push harder and keeps your muscles fed while you train.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/rn-image_picker_lib_temp_b305b22f-4965-4901-9d5f-e9012ec5655f.jpg?v=1771326507"
+      ],
+      "options": [
+        {
+          "name": "RED REX STOMP PREWORKOUT (Flavors)",
+          "values": [
+            "Fruit Punch",
+            "Watermelon",
+            "Mango"
+          ]
+        },
+        {
+          "name": "RED REX 100% BEEF PROTEIN ISOLATE (Flavor)",
+          "values": [
+            "Vanilla",
+            "Chocolate Peanut Butter",
+            "Chocolate"
+          ]
+        },
+        {
+          "name": "RED REX EAA + CREATINE HCL (Flavors)",
+          "values": [
+            "MANGO",
+            "WATERMELON",
+            "Fruit Punch"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53619122831644,
+          "title": "Fruit Punch / Vanilla / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Vanilla",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619122864412,
+          "title": "Fruit Punch / Vanilla / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Vanilla",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619122897180,
+          "title": "Fruit Punch / Vanilla / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Vanilla",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619122929948,
+          "title": "Fruit Punch / Chocolate Peanut Butter / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619122962716,
+          "title": "Fruit Punch / Chocolate Peanut Butter / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619122995484,
+          "title": "Fruit Punch / Chocolate Peanut Butter / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619123093788,
+          "title": "Watermelon / Vanilla / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Vanilla",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619123126556,
+          "title": "Watermelon / Vanilla / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Vanilla",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619123159324,
+          "title": "Watermelon / Vanilla / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Vanilla",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619123192092,
+          "title": "Watermelon / Chocolate Peanut Butter / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619123224860,
+          "title": "Watermelon / Chocolate Peanut Butter / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619123257628,
+          "title": "Watermelon / Chocolate Peanut Butter / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619123355932,
+          "title": "Mango / Vanilla / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Vanilla",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619123388700,
+          "title": "Mango / Vanilla / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Vanilla",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619123421468,
+          "title": "Mango / Vanilla / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Vanilla",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619123454236,
+          "title": "Mango / Chocolate Peanut Butter / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619123487004,
+          "title": "Mango / Chocolate Peanut Butter / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619123519772,
+          "title": "Mango / Chocolate Peanut Butter / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate Peanut Butter",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619456344348,
+          "title": "Fruit Punch / Chocolate / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Chocolate",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619456377116,
+          "title": "Fruit Punch / Chocolate / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Chocolate",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619456409884,
+          "title": "Fruit Punch / Chocolate / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Chocolate",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619456442652,
+          "title": "Watermelon / Chocolate / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Chocolate",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619456475420,
+          "title": "Watermelon / Chocolate / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Chocolate",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619456508188,
+          "title": "Watermelon / Chocolate / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "Chocolate",
+          "option3": "Fruit Punch"
+        },
+        {
+          "shopify_variant_id": 53619456540956,
+          "title": "Mango / Chocolate / MANGO",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate",
+          "option3": "MANGO"
+        },
+        {
+          "shopify_variant_id": 53619456573724,
+          "title": "Mango / Chocolate / WATERMELON",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate",
+          "option3": "WATERMELON"
+        },
+        {
+          "shopify_variant_id": 53619456606492,
+          "title": "Mango / Chocolate / Fruit Punch",
+          "price": 6784.08,
+          "compare_at_price": 6339.0,
+          "sku": "",
+          "available": true,
+          "option1": "Mango",
+          "option2": "Chocolate",
+          "option3": "Fruit Punch"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10711731372316,
+      "handle": "bundle-6",
+      "title": "RECOVERY",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "",
+      "tags": [],
+      "body_html": "<h2 data-path-to-node=\"28\"><b data-path-to-node=\"28\" data-index-in-node=\"0\">RECOVER FASTER! Fix your muscles after the gym so you can grow.</b></h2>\n<h3 data-path-to-node=\"29\"><b data-path-to-node=\"29\" data-index-in-node=\"0\">This bundle combines the essentials for recovery:</b></h3>\n<ol start=\"1\" data-path-to-node=\"30\">\n<li>\n<h4 data-path-to-node=\"30,0,0\"><a href=\"https://eg.bigramylabs.com/products/copy-of-red-rex-glutamine-5000mg?_pos=2&amp;_psq=GLUTA&amp;_ss=e&amp;_v=1.0\" rel=\"noopener\" target=\"_blank\"><b data-path-to-node=\"30,0,0\" data-index-in-node=\"0\">FLAVORED GLUTAMINE to refuel after workouts</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"30,1,0\"><a href=\"https://eg.bigramylabs.com/products/red-rex-bcaa-5000mg-fruit-punch-copy?_pos=1&amp;_psq=BCAA&amp;_ss=e&amp;_v=1.0\" rel=\"noopener\" target=\"_blank\"><b data-path-to-node=\"30,1,0\" data-index-in-node=\"0\">BCAA 5000MG to help build muscle</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"30,2,0\"><a href=\"https://eg.bigramylabs.com/products/red-rex-beef-aminos-tablets?_pos=1&amp;_psq=AMINO&amp;_ss=e&amp;_v=1.0\" rel=\"noopener\" target=\"_blank\"><b data-path-to-node=\"30,2,0\" data-index-in-node=\"0\">BEEF AMINOS to repair muscle tissue</b></a></h4>\n</li>\n<li>\n<h4>\n<strong><a href=\"https://eg.bigramylabs.com/products/red-rex-gym-shaker-600-ml\" target=\"_blank\">A FREE GYM SHAKER!</a></strong><b data-index-in-node=\"0\" data-path-to-node=\"6,2,0\"></b><b data-index-in-node=\"0\" data-path-to-node=\"12,2,0\"></b><b data-index-in-node=\"0\" data-path-to-node=\"18,2,0\"></b><b data-index-in-node=\"0\" data-path-to-node=\"24,2,0\"></b><b data-path-to-node=\"30,2,0\" data-index-in-node=\"0\"></b>\n</h4>\n</li>\n</ol>\n<h5 data-path-to-node=\"31\"><b data-path-to-node=\"31\" data-index-in-node=\"0\">one healing stack. Workouts break your muscles down; this helps build them back up. These items help reduce soreness and fix your body so you can get back in the gym sooner.</b></h5>",
+      "body_text": "RECOVER FASTER! Fix your muscles after the gym so you can grow. This bundle combines the essentials for recovery: FLAVORED GLUTAMINE to refuel after workouts BCAA 5000MG to help build muscle BEEF AMINOS to repair muscle tissue A FREE GYM SHAKER! one healing stack. Workouts break your muscles down; this helps build them back up. These items help reduce soreness and fix your body so you can get back in the gym sooner.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/6_c381d8f6-ab98-4559-a48c-06a0f698b846.png?v=1766913028"
+      ],
+      "options": [
+        {
+          "name": "RED REX BCAA 5000MG (Flavors)",
+          "values": [
+            "Fruit Punch",
+            "LEMON LIME",
+            "GREEN APPLE"
+          ]
+        },
+        {
+          "name": "RED REX GLUTAMINE 5000MG FLAVORED (Flavor)",
+          "values": [
+            "Fruit Punch",
+            "LEMON LIME"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53583782248732,
+          "title": "Fruit Punch / Fruit Punch",
+          "price": 3127.46,
+          "compare_at_price": 3080.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "Fruit Punch",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583782347036,
+          "title": "Fruit Punch / LEMON LIME",
+          "price": 3127.46,
+          "compare_at_price": 3080.0,
+          "sku": "",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "LEMON LIME",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583782445340,
+          "title": "LEMON LIME / Fruit Punch",
+          "price": 3127.46,
+          "compare_at_price": 3080.0,
+          "sku": "",
+          "available": true,
+          "option1": "LEMON LIME",
+          "option2": "Fruit Punch",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583782543644,
+          "title": "LEMON LIME / LEMON LIME",
+          "price": 3127.46,
+          "compare_at_price": 3080.0,
+          "sku": "",
+          "available": true,
+          "option1": "LEMON LIME",
+          "option2": "LEMON LIME",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583782641948,
+          "title": "GREEN APPLE / Fruit Punch",
+          "price": 3127.46,
+          "compare_at_price": 3080.0,
+          "sku": "",
+          "available": true,
+          "option1": "GREEN APPLE",
+          "option2": "Fruit Punch",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583782740252,
+          "title": "GREEN APPLE / LEMON LIME",
+          "price": 3127.46,
+          "compare_at_price": 3080.0,
+          "sku": "",
+          "available": true,
+          "option1": "GREEN APPLE",
+          "option2": "LEMON LIME",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10711731765532,
+      "handle": "bundle-7",
+      "title": "THE ALL-BEEF BUNDLE",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "",
+      "tags": [],
+      "body_html": "<h2 data-path-to-node=\"34\"><b data-path-to-node=\"34\" data-index-in-node=\"0\">DAIRY-FREE MUSCLE! Get strong and lean with beef products instead of whey.</b></h2>\n<h3 data-path-to-node=\"35\"><b data-path-to-node=\"35\" data-index-in-node=\"0\">This bundle combines the beef-based basics:</b></h3>\n<ol start=\"1\" data-path-to-node=\"36\">\n<li>\n<h4 data-path-to-node=\"36,0,0\"><a href=\"https://eg.bigramylabs.com/products/red-rex-100-beef-isolate-protein-4lb?_pos=2&amp;_psq=ISOLATE&amp;_ss=e&amp;_v=1.0\" target=\"_blank\" rel=\"noopener\"><b data-path-to-node=\"36,0,0\" data-index-in-node=\"0\">100% BEEF PROTEIN ISOLATE for pure protein</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"36,1,0\"><a href=\"https://eg.bigramylabs.com/products/red-rex-liquid-carnitine-3500mg?_pos=1&amp;_psq=LIQUID&amp;_ss=e&amp;_v=1.0\" target=\"_blank\" rel=\"noopener\"><b data-path-to-node=\"36,1,0\" data-index-in-node=\"0\">LIQUID L-CARNITINE for energy and fat burning</b></a></h4>\n</li>\n<li>\n<h4 data-path-to-node=\"36,2,0\"><a href=\"https://eg.bigramylabs.com/products/red-rex-beef-aminos-tablets?_pos=1&amp;_psq=AMINOS&amp;_ss=e&amp;_v=1.0\" target=\"_blank\" rel=\"noopener\"><b data-path-to-node=\"36,2,0\" data-index-in-node=\"0\">BEEF AMINOS for muscle support</b></a></h4>\n</li>\n<li>\n<h4>\n<strong><a href=\"https://eg.bigramylabs.com/products/red-rex-gym-shaker-600-ml\" target=\"_blank\">A FREE GYM SHAKER!</a></strong><b data-path-to-node=\"6,2,0\" data-index-in-node=\"0\"></b><b data-path-to-node=\"12,2,0\" data-index-in-node=\"0\"></b><b data-path-to-node=\"18,2,0\" data-index-in-node=\"0\"></b><b data-path-to-node=\"24,2,0\" data-index-in-node=\"0\"></b><b data-index-in-node=\"0\" data-path-to-node=\"30,2,0\"></b><b data-path-to-node=\"36,2,0\" data-index-in-node=\"0\"></b>\n</h4>\n</li>\n</ol>\n<h5 data-path-to-node=\"37\"><b data-path-to-node=\"37\" data-index-in-node=\"0\">one dairy-free option. If you can't drink milk or just want a lean protein source, this is for you. It helps you keep lean muscle while using fat for energy. Great for a strong body without the stomach issues.</b></h5>",
+      "body_text": "DAIRY-FREE MUSCLE! Get strong and lean with beef products instead of whey. This bundle combines the beef-based basics: 100% BEEF PROTEIN ISOLATE for pure protein LIQUID L-CARNITINE for energy and fat burning BEEF AMINOS for muscle support A FREE GYM SHAKER! one dairy-free option. If you can't drink milk or just want a lean protein source, this is for you. It helps you keep lean muscle while using fat for energy. Great for a strong body without the stomach issues.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/rn-image_picker_lib_temp_575e842f-c80e-411d-85e2-33d768d2b0f0.jpg?v=1771326507"
+      ],
+      "options": [
+        {
+          "name": "RED REX 100% BEEF PROTEIN ISOLATE (Flavor)",
+          "values": [
+            "Chocolate",
+            "Vanilla",
+            "Chocolate Peanut Butter"
+          ]
+        },
+        {
+          "name": "RED REX LIQUID CARNITINE 3500MG (Flavors)",
+          "values": [
+            "Watermelon",
+            "Fruit Punch",
+            "PINEAPPLE"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53583783624988,
+          "title": "Chocolate / Watermelon",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "Watermelon",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54107635417372,
+          "title": "Chocolate / Fruit Punch",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "Fruit Punch",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54107635450140,
+          "title": "Chocolate / PINEAPPLE",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "PINEAPPLE",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583783854364,
+          "title": "Vanilla / Watermelon",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "Watermelon",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54107635482908,
+          "title": "Vanilla / Fruit Punch",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "Fruit Punch",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54107635515676,
+          "title": "Vanilla / PINEAPPLE",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "PINEAPPLE",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53583784083740,
+          "title": "Chocolate Peanut Butter / Watermelon",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Chocolate Peanut Butter",
+          "option2": "Watermelon",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54107635548444,
+          "title": "Chocolate Peanut Butter / Fruit Punch",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Chocolate Peanut Butter",
+          "option2": "Fruit Punch",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54107635581212,
+          "title": "Chocolate Peanut Butter / PINEAPPLE",
+          "price": 6140.08,
+          "compare_at_price": 5890.0,
+          "sku": "",
+          "available": true,
+          "option1": "Chocolate Peanut Butter",
+          "option2": "PINEAPPLE",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10705382277404,
+      "handle": "red-rex-gym-shaker-600-ml",
+      "title": "RED REX GYM SHAKER 600 ML",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "accessories",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\">Crush your hydration goals with the <b>Red Rex 600ml Shaker</b>. Built for intensity, this leak-proof bottle ensures your pre-workout or protein shake mixes smoothly and stays contained. With its aggressive red design and durable construction, it’s the only gear tough enough for your workout.</p>\n<p data-path-to-node=\"4\"><b>Key Features:</b></p>\n<ul>\n<li data-path-to-node=\"5,0,0\">\n<b>600ml Capacity:</b> The perfect size for pre-workout or protein.</li>\n<li data-path-to-node=\"5,1,0\">\n<b>Leak-Proof Design:</b> Throw it in your gym bag with confidence.</li>\n<li data-path-to-node=\"5,2,0\">\n<b>Smooth Mixing:</b> Breaks up powder instantly for a clump-free drink.</li>\n<li data-path-to-node=\"5,3,0\">\n<b>BPA-Free:</b> Safe, high-impact plastic built to last.</li>\n</ul>\n<p data-path-to-node=\"6\"><b>Train hard. Shake harder.</b></p>",
+      "body_text": "Crush your hydration goals with the Red Rex 600ml Shaker . Built for intensity, this leak-proof bottle ensures your pre-workout or protein shake mixes smoothly and stays contained. With its aggressive red design and durable construction, it’s the only gear tough enough for your workout. Key Features: 600ml Capacity: The perfect size for pre-workout or protein. Leak-Proof Design: Throw it in your gym bag with confidence. Smooth Mixing: Breaks up powder instantly for a clump-free drink. BPA-Free: Safe, high-impact plastic built to last. Train hard. Shake harder.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/ChatGPT_Image_Aug_3_2026_05_48_35_PM.png?v=1785859721",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/4.png?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.03.jpg?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.04_3.jpg?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.04.jpg?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.04_4.jpg?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.04_2.jpg?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.04_1.jpg?v=1765970593",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/WhatsAppImage2025-12-17at14.09.03_1.jpg?v=1765970593"
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53551737536796,
+          "title": "Default Title",
+          "price": 199.0,
+          "compare_at_price": null,
+          "sku": "PM22-0004",
+          "available": true,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10674387288348,
+      "handle": "red-rex-carbo-big",
+      "title": "RED REX CARBO BIG",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\"><b>RED REX CARBO BIG: Ultimate Energy. Rapid Recovery. Unstoppable Performance.</b> Fuel your body with the ultimate energy boost. RED REX Carbo Big delivers a fast-absorbing blend of premium carbohydrates designed to power intense workouts, accelerate recovery, and keep you at the top of your game.</p>\n<p data-path-to-node=\"4\"><b>Fuel Your Body with High-Octane Energy</b> Whether you're hitting the gym, the field, or the track, this formula gives you the strength, endurance, and stamina to conquer every challenge:</p>\n<ul data-path-to-node=\"5\">\n<li>\n<p data-path-to-node=\"5,0,0\"><b>Massive Energy:</b> Delivers <b>200 Calories</b> and <b>49g of Carbohydrates</b> per serving to fuel performance.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,1,0\"><b>Rapid Recovery:</b> Features fast-absorbing <b>Maltodextrin</b> to quickly replenish glycogen stores after intense exercise.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,2,0\"><b>Lean Profile:</b> Provides pure energy with <b>0g of Fat</b> and <b>0g of Added Sugar</b>.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,3,0\"><b>Versatile Fuel:</b> Perfect for powering workouts or boosting caloric intake between meals.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-path-to-node=\"6\">Trust Red Rex Carbo Big to give you the energy you need to perform at your peak. Choose RED REX CARBO BIG and fuel your journey to greatness!</p>",
+      "body_text": "RED REX CARBO BIG: Ultimate Energy. Rapid Recovery. Unstoppable Performance. Fuel your body with the ultimate energy boost. RED REX Carbo Big delivers a fast-absorbing blend of premium carbohydrates designed to power intense workouts, accelerate recovery, and keep you at the top of your game. Fuel Your Body with High-Octane Energy Whether you're hitting the gym, the field, or the track, this formula gives you the strength, endurance, and stamina to conquer every challenge: Massive Energy: Delivers 200 Calories and 49g of Carbohydrates per serving to fuel performance. Rapid Recovery: Features fast-absorbing Maltodextrin to quickly replenish glycogen stores after intense exercise. Lean Profile: Provides pure energy with 0g of Fat and 0g of Added Sugar . Versatile Fuel: Perfect for powering workouts or boosting caloric intake between meals. Trust Red Rex Carbo Big to give you the energy you need to perform at your peak. Choose RED REX CARBO BIG and fuel your journey to greatness!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Carbobig3.3lbPineapple.14.png?v=1767517234",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Carbobig3.3lbStrawberry.13.png?v=1767517234",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CARBO_BIG_-_WATERMELON_BLUE_RAZZ_-_1.5_kg_Front.jpg?v=1792585407",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Carbobig3.3lbback.16.png?v=1767517234",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Carbobig3.3lbback2.17.png?v=1767517234",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Crabobig3.3lbstrawberryback.194.png?v=1764768983",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Crabobig3.3lbstrawberryback2.195.png?v=1764768983",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CARBO_BIG_-_WATERMELON_BLUE_RAZZ_-_1.5_kg_Back.jpg?v=1792585432",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CARBO_BIG_-_WATERMELON_BLUE_RAZZ_-_1.5_kg_Back_001.jpg?v=1792585433"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Strawberry",
+            "pineapple",
+            "Watermelon Blue Razz"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "1.5 KG"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53426927534364,
+          "title": "Strawberry / 1.5 KG",
+          "price": 799.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-103",
+          "available": true,
+          "option1": "Strawberry",
+          "option2": "1.5 KG",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426927567132,
+          "title": "pineapple / 1.5 KG",
+          "price": 799.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-102",
+          "available": true,
+          "option1": "pineapple",
+          "option2": "1.5 KG",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 54745415844124,
+          "title": "Watermelon Blue Razz / 1.5 KG",
+          "price": 799.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-292",
+          "available": false,
+          "option1": "Watermelon Blue Razz",
+          "option2": "1.5 KG",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10674364449052,
+      "handle": "red-rex-hydro-big",
+      "title": "RED REX HYDRO BIG",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\"><b>RED REX HYDRO BIG: Rapid Absorption. Serious Growth.</b> Unlock the speed of victory with the champion's choice. RED REX HYDRO BIG is an outstanding source of clean protein designed for serious athletes who need rapid nutrient delivery for sustained energy and muscle growth.</p>\n<p data-path-to-node=\"4\"><b>Fuel Your Recovery with Hydrolyzed Power</b> This formula offers optimal nutrition with a focus on speed and purity:</p>\n<ul data-path-to-node=\"5\">\n<li>\n<p data-path-to-node=\"5,0,0\"><b>Rapid Absorption:</b> Features <b>Hydrolyzed Whey Protein</b>, which absorbs rapidly into the body for immediate muscle support.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,1,0\"><b>Impressive Potency:</b> Delivers a massive <b>25 grams of protein</b> per serving to drive muscle development.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,2,0\"><b>Lean Profile:</b> Contains just <b>4 grams of carbs</b> and <b>2 grams of fat</b>, making it a clean choice for lean gains.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,3,0\"><b>Champion Approved:</b> A serious formula from Big Ramy Labs, dedicated to those willing to put in the effort.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-path-to-node=\"6\">When your muscles are crying out for fuel, don't make them wait. Choose RED REX HYDRO BIG for immediate absorption and superior muscle recovery!</p>",
+      "body_text": "RED REX HYDRO BIG: Rapid Absorption. Serious Growth. Unlock the speed of victory with the champion's choice. RED REX HYDRO BIG is an outstanding source of clean protein designed for serious athletes who need rapid nutrient delivery for sustained energy and muscle growth. Fuel Your Recovery with Hydrolyzed Power This formula offers optimal nutrition with a focus on speed and purity: Rapid Absorption: Features Hydrolyzed Whey Protein , which absorbs rapidly into the body for immediate muscle support. Impressive Potency: Delivers a massive 25 grams of protein per serving to drive muscle development. Lean Profile: Contains just 4 grams of carbs and 2 grams of fat , making it a clean choice for lean gains. Champion Approved: A serious formula from Big Ramy Labs, dedicated to those willing to put in the effort. When your muscles are crying out for fuel, don't make them wait. Choose RED REX HYDRO BIG for immediate absorption and superior muscle recovery!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Hydrobig2lbC_C.2_17dc5b35-0a8b-46c4-b075-97b0161bb4b0.png?v=1764766310",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/HYDROBIG50SERVC_C.387_751c9939-882a-4bb9-b3e2-87652cff83a8.png?v=1764766321",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Hydrobig2lbChocolate.1.png?v=1764766310",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/HYDROBIG50SERVCHOCO.386.png?v=1764766322",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Hydrobig2lbCPB.0.png?v=1764766310",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/HYDROBIG50SERVCPB.388.png?v=1764766322",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Hydrobig2lbVanilla.523.png?v=1764766310",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/HYDROBIG50SERVVANILLA.389.png?v=1764766322"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "CHOCOLATE PEANUT BUTTER",
+            "COOKIES & CREAM",
+            "Vanilla"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "800 GM",
+            "1.6 KG"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53426778964252,
+          "title": "Chocolate / 800 GM",
+          "price": 2790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-288",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "800 GM",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426778997020,
+          "title": "Chocolate / 1.6 KG",
+          "price": 4790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-284",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "1.6 KG",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426779029788,
+          "title": "CHOCOLATE PEANUT BUTTER / 800 GM",
+          "price": 2790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-290",
+          "available": true,
+          "option1": "CHOCOLATE PEANUT BUTTER",
+          "option2": "800 GM",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426779062556,
+          "title": "CHOCOLATE PEANUT BUTTER / 1.6 KG",
+          "price": 4790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-286",
+          "available": true,
+          "option1": "CHOCOLATE PEANUT BUTTER",
+          "option2": "1.6 KG",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426779095324,
+          "title": "COOKIES & CREAM / 800 GM",
+          "price": 2790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-291",
+          "available": true,
+          "option1": "COOKIES & CREAM",
+          "option2": "800 GM",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426779128092,
+          "title": "COOKIES & CREAM / 1.6 KG",
+          "price": 4790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-287",
+          "available": true,
+          "option1": "COOKIES & CREAM",
+          "option2": "1.6 KG",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426779160860,
+          "title": "Vanilla / 800 GM",
+          "price": 2790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-289",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "800 GM",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53426779193628,
+          "title": "Vanilla / 1.6 KG",
+          "price": 4790.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-285",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "1.6 KG",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10674214437148,
+      "handle": "red-rex-citrulline-90-gm",
+      "title": "RED REX CITRULLINE 90 GM",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acids",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\"><b>RED REX CITRULLINE: Ultimate Pump. Maximum Flow. Unstoppable Performance.</b> Experience the pinnacle of vascularity and endurance. RED REX CITRULLINE is a premium nitric oxide powerhouse designed to maximize blood flow, enhance muscle pumps, and fuel your training intensity.</p>\n<p data-path-to-node=\"4\"><b>Fuel Your Purity with 3000mg of Power</b> This is a high-performance formula for athletes who chase the pump. Each scoop delivers a potent dose of pure L-Citrulline to elevate your workout:</p>\n<ul data-path-to-node=\"5\">\n<li>\n<p data-path-to-node=\"5,0,0\"><b>Maximum Potency:</b> Delivers a solid <b>3000mg (3g) of L-Citrulline</b> per serving.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,1,0\"><b>Nitric Oxide Booster:</b> Promotes vasodilation to increase blood flow, oxygen, and nutrient delivery to working muscles.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,2,0\"><b>Pure Formula:</b> A clean, single-ingredient profile with <b>30 Servings</b> per container.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,3,0\"><b>Versatile Stacking:</b> Unflavored and easy to mix into your pre-workout, BCAA, or favorite beverage.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-path-to-node=\"6\">Whether you are looking to boost endurance or achieve a skin-splitting pump, RED REX CITRULLINE is your go-to performance enhancer. Choose RED REX CITRULLINE and train with the intensity of a champion!</p>",
+      "body_text": "RED REX CITRULLINE: Ultimate Pump. Maximum Flow. Unstoppable Performance. Experience the pinnacle of vascularity and endurance. RED REX CITRULLINE is a premium nitric oxide powerhouse designed to maximize blood flow, enhance muscle pumps, and fuel your training intensity. Fuel Your Purity with 3000mg of Power This is a high-performance formula for athletes who chase the pump. Each scoop delivers a potent dose of pure L-Citrulline to elevate your workout: Maximum Potency: Delivers a solid 3000mg (3g) of L-Citrulline per serving. Nitric Oxide Booster: Promotes vasodilation to increase blood flow, oxygen, and nutrient delivery to working muscles. Pure Formula: A clean, single-ingredient profile with 30 Servings per container. Versatile Stacking: Unflavored and easy to mix into your pre-workout, BCAA, or favorite beverage. Whether you are looking to boost endurance or achieve a skin-splitting pump, RED REX CITRULLINE is your go-to performance enhancer. Choose RED REX CITRULLINE and train with the intensity of a champion!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CITRULLINE_-_90_gm_Front.jpg?v=1787645810",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CITRULLINE_-_90_gm_Back_001.jpg?v=1787645811",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CITRULLINE_-_90_gm_Back.jpg?v=1787645810"
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53425828921628,
+          "title": "Default Title",
+          "price": 575.0,
+          "compare_at_price": 499.0,
+          "sku": "FG-RO-293",
+          "available": true,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10674213847324,
+      "handle": "red-rex-beta-alanine",
+      "title": "RED REX BETA-ALANINE 96 GM",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acids",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\"><b>RED REX BETA-ALANINE: Fight Fatigue. Extend Endurance. Unyielding Power.</b> Push past your limits and crush muscle fatigue with the ultimate endurance fuel. RED REX BETA-ALANINE is a high-potency formula designed to help you train harder, last longer, and finish strong.</p>\n<p data-path-to-node=\"4\"><b>Fuel Your Endurance with Clinical Strength</b> This is a pure, concentrated tool for athletes who refuse to quit. Each serving delivers a massive dose of performance-enhancing power:</p>\n<ul data-path-to-node=\"5\">\n<li>\n<p data-path-to-node=\"5,0,0\"><b>Maximum Potency:</b> A powerful <b>3200mg (3.2g) of Beta-Alanine</b> in every scoop.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,1,0\"><b>Fight the Burn:</b> Formulated to support muscle endurance and delay the onset of fatigue during high-intensity training.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,2,0\"><b>Pure Formula:</b> Contains <b>100% Beta-Alanine</b> with zero fillers or added sugars.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,3,0\"><b>Versatile Stacking:</b> Unflavored and easy to mix into your favorite pre-workout or beverage.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-path-to-node=\"6\">Don't let muscle fatigue stop your progress. Choose RED REX BETA-ALANINE and train with the stamina of a champion!</p>",
+      "body_text": "RED REX BETA-ALANINE: Fight Fatigue. Extend Endurance. Unyielding Power. Push past your limits and crush muscle fatigue with the ultimate endurance fuel. RED REX BETA-ALANINE is a high-potency formula designed to help you train harder, last longer, and finish strong. Fuel Your Endurance with Clinical Strength This is a pure, concentrated tool for athletes who refuse to quit. Each serving delivers a massive dose of performance-enhancing power: Maximum Potency: A powerful 3200mg (3.2g) of Beta-Alanine in every scoop. Fight the Burn: Formulated to support muscle endurance and delay the onset of fatigue during high-intensity training. Pure Formula: Contains 100% Beta-Alanine with zero fillers or added sugars. Versatile Stacking: Unflavored and easy to mix into your favorite pre-workout or beverage. Don't let muscle fatigue stop your progress. Choose RED REX BETA-ALANINE and train with the stamina of a champion!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BETA_ALANINE_-_96_gm_Front.jpg?v=1787646249",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BETA_ALANINE_-_96_gm_Back_001.jpg?v=1787646249",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BETA_ALANINE_-_96_gm_Back.jpg?v=1787646247"
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53425827315996,
+          "title": "Default Title",
+          "price": 499.0,
+          "compare_at_price": 399.0,
+          "sku": "FG-RO-295",
+          "available": true,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10674213224732,
+      "handle": "redrex-daa-120-gm",
+      "title": "RED REX DAA 120 GM",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acid",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\"><b>RED REX DAA: Natural Power. Ultimate Drive.</b> Unlock your body's true potential with the power of pure amino acids. RED REX DAA (D-Aspartic Acid) is a premium, single-ingredient formula designed to support your body's natural drive and performance levels.</p>\n<p data-path-to-node=\"4\"><b>Fuel Your Performance with Pure Potency</b> This is a no-nonsense supplement for athletes who demand efficiency and purity. Each container provides a massive 120 servings of unadulterated power:</p>\n<ul data-path-to-node=\"5\">\n<li>\n<p data-path-to-node=\"5,0,0\"><b>Pure Strength:</b> Delivers a solid <b>1000mg (1g) of D-Aspartic Acid</b> per scoop.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,1,0\"><b>Extended Supply:</b> Packed with <b>120 Servings</b> per container for long-term support.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,2,0\"><b>Zero Fillers:</b> A clean, single-ingredient formula containing only pure D-Aspartic Acid.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,3,0\"><b>Versatile Stacking:</b> Unflavored and easy to mix into your favorite beverage or pre-workout stack.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-path-to-node=\"6\">Whether you are pushing for new PRs or focusing on recovery, RED REX DAA is the essential foundation for your supplement stack. Choose RED REX DAA and drive your performance to the next level!</p>",
+      "body_text": "RED REX DAA: Natural Power. Ultimate Drive. Unlock your body's true potential with the power of pure amino acids. RED REX DAA (D-Aspartic Acid) is a premium, single-ingredient formula designed to support your body's natural drive and performance levels. Fuel Your Performance with Pure Potency This is a no-nonsense supplement for athletes who demand efficiency and purity. Each container provides a massive 120 servings of unadulterated power: Pure Strength: Delivers a solid 1000mg (1g) of D-Aspartic Acid per scoop. Extended Supply: Packed with 120 Servings per container for long-term support. Zero Fillers: A clean, single-ingredient formula containing only pure D-Aspartic Acid. Versatile Stacking: Unflavored and easy to mix into your favorite beverage or pre-workout stack. Whether you are pushing for new PRs or focusing on recovery, RED REX DAA is the essential foundation for your supplement stack. Choose RED REX DAA and drive your performance to the next level!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_DAA_-_120_gm_Front.jpg?v=1787646005",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_DAA_-_120_gm_Back_001.jpg?v=1787646007",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_DAA_-_120_gm_Back.jpg?v=1787646006"
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53425817223452,
+          "title": "Default Title",
+          "price": 575.0,
+          "compare_at_price": 499.0,
+          "sku": "FG-RO-296",
+          "available": true,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10674204803356,
+      "handle": "red-rex-argenine",
+      "title": "RED REX ARGENINE 150 GM",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acid",
+      "tags": [],
+      "body_html": "<p data-path-to-node=\"3\"><b>RED REX ARGININE: Maximum Pump. Superior Flow. Pure Potency.</b> Unlock the next level of vascularity and performance. RED REX ARGININE is a high-potency nitric oxide booster designed to flood your muscles with blood, oxygen, and nutrients when you need them most.</p>\n<p data-path-to-node=\"4\"><b>Fuel Your Workout with 5000mg of Pure Power</b> This is a straightforward, no-nonsense formula for athletes who demand results. Each scoop delivers a clinical dose of pure L-Arginine to maximize your training potential:</p>\n<ul data-path-to-node=\"5\">\n<li>\n<p data-path-to-node=\"5,0,0\"><b>Clinical Strength:</b> A massive <b>5000mg (5g) of L-Arginine</b> per serving.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,1,0\"><b>Nitric Oxide Booster:</b> Enhances vasodilation for insane muscle pumps and vascularity.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,2,0\"><b>Nutrient Delivery:</b> Improves blood flow to transport oxygen and nutrients to working muscles.</p>\n</li>\n<li>\n<p data-path-to-node=\"5,3,0\"><b>Zero Compromise:</b> A pure, single-ingredient formula with no unnecessary fillers.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-path-to-node=\"6\">Whether you are looking to improve your endurance or achieve that skin-splitting pump, RED REX ARGININE is your essential pre-workout tool. Choose RED REX ARGININE and train with the intensity of a champion!</p>",
+      "body_text": "RED REX ARGININE: Maximum Pump. Superior Flow. Pure Potency. Unlock the next level of vascularity and performance. RED REX ARGININE is a high-potency nitric oxide booster designed to flood your muscles with blood, oxygen, and nutrients when you need them most. Fuel Your Workout with 5000mg of Pure Power This is a straightforward, no-nonsense formula for athletes who demand results. Each scoop delivers a clinical dose of pure L-Arginine to maximize your training potential: Clinical Strength: A massive 5000mg (5g) of L-Arginine per serving. Nitric Oxide Booster: Enhances vasodilation for insane muscle pumps and vascularity. Nutrient Delivery: Improves blood flow to transport oxygen and nutrients to working muscles. Zero Compromise: A pure, single-ingredient formula with no unnecessary fillers. Whether you are looking to improve your endurance or achieve that skin-splitting pump, RED REX ARGININE is your essential pre-workout tool. Choose RED REX ARGININE and train with the intensity of a champion!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ARGININE_-_150_gm_Front.jpg?v=1787651852",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ARGININE_-_150_gm_Back_001.jpg?v=1787651850",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ARGININE_-_150_gm_Back.jpg?v=1787651854"
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "Default Title"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53425695457564,
+          "title": "Default Title",
+          "price": 575.0,
+          "compare_at_price": 499.0,
+          "sku": "FG-RO-294",
+          "available": true,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10653102866716,
+      "handle": "red-rex-cream-of-rice",
+      "title": "RED REX CREAM OF RICE",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Weight Gainer",
+      "tags": [],
+      "body_html": "<p><b>CREAM OF RICE: Clean Carbs. Smooth Texture. Legendary Fuel.</b> Fuel your day like a champion with RED REX Cream of Rice! This is a clean, easy-to-digest carb source trusted by elite athletes and fitness enthusiasts.</p>\n<p><b>Fuel Your Day with The King of Carb Fuel</b> Made from <b>100% pure rice flour</b>, this naturally gluten-free and vegan-friendly formula is gentle on the stomach and incredibly easy to prepare.</p>\n<ul>\n<li>\n<p><b>Clean Energy:</b> <b>24g of Carbohydrates</b> to power your workouts.</p>\n</li>\n<li>\n<p><b>Simple &amp; Pure:</b> <b>0g of Sugar</b> and <b>0g of Fat</b>.</p>\n</li>\n<li>\n<p><b>Just 110 Calories</b> per serving.</p>\n</li>\n<li>\n<p><b>Versatile:</b> Perfect for breakfast, as a snack, or to fuel your pre-workout.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p>Available in delicious flavors like Strawberry Ripple, Creamy Banana, and Apple Cinnamon, this is your go-to carb companion. Get real fuel, real flavor, and real gains!</p>\n<p> </p>",
+      "body_text": "CREAM OF RICE: Clean Carbs. Smooth Texture. Legendary Fuel. Fuel your day like a champion with RED REX Cream of Rice! This is a clean, easy-to-digest carb source trusted by elite athletes and fitness enthusiasts. Fuel Your Day with The King of Carb Fuel Made from 100% pure rice flour , this naturally gluten-free and vegan-friendly formula is gentle on the stomach and incredibly easy to prepare. Clean Energy: 24g of Carbohydrates to power your workouts. Simple & Pure: 0g of Sugar and 0g of Fat . Just 110 Calories per serving. Versatile: Perfect for breakfast, as a snack, or to fuel your pre-workout. Available in delicious flavors like Strawberry Ripple, Creamy Banana, and Apple Cinnamon, this is your go-to carb companion. Get real fuel, real flavor, and real gains!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_UNFALVORED_-_900_gm_Front.jpg?v=1787730922",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_APPLE_CINNAMON_-_900_gm_Front.jpg?v=1787730927",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_STRAWBERRY_RIPPLE_-_900_gm_Front.jpg?v=1787730923",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_BANANA_CREAMPIE_-_900_gm_Front.jpg?v=1787730928",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_UNFALVORED_-_900_gm_Back.jpg?v=1787730927",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_UNFALVORED_-_1800_gmFront.jpg?v=1787730927",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_APPLE_CINNAMON_-_1800_gm_Front.jpg?v=1787730926",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_STRAWBERRY_RIPPLE_-_1800_gmFront.jpg?v=1787730926",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREAM_OF_RICE_-_BANANA_CREAMPIE_-_1800_gm_Front.jpg?v=1787730926",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Cream_of_rice_strawberry_ripple.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Cream_of_rice_Banana_Cream_Pie.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Cream_of_rice_apple_cinnamon.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Cream_of_rice_unflavoured.jpg?v=1762156732"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "900 Gm",
+            "1800 Gm"
+          ]
+        },
+        {
+          "name": "Flavor",
+          "values": [
+            "Unflavored",
+            "Apple Cinnamon",
+            "Strawberry Ripple",
+            "Banana Cream"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53296670114076,
+          "title": "900 Gm / Unflavored",
+          "price": 750.0,
+          "compare_at_price": 750.0,
+          "sku": "FG-RO-266",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Unflavored",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670146844,
+          "title": "900 Gm / Apple Cinnamon",
+          "price": 750.0,
+          "compare_at_price": 750.0,
+          "sku": "FG-RO-269",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Apple Cinnamon",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670179612,
+          "title": "900 Gm / Strawberry Ripple",
+          "price": 750.0,
+          "compare_at_price": 750.0,
+          "sku": "FG-RO-267",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Strawberry Ripple",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670212380,
+          "title": "900 Gm / Banana Cream",
+          "price": 750.0,
+          "compare_at_price": 750.0,
+          "sku": "FG-RO-268",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Banana Cream",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670245148,
+          "title": "1800 Gm / Unflavored",
+          "price": 1399.0,
+          "compare_at_price": 1399.0,
+          "sku": "FG-RO-270",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Unflavored",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670277916,
+          "title": "1800 Gm / Apple Cinnamon",
+          "price": 1399.0,
+          "compare_at_price": 1399.0,
+          "sku": "FG-RO-273",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Apple Cinnamon",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670310684,
+          "title": "1800 Gm / Strawberry Ripple",
+          "price": 1399.0,
+          "compare_at_price": 1399.0,
+          "sku": "FG-RO-271",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Strawberry Ripple",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296670343452,
+          "title": "1800 Gm / Banana Cream",
+          "price": 1399.0,
+          "compare_at_price": 1399.0,
+          "sku": "FG-RO-272",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Banana Cream",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10652617834780,
+      "handle": "red-rex-all-in-isolate",
+      "title": "RED REX ALL-IN ISOLATE",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [],
+      "body_html": "<p><b>RED REX ALL-IN ISOLATE: Ultra-Lean. Ultra-Pure. Ultra-Performance.</b> Fuel your muscles with maximum purity and power. RED REX ALL-IN ISOLATE is the ultimate isolate complex, engineered for athletes who demand performance without compromise.</p>\n<p><b>Fuel Your Purity with a Tri-Phase Isolate Blend</b> This is the formula for when every macro counts. This ultra-lean complex delivers:</p>\n<ul>\n<li>\n<p><b>Pure Isolate Power:</b> A massive <b>30 grams of Protein</b> from a unique blend of <b>Beef, Whey, and Plant Isolates</b>.</p>\n</li>\n<li>\n<p><b>Ultra-Lean Profile:</b> Only <b>110 calories</b> per serving.</p>\n</li>\n<li>\n<p><b>Precision Macros:</b> Just <b>1.5g of Carbs</b> and <b>0.5g of Fat</b>.</p>\n</li>\n<li>\n<p><b>Zero Compromise:</b> <b>0g of Sugar</b> to support pure, lean muscle growth.</p>\n</li>\n</ul>\n<hr>\n<p>This fast-absorbing formula is perfect for supporting lean muscle growth and rapid recovery. Choose RED REX ALL-IN ISOLATE and fuel your strength with the purest protein available!</p>",
+      "body_text": "RED REX ALL-IN ISOLATE: Ultra-Lean. Ultra-Pure. Ultra-Performance. Fuel your muscles with maximum purity and power. RED REX ALL-IN ISOLATE is the ultimate isolate complex, engineered for athletes who demand performance without compromise. Fuel Your Purity with a Tri-Phase Isolate Blend This is the formula for when every macro counts. This ultra-lean complex delivers: Pure Isolate Power: A massive 30 grams of Protein from a unique blend of Beef, Whey, and Plant Isolates . Ultra-Lean Profile: Only 110 calories per serving. Precision Macros: Just 1.5g of Carbs and 0.5g of Fat . Zero Compromise: 0g of Sugar to support pure, lean muscle growth. This fast-absorbing formula is perfect for supporting lean muscle growth and rapid recovery. Choose RED REX ALL-IN ISOLATE and fuel your strength with the purest protein available!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_CHOCOLATE_-1020_gm_Front.jpg?v=1785751587",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_STRAWBERRY_-_1020_gm_Front.jpg?v=1785750237",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_COOKIES_CREAM_-_1020_gm_Front.jpg?v=1785751587",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_VANILLA_-_1020_gm_Front.jpg?v=1785751588",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_CHOCOLATE_-_2040_gm_Front.jpg?v=1785751784",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_COOKIES_CREAM_-_2040_gm_Front.jpg?v=1785751784",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_STRAWBERRY_-_2040_gm_Front.jpg?v=1785751784",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_ALL_IN_ISOLATE_-_VANILLA_-_2040_gm_Front.jpg?v=1785751783",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/All-in_isolate_4.5lb_back.png?v=1762156406",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_strawberry.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_chocolate.jpg?v=1762156732",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_VANILLA.jpg?v=1762156732",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_C_C.jpg?v=1762156732"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "1020 Gm",
+            "2040 Gm"
+          ]
+        },
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "Strawberry",
+            "Vanilla",
+            "COOKIES & CREAM"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53296676765980,
+          "title": "1020 Gm / Chocolate",
+          "price": 1950.0,
+          "compare_at_price": 1699.0,
+          "sku": "FG-RO-258",
+          "available": true,
+          "option1": "1020 Gm",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676733212,
+          "title": "1020 Gm / Strawberry",
+          "price": 1950.0,
+          "compare_at_price": 1699.0,
+          "sku": "FG-RO-259",
+          "available": true,
+          "option1": "1020 Gm",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676798748,
+          "title": "1020 Gm / Vanilla",
+          "price": 1950.0,
+          "compare_at_price": 1699.0,
+          "sku": "FG-RO-260",
+          "available": true,
+          "option1": "1020 Gm",
+          "option2": "Vanilla",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676831516,
+          "title": "1020 Gm / COOKIES & CREAM",
+          "price": 1950.0,
+          "compare_at_price": 1699.0,
+          "sku": "FG-RO-261",
+          "available": true,
+          "option1": "1020 Gm",
+          "option2": "COOKIES & CREAM",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676897052,
+          "title": "2040 Gm / Chocolate",
+          "price": 3790.0,
+          "compare_at_price": 3299.0,
+          "sku": "FG-RO-262",
+          "available": true,
+          "option1": "2040 Gm",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676864284,
+          "title": "2040 Gm / Strawberry",
+          "price": 3790.0,
+          "compare_at_price": 3299.0,
+          "sku": "FG-RO-263",
+          "available": true,
+          "option1": "2040 Gm",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676929820,
+          "title": "2040 Gm / Vanilla",
+          "price": 3790.0,
+          "compare_at_price": 3299.0,
+          "sku": "FG-RO-264",
+          "available": true,
+          "option1": "2040 Gm",
+          "option2": "Vanilla",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296676962588,
+          "title": "2040 Gm / COOKIES & CREAM",
+          "price": 3790.0,
+          "compare_at_price": 3299.0,
+          "sku": "FG-RO-265",
+          "available": true,
+          "option1": "2040 Gm",
+          "option2": "COOKIES & CREAM",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10649807782172,
+      "handle": "red-rex-all-in-protein",
+      "title": "RED REX ALL-IN PROTEIN",
+      "vendor": "RED REX",
+      "product_type": "Protein",
+      "tags": [],
+      "body_html": "<p><b>RED REX ALL-IN PROTEIN: Complete Fuel for All-Day Support</b> Step up your daily performance with this powerful, all-in-one protein complex. RED REX ALL-IN PROTEIN is the ultimate balanced formula, engineered to support muscle building, energy levels, and total recovery.</p>\n<p><b>Fuel Your Performance with a Tri-Phase Protein Blend</b> This is a premium formula for serious muscle builders, designed to deliver complete support in every scoop:</p>\n<ul>\n<li>\n<p><b>Multi-Source Power:</b> A premium blend of <b>Beef, Whey, and Plant Proteins</b> for a high-quality, sustained-release protein source.</p>\n</li>\n<li>\n<p><b>The Perfect Ratio:</b> A smooth <b>24g of Protein</b> to support muscle building and growth.</p>\n</li>\n<li>\n<p><b>Balanced Fuel:</b> <b>5.5g of Carbohydrates</b> and only <b>1.3g of Fat</b> in just <b>120 calories</b>.</p>\n</li>\n<li>\n<p><b>Zero Sugar:</b> <b>0g of Sugar</b> to keep your nutrition clean.</p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p>This is the ideal fuel for those who train hard and recover smart. Choose RED REX ALL-IN PROTEIN and give your body the complete support it needs for 24/7 performance!</p>\n<p> </p>",
+      "body_text": "RED REX ALL-IN PROTEIN: Complete Fuel for All-Day Support Step up your daily performance with this powerful, all-in-one protein complex. RED REX ALL-IN PROTEIN is the ultimate balanced formula, engineered to support muscle building, energy levels, and total recovery. Fuel Your Performance with a Tri-Phase Protein Blend This is a premium formula for serious muscle builders, designed to deliver complete support in every scoop: Multi-Source Power: A premium blend of Beef, Whey, and Plant Proteins for a high-quality, sustained-release protein source. The Perfect Ratio: A smooth 24g of Protein to support muscle building and growth. Balanced Fuel: 5.5g of Carbohydrates and only 1.3g of Fat in just 120 calories . Zero Sugar: 0g of Sugar to keep your nutrition clean. This is the ideal fuel for those who train hard and recover smart. Choose RED REX ALL-IN PROTEIN and give your body the complete support it needs for 24/7 performance!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_CHOCOLATE_-_960_gm_Front.jpg?v=1787734349",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_STRAWBERRY_-_960_gm_Front.jpg?v=1787734350",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_CHOCOLATE_PEANUT_BUTTER_-_960_gm_Front.jpg?v=1787734350",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_VANILLA_-_960_gm_Front.jpg?v=1787734345",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_STRAWBERRY_-_1920_gm_Front.jpg?v=1787734349",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_CHOCOLATE_-_1920_gm_Front.jpg?v=1787734349",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_CHOCOLATE_PEANUT_BUTTER_-_1920_gm_Front.jpg?v=1787734345",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_VANILLA_-_1920_gm_Front.jpg?v=1787734350",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_ALL_IN_PROTEIN_-_CHOCOLATE_PEANUT_BUTTER_-_1920_gm_Back.jpg?v=1787734352",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_protein_chocolate.jpg?v=1762156736",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/All_in_protein_vanilla.jpg?v=1762156735",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_protein_strawberry.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_protein_CPB.jpg?v=1762156734",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_strawberry.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_chocolate.jpg?v=1762156732",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_VANILLA.jpg?v=1762156732",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/all_in_isolate_C_C.jpg?v=1762156732"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "960 Gm",
+            "1920 Gm"
+          ]
+        },
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "Strawberry",
+            "CHOCOLATE PEANUT BUTTER",
+            "Vanilla"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53296711074076,
+          "title": "960 Gm / Chocolate",
+          "price": 1550.0,
+          "compare_at_price": 1299.0,
+          "sku": "FG-RO-250",
+          "available": true,
+          "option1": "960 Gm",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711041308,
+          "title": "960 Gm / Strawberry",
+          "price": 1550.0,
+          "compare_at_price": 1299.0,
+          "sku": "FG-RO-251",
+          "available": true,
+          "option1": "960 Gm",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711106844,
+          "title": "960 Gm / CHOCOLATE PEANUT BUTTER",
+          "price": 1550.0,
+          "compare_at_price": 1299.0,
+          "sku": "FG-RO-253",
+          "available": true,
+          "option1": "960 Gm",
+          "option2": "CHOCOLATE PEANUT BUTTER",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711139612,
+          "title": "960 Gm / Vanilla",
+          "price": 1550.0,
+          "compare_at_price": 1299.0,
+          "sku": "FG-RO-252",
+          "available": true,
+          "option1": "960 Gm",
+          "option2": "Vanilla",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711205148,
+          "title": "1920 Gm / Chocolate",
+          "price": 2990.0,
+          "compare_at_price": 2499.0,
+          "sku": "FG-RO-254",
+          "available": true,
+          "option1": "1920 Gm",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711172380,
+          "title": "1920 Gm / Strawberry",
+          "price": 2990.0,
+          "compare_at_price": 2499.0,
+          "sku": "FG-RO-255",
+          "available": true,
+          "option1": "1920 Gm",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711237916,
+          "title": "1920 Gm / CHOCOLATE PEANUT BUTTER",
+          "price": 2990.0,
+          "compare_at_price": 2499.0,
+          "sku": "FG-RO-257",
+          "available": true,
+          "option1": "1920 Gm",
+          "option2": "CHOCOLATE PEANUT BUTTER",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296711270684,
+          "title": "1920 Gm / Vanilla",
+          "price": 2990.0,
+          "compare_at_price": 2499.0,
+          "sku": "FG-RO-256",
+          "available": true,
+          "option1": "1920 Gm",
+          "option2": "Vanilla",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10653124919580,
+      "handle": "red-rex-protein-oats",
+      "title": "RED REX PROTEIN OATS",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [],
+      "body_html": "<p><b style=\"font-size: 0.875rem;\">PROTEIN </b><b>OATS : The Perfect Balance of Taste and Power!</b> Fuel your mornings with this powerful blend of organic oats and premium proteins. It's the smooth, delicious, and smart way to start your day strong, recover from training, or fuel up with a smart snack.</p>\n<p><b>Fuel Your Day with Balanced Nutrition</b> This formula is a complete, balanced meal, perfectly designed for sustained energy. Every 250-calorie serving is packed with:</p>\n<ul>\n<li>\n<p><b>20g of Protein</b> (from a blend of Pea, Milk, and Whey)</p>\n</li>\n<li>\n<p><b>34g of Carbohydrates</b> (from 100% Organic Oats)</p>\n</li>\n<li>\n<p><b>6g of Dietary Fiber</b></p>\n</li>\n<li>\n<p><b>Zero Added Sugar</b></p>\n</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p>It's the ideal on-the-go breakfast, snack, or post-workout fuel. Start your day the RED REX way—with clean energy, muscle support, and great taste in every scoop!</p>",
+      "body_text": "PROTEIN OATS : The Perfect Balance of Taste and Power! Fuel your mornings with this powerful blend of organic oats and premium proteins. It's the smooth, delicious, and smart way to start your day strong, recover from training, or fuel up with a smart snack. Fuel Your Day with Balanced Nutrition This formula is a complete, balanced meal, perfectly designed for sustained energy. Every 250-calorie serving is packed with: 20g of Protein (from a blend of Pea, Milk, and Whey) 34g of Carbohydrates (from 100% Organic Oats) 6g of Dietary Fiber Zero Added Sugar It's the ideal on-the-go breakfast, snack, or post-workout fuel. Start your day the RED REX way—with clean energy, muscle support, and great taste in every scoop!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_OAT_PROTEIN_-_GOLDEN_BANANA_-_900_gm_Front.jpg?v=1787731867",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Oats_protein_2lb_strawberry_creme.png?v=1762349592",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Oats_protein_2lb_choco_nova.png?v=1762349592",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_OAT_PROTEIN_-_GOLDEN_BANANA_-_1800_gm_Front.jpg?v=1787731868",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Oats_protein_4lb_strawberry_creme.png?v=1762349592",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Oats_protein_4lb_choco_nova.png?v=1762349592",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Oats_protein_2lb_back.png?v=1762156378",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/oats_protein_choco_nova.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/oats_protein_Golden_banana.jpg?v=1762156733",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/oats_protein_Strawberry_creme.jpg?v=1762156734"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "900 Gm",
+            "1800 Gm"
+          ]
+        },
+        {
+          "name": "Flavor",
+          "values": [
+            "Golden Banana",
+            "Strawberry Cremé",
+            "Choco Nova"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 53296638787868,
+          "title": "900 Gm / Golden Banana",
+          "price": 1350.0,
+          "compare_at_price": 999.0,
+          "sku": "FG-RO-276",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Golden Banana",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296638820636,
+          "title": "900 Gm / Strawberry Cremé",
+          "price": 1350.0,
+          "compare_at_price": 999.0,
+          "sku": "FG-RO-275",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Strawberry Cremé",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296638853404,
+          "title": "900 Gm / Choco Nova",
+          "price": 1350.0,
+          "compare_at_price": 999.0,
+          "sku": "FG-RO-274",
+          "available": true,
+          "option1": "900 Gm",
+          "option2": "Choco Nova",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296638886172,
+          "title": "1800 Gm / Golden Banana",
+          "price": 2550.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-279",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Golden Banana",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296638918940,
+          "title": "1800 Gm / Strawberry Cremé",
+          "price": 2550.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-278",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Strawberry Cremé",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 53296638951708,
+          "title": "1800 Gm / Choco Nova",
+          "price": 2550.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-277",
+          "available": true,
+          "option1": "1800 Gm",
+          "option2": "Choco Nova",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 10064965140764,
+      "handle": "red-rex-stomp-preworkout-copy",
+      "title": "RED REX STOMP PREWORKOUT",
+      "vendor": "RED REX",
+      "product_type": "Preworkout",
+      "tags": [
+        "Energy",
+        "Muscle",
+        "Muscle Building",
+        "Preworkout",
+        "Pump",
+        "Strength"
+      ],
+      "body_html": "<h3 data-sourcepos=\"5:1-5:51\"><strong>Unleash Your Inner Beast with RedRex STOMP!</strong></h3>\n<p data-sourcepos=\"7:1-7:141\">STOMP is engineered to get you roaring into the gym, helping you crush PRs and achieve peak performance. Here's what makes it a game-changer:</p>\n<ul data-sourcepos=\"9:1-13:0\">\n<li data-sourcepos=\"9:1-9:225\">\n<strong>Massive Pumps:</strong> With <strong>7.5 grams of pump drivers</strong> including <strong>Citrulline</strong>, <strong>Citrulline Malate</strong>, <strong>Arginine AKG</strong>, and <strong>Nitrosigine®</strong>, STOMP maximizes blood flow for incredible vascularity and a full, muscular feel.</li>\n<li data-sourcepos=\"10:1-10:194\">\n<strong>Explosive Energy &amp; Endurance:</strong> <strong>Beta-Alanine</strong> reduces fatigue and extends your endurance, while <strong>Caffeine</strong> delivers immediate alertness and improved power. Push harder, last longer.</li>\n<li data-sourcepos=\"11:1-11:193\">\n<strong>Laser Focus:</strong> <strong>N-Acetyl L-Tyrosine</strong> enhances concentration and attention, ensuring a strong mind-muscle connection throughout your entire workout. Stay dialed in and demolish your goals.</li>\n<li data-sourcepos=\"12:1-13:0\">\n<strong>Faster Recovery &amp; Muscle Growth:</strong> <strong>L-Arginine AKG</strong> and <strong>A-Ketoglutarate</strong> support protein synthesis and boost cellular energy, helping your muscles repair and grow faster.</li>\n</ul>\n<hr data-sourcepos=\"14:1-14:3\">\n<p data-sourcepos=\"16:1-16:128\">Don't just work out—<strong>STOMP</strong> your workout! Fuel your ambition and conquer your fitness goals with <strong>RedRex STOMP Pre-Workout.</strong></p>",
+      "body_text": "Unleash Your Inner Beast with RedRex STOMP! STOMP is engineered to get you roaring into the gym, helping you crush PRs and achieve peak performance. Here's what makes it a game-changer: Massive Pumps: With 7.5 grams of pump drivers including Citrulline , Citrulline Malate , Arginine AKG , and Nitrosigine® , STOMP maximizes blood flow for incredible vascularity and a full, muscular feel. Explosive Energy & Endurance: Beta-Alanine reduces fatigue and extends your endurance, while Caffeine delivers immediate alertness and improved power. Push harder, last longer. Laser Focus: N-Acetyl L-Tyrosine enhances concentration and attention, ensuring a strong mind-muscle connection throughout your entire workout. Stay dialed in and demolish your goals. Faster Recovery & Muscle Growth: L-Arginine AKG and A-Ketoglutarate support protein synthesis and boost cellular energy, helping your muscles repair and grow faster. Don't just work out— STOMP your workout! Fuel your ambition and conquer your fitness goals with RedRex STOMP Pre-Workout.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_STOMP_-_FRUIT_PUNCH_-_234gm_Front.jpg?v=1785752357",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_STOMP_-_WATERMELON_-_234gm_Front.jpg?v=1785752361",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_STOMP_-_MANGO_-_234gm_Front.jpg?v=1785752361",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/stomp_supp.png?v=1767517647",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/stomp_back.png?v=1767517647",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Stomp_Mango.jpg?v=1767517647",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Stomp_fruit_punch.jpg?v=1767517647",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Stomp_watermelon.jpg?v=1767517647"
+      ],
+      "options": [
+        {
+          "name": "Flavors",
+          "values": [
+            "Fruit Punch",
+            "Watermelon",
+            "Mango"
+          ]
+        },
+        {
+          "name": "size",
+          "values": [
+            "455 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 51275101569308,
+          "title": "Fruit Punch / 455 G",
+          "price": 2100.0,
+          "compare_at_price": 1850.0,
+          "sku": "FG-RO-079",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "455 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51275101602076,
+          "title": "Watermelon / 455 G",
+          "price": 2100.0,
+          "compare_at_price": 1850.0,
+          "sku": "FG-RO-063",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": "455 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51275101634844,
+          "title": "Mango / 455 G",
+          "price": 2100.0,
+          "compare_at_price": 1850.0,
+          "sku": "FG-RO-080",
+          "available": true,
+          "option1": "Mango",
+          "option2": "455 G",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 9993071264028,
+      "handle": "red-rex-big-mass-gainer",
+      "title": "RED REX BIG MASS GAINER",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Weight Gainer",
+      "tags": [],
+      "body_html": "<h3 data-sourcepos=\"7:1-7:55\"><strong>RED REX BIG MASS: Your Ultimate Growth Catalyst</strong></h3>\n<p data-sourcepos=\"9:1-9:189\">Ready to pack on serious size and strength? <strong>RED REX BIG MASS</strong> is the ultimate weight gain solution, engineered to help you achieve your muscle-building goals and transform your physique.</p>\n<hr data-sourcepos=\"11:1-11:3\">\n<h3 data-sourcepos=\"13:1-13:53\"><strong>Fuel Your Gains with Precision Macronutrients</strong></h3>\n<p data-sourcepos=\"15:1-15:26\">RED REX BIG MASS delivers:</p>\n<ul data-sourcepos=\"17:1-21:0\">\n<li data-sourcepos=\"17:1-17:94\">\n<strong>High-Calorie Powerhouse:</strong> A massive <strong>1290 calories</strong> per serving to drive muscle growth.</li>\n<li data-sourcepos=\"18:1-18:86\">\n<strong>Optimal Carbs:</strong> <strong>265 grams of Carbohydrates</strong> for sustained energy and recovery.</li>\n<li data-sourcepos=\"19:1-19:79\">\n<strong>Premium Protein:</strong> <strong>50 grams of Protein</strong> for muscle repair and synthesis.</li>\n<li data-sourcepos=\"20:1-21:0\">\n<strong>Zero Trans Fat:</strong> Fuel your body with quality nutrients.</li>\n</ul>\n<hr data-sourcepos=\"22:1-22:3\">\n<p data-sourcepos=\"24:1-24:212\">Taking this after a workout is a sure-fire strategy for serious growth. Don't leave your gains to chance. Choose <strong>RED REX BIG MASS</strong> and unlock your full potential for size, strength, and undeniable muscle mass!</p>",
+      "body_text": "RED REX BIG MASS: Your Ultimate Growth Catalyst Ready to pack on serious size and strength? RED REX BIG MASS is the ultimate weight gain solution, engineered to help you achieve your muscle-building goals and transform your physique. Fuel Your Gains with Precision Macronutrients RED REX BIG MASS delivers: High-Calorie Powerhouse: A massive 1290 calories per serving to drive muscle growth. Optimal Carbs: 265 grams of Carbohydrates for sustained energy and recovery. Premium Protein: 50 grams of Protein for muscle repair and synthesis. Zero Trans Fat: Fuel your body with quality nutrients. Taking this after a workout is a sure-fire strategy for serious growth. Don't leave your gains to chance. Choose RED REX BIG MASS and unlock your full potential for size, strength, and undeniable muscle mass!",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_BIG_MASS_-_CHOCOLATE_-_12lb_Front.jpg?v=1785753090",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_BIG_MASS_-_VANILLA_-_12lb_Front.jpg?v=1785753090",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_BIG_MASS_-_STRAWBERRY_-_12lb_Front.jpg?v=1785753089",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Big-Mass-Bag-12lbsBack.png?v=1767518519",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Big_Mass_vanilla.jpg?v=1767518519",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Big_Mass_Choco.jpg?v=1767518519",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Big_Mass_Strawberry.jpg?v=1767518519"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "Strawberry",
+            "Vanilla"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "5.4 Kg"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 50869174042908,
+          "title": "Chocolate / 5.4 Kg",
+          "price": 3499.0,
+          "compare_at_price": 2699.0,
+          "sku": "FG-RO-187",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "5.4 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50869174075676,
+          "title": "Strawberry / 5.4 Kg",
+          "price": 3499.0,
+          "compare_at_price": 2699.0,
+          "sku": "FG-RO-188",
+          "available": true,
+          "option1": "Strawberry",
+          "option2": "5.4 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50869174108444,
+          "title": "Vanilla / 5.4 Kg",
+          "price": 3499.0,
+          "compare_at_price": 2699.0,
+          "sku": "FG-RO-189",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "5.4 Kg",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 9942347219228,
+      "handle": "red-rex-creatine-5000mg-unflavored-copy",
+      "title": "RED REX CREATINE 5000MG FLAVORED",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Creatine",
+      "tags": [
+        "Amino Acid",
+        "Creatine",
+        "Muscle",
+        "Muscle Building",
+        "Strength"
+      ],
+      "body_html": "<div class=\"user-query-container user-query-bubble-container ng-star-inserted\">\n<div id=\"user-query-content-5\" class=\"query-content ng-star-inserted\">\n<div dir=\"ltr\" class=\"query-text gds-body-l collapsed\" aria-level=\"2\" role=\"heading\">\n<h3 data-sourcepos=\"7:1-7:70\"><strong>RED REX Creatine Monohydrate: Unleash Your Strength &amp; Size</strong></h3>\n<p data-sourcepos=\"9:1-9:261\">Ready to maximize your gains? <strong>RED REX Creatine Monohydrate</strong> is a cornerstone supplement, scientifically proven to be one of the most effective tools for boosting muscle mass and strength. Experience significantly enhanced performance and accelerated results.</p>\n<hr data-sourcepos=\"11:1-11:3\">\n<h3 data-sourcepos=\"13:1-13:55\"><strong>Key Benefits of Daily Creatine Supplementation:</strong></h3>\n<ul data-sourcepos=\"15:1-20:0\">\n<li data-sourcepos=\"15:1-15:99\">\n<strong>Boosts Muscle Energy:</strong> Helps muscle cells produce more energy, directly fueling your workouts.</li>\n<li data-sourcepos=\"16:1-16:79\">\n<strong>Promotes Muscle Growth:</strong> Drives significant increases in lean muscle mass.</li>\n<li data-sourcepos=\"17:1-17:103\">\n<strong>Enhances Performance:</strong> Improves high-intensity exercise capabilities, allowing you to push harder.</li>\n<li data-sourcepos=\"18:1-18:97\">\n<strong>Reduces Fatigue:</strong> Fights tiredness, helping you maintain intensity throughout your training.</li>\n<li data-sourcepos=\"19:1-20:0\">\n<strong>Supports Brain Function:</strong> May even improve cognitive performance.</li>\n</ul>\n<hr data-sourcepos=\"21:1-21:3\">\n<p data-sourcepos=\"23:1-23:293\">Daily Creatine supplementation helps you double your strength and lean muscle gains compared to training alone. Whether you're an elite athlete or just starting your fitness journey, <strong>RED REX Creatine Monohydrate</strong> is your go-to for unlocking superior strength, power, and muscle development.</p>\n</div>\n</div>\n</div>",
+      "body_text": "RED REX Creatine Monohydrate: Unleash Your Strength & Size Ready to maximize your gains? RED REX Creatine Monohydrate is a cornerstone supplement, scientifically proven to be one of the most effective tools for boosting muscle mass and strength. Experience significantly enhanced performance and accelerated results. Key Benefits of Daily Creatine Supplementation: Boosts Muscle Energy: Helps muscle cells produce more energy, directly fueling your workouts. Promotes Muscle Growth: Drives significant increases in lean muscle mass. Enhances Performance: Improves high-intensity exercise capabilities, allowing you to push harder. Reduces Fatigue: Fights tiredness, helping you maintain intensity throughout your training. Supports Brain Function: May even improve cognitive performance. Daily Creatine supplementation helps you double your strength and lean muscle gains compared to training alone. Whether you're an elite athlete or just starting your fitness journey, RED REX Creatine Monohydrate is your go-to for unlocking superior strength, power, and muscle development.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_CREATINE_-_MANGO_-_300g_Front.jpg?v=1785756120",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_CREATINE_-_ORANGE_-_300g_Front.jpg?v=1785756105",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/creatine_ORANGE_B.png?v=1767518642",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/creatine_ORANGE_S.png?v=1767518642",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/6.png?v=1767518642",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Your_paragraph_text.png?v=1767518642"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Mango",
+            "Orange"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "300 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 50554738409756,
+          "title": "Mango / 300 G",
+          "price": 1199.0,
+          "compare_at_price": 1050.0,
+          "sku": "FG-RO-058",
+          "available": true,
+          "option1": "Mango",
+          "option2": "300 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50554738442524,
+          "title": "Orange / 300 G",
+          "price": 1199.0,
+          "compare_at_price": 1050.0,
+          "sku": "FG-RO-081",
+          "available": true,
+          "option1": "Orange",
+          "option2": "300 G",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 9785295536412,
+      "handle": "red-rex-big-whey",
+      "title": "RED REX BIG WHEY",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [
+        "Muscle Building",
+        "Protein"
+      ],
+      "body_html": "<h3 data-sourcepos=\"9:1-9:64\"><strong>RED REX BIG WHEY: Your Premium Protein for Muscle Growth</strong></h3>\n<p data-sourcepos=\"11:1-11:232\">Looking for a superior protein source to fuel your gains? <strong>RED REX BIG WHEY</strong> delivers clean, high-quality protein and essential amino acids, making it an excellent choice for building muscle and boosting your exercise performance.</p>\n<hr data-sourcepos=\"13:1-13:3\">\n<h3 data-sourcepos=\"15:1-15:51\"><strong>Optimize Your Results with RED REX BIG WHEY</strong></h3>\n<p data-sourcepos=\"17:1-17:127\">We've crafted <strong>RED REX BIG WHEY</strong> to be your ideal muscle-building partner, combining optimal nutrition with incredible taste:</p>\n<ul data-sourcepos=\"19:1-23:0\">\n<li data-sourcepos=\"19:1-19:189\">\n<strong>24g Pure Protein Per Serving:</strong> Each scoop provides an astounding <strong>24 grams of concentrated whey protein</strong>, giving your muscles the vital building blocks they need to recover and grow.</li>\n<li data-sourcepos=\"20:1-20:200\">\n<strong>High Functional Protein Concentration:</strong> <strong>RED REX BIG WHEY</strong> boasts one of the highest concentrations of functional protein among available sources, ensuring maximum impact on muscle development.</li>\n<li data-sourcepos=\"21:1-21:157\">\n<strong>Complete Amino Acid Profile:</strong> Packed with crucial amino acids, this protein fuels sustained energy levels and supports comprehensive muscle development.</li>\n<li data-sourcepos=\"22:1-23:0\">\n<strong>Superior Taste &amp; Mixability:</strong> Enjoy a delicious and easy-to-mix shake that makes hitting your protein goals a pleasure, not a chore.</li>\n</ul>\n<hr data-sourcepos=\"24:1-24:3\">\n<p data-sourcepos=\"26:1-26:247\"><strong>RED REX BIG WHEY</strong> is more than just protein; it's a strategic tool for serious athletes and fitness enthusiasts. Fuel your recovery, enhance your performance, and achieve your physique goals with the clean protein power of <strong>RED REX BIG WHEY.</strong></p>",
+      "body_text": "RED REX BIG WHEY: Your Premium Protein for Muscle Growth Looking for a superior protein source to fuel your gains? RED REX BIG WHEY delivers clean, high-quality protein and essential amino acids, making it an excellent choice for building muscle and boosting your exercise performance. Optimize Your Results with RED REX BIG WHEY We've crafted RED REX BIG WHEY to be your ideal muscle-building partner, combining optimal nutrition with incredible taste: 24g Pure Protein Per Serving: Each scoop provides an astounding 24 grams of concentrated whey protein , giving your muscles the vital building blocks they need to recover and grow. High Functional Protein Concentration: RED REX BIG WHEY boasts one of the highest concentrations of functional protein among available sources, ensuring maximum impact on muscle development. Complete Amino Acid Profile: Packed with crucial amino acids, this protein fuels sustained energy levels and supports comprehensive muscle development. Superior Taste & Mixability: Enjoy a delicious and easy-to-mix shake that makes hitting your protein goals a pleasure, not a chore. RED REX BIG WHEY is more than just protein; it's a strategic tool for serious athletes and fitness enthusiasts. Fuel your recovery, enhance your performance, and achieve your physique goals with the clean protein power of RED REX BIG WHEY.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Bigwhey2lbCPBFRONT.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Bigwhey2lbSTRAWBERRYFRONT.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BIGWHEYcpb.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BIGWHEYvan.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Bigwhey2lbCHOCOFRONT.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BIGWHEYstraw.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Bigwhey2lbVANILLAFRONT.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BIGWHEYC_C.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Bigwhey2lbc_cFRONTpng.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/bigwheychoco.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BIG_WHEY_back.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BIG_WHEY_back2.png?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/big_whey_C_C.jpg?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/big_whey_vanilla.jpg?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/big_whey_CPB.jpg?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/big_whey_Straw.jpg?v=1767519426",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/big_whey_CHOCO.jpg?v=1767519426"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "Strawberry",
+            "Vanilla",
+            "CHOCOLATE PEANUT BUTTER",
+            "COOKIES & CREAM"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "2 Kg",
+            "1 Kg"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 50138170425628,
+          "title": "Chocolate / 2 Kg",
+          "price": 4680.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-150",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "2 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138403012892,
+          "title": "Chocolate / 1 Kg",
+          "price": 2601.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-182",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "1 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138195951900,
+          "title": "Strawberry / 2 Kg",
+          "price": 4680.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-151",
+          "available": true,
+          "option1": "Strawberry",
+          "option2": "2 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138403045660,
+          "title": "Strawberry / 1 Kg",
+          "price": 2601.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-183",
+          "available": true,
+          "option1": "Strawberry",
+          "option2": "1 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138206077212,
+          "title": "Vanilla / 2 Kg",
+          "price": 4680.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-152",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "2 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138403078428,
+          "title": "Vanilla / 1 Kg",
+          "price": 2601.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-184",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "1 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138216661276,
+          "title": "CHOCOLATE PEANUT BUTTER / 2 Kg",
+          "price": 4680.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-180",
+          "available": true,
+          "option1": "CHOCOLATE PEANUT BUTTER",
+          "option2": "2 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138403111196,
+          "title": "CHOCOLATE PEANUT BUTTER / 1 Kg",
+          "price": 2601.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-185",
+          "available": true,
+          "option1": "CHOCOLATE PEANUT BUTTER",
+          "option2": "1 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138234552604,
+          "title": "COOKIES & CREAM / 2 Kg",
+          "price": 4680.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-181",
+          "available": true,
+          "option1": "COOKIES & CREAM",
+          "option2": "2 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50138403143964,
+          "title": "COOKIES & CREAM / 1 Kg",
+          "price": 2601.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-186",
+          "available": true,
+          "option1": "COOKIES & CREAM",
+          "option2": "1 Kg",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 9741299548444,
+      "handle": "red-rex-bcaa-5000mg-fruit-punch-copy",
+      "title": "RED REX BCAA 5000MG",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acids",
+      "tags": [
+        "Amino Acid",
+        "BCAA",
+        "Hydration",
+        "Recovery"
+      ],
+      "body_html": "<h3 data-sourcepos=\"11:1-11:65\"><strong>RED REX BCAA 5000MG: Fuel Your Performance &amp; Recovery</strong></h3>\n<p data-sourcepos=\"13:1-13:277\">Want to maximize your workouts and bounce back faster? <strong>RED REX BCAA 5000MG</strong> is your go-to formula, delivering 5 grams of Branched-Chain Amino Acids in the optimized 2:1:1 ratio. It's designed to enhance muscle recovery, boost endurance, and elevate your overall performance.</p>\n<hr data-sourcepos=\"15:1-15:3\">\n<h3 data-sourcepos=\"17:1-17:45\"><strong>Optimize Your Training at Every Stage</strong></h3>\n<p data-sourcepos=\"19:1-19:81\"><strong>RED REX BCAA 5000MG</strong> provides crucial support exactly when your body needs it:</p>\n<ul data-sourcepos=\"21:1-23:0\">\n<li data-sourcepos=\"21:1-21:240\">\n<strong>Pre &amp; Intra Workout Power:</strong> This non-stimulant powder is an excellent choice to fuel your body <em>before</em> and <em>during</em> your workout. It provides the essential amino acids and hydration needed for intense, explosive training sessions.</li>\n<li data-sourcepos=\"22:1-23:0\">\n<strong>Post Workout Recovery:</strong> After you crush your workout, <strong>RED REX BCAA 5000MG</strong> steps in to help. It actively promotes muscle protein building, aids hydration, and works to prevent muscle breakdown and reduce soreness, so you can relax and replenish effectively.</li>\n</ul>\n<hr data-sourcepos=\"24:1-24:3\">\n<p data-sourcepos=\"26:1-26:146\">Support your fitness goals from start to finish. Choose <strong>RED REX BCAA 5000MG</strong> to optimize your workout performance and accelerate your recovery.</p>",
+      "body_text": "RED REX BCAA 5000MG: Fuel Your Performance & Recovery Want to maximize your workouts and bounce back faster? RED REX BCAA 5000MG is your go-to formula, delivering 5 grams of Branched-Chain Amino Acids in the optimized 2:1:1 ratio. It's designed to enhance muscle recovery, boost endurance, and elevate your overall performance. Optimize Your Training at Every Stage RED REX BCAA 5000MG provides crucial support exactly when your body needs it: Pre & Intra Workout Power: This non-stimulant powder is an excellent choice to fuel your body before and during your workout. It provides the essential amino acids and hydration needed for intense, explosive training sessions. Post Workout Recovery: After you crush your workout, RED REX BCAA 5000MG steps in to help. It actively promotes muscle protein building, aids hydration, and works to prevent muscle breakdown and reduce soreness, so you can relax and replenish effectively. Support your fitness goals from start to finish. Choose RED REX BCAA 5000MG to optimize your workout performance and accelerate your recovery.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_FRUIT_PUNCH_-_300gm_Front.jpg?v=1787645083",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_LEMON_LIME_-_300gm_Front.jpg?v=1787645082",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_GREEN_APPLE_-_300gm_Front.jpg?v=1787645082",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BCAA_green_apple.jpg?v=1751458845",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BCAA_fruit_punch.jpg?v=1751458844",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_GREEN_APPLE_-_300gm_Back_001.jpg?v=1787645068",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_LEMON_LIME_-_300gm_Back_001.jpg?v=1787645066",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_FRUIT_PUNCH_-_300gm_Back.jpg?v=1787645069",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_FRUIT_PUNCH_-_300gm_Back_001.jpg?v=1787645081",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_GREEN_APPLE_-_300gm_Back.jpg?v=1787645083",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BCAA_-_LEMON_LIME_-_300gm_Back.jpg?v=1787645083"
+      ],
+      "options": [
+        {
+          "name": "Flavors",
+          "values": [
+            "Fruit Punch",
+            "LEMON LIME",
+            "GREEN APPLE"
+          ]
+        },
+        {
+          "name": "size",
+          "values": [
+            "300 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 50051725426972,
+          "title": "Fruit Punch / 300 G",
+          "price": 890.0,
+          "compare_at_price": 790.0,
+          "sku": "FG-RO-088",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "300 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50051910861084,
+          "title": "LEMON LIME / 300 G",
+          "price": 890.0,
+          "compare_at_price": 790.0,
+          "sku": "FG-RO-087",
+          "available": true,
+          "option1": "LEMON LIME",
+          "option2": "300 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50051942088988,
+          "title": "GREEN APPLE / 300 G",
+          "price": 890.0,
+          "compare_at_price": 790.0,
+          "sku": "FG-RO-086",
+          "available": true,
+          "option1": "GREEN APPLE",
+          "option2": "300 G",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 9719456203036,
+      "handle": "red-rex-beef-mass-gainer-copy",
+      "title": "RED REX BEEF MASS GAINER",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Weight Gainer",
+      "tags": [
+        "Beef Protein",
+        "Carbohydrates",
+        "Isolate Protein",
+        "Mass",
+        "Muscle",
+        "Protein",
+        "Weight Gain"
+      ],
+      "body_html": "<h3 data-sourcepos=\"1:1-1:57\"><strong>RED REX BEEF MASS: Your Ultimate Lean Mass Gainer</strong></h3>\n<p data-sourcepos=\"3:1-3:303\">Ready to pack on serious size and strength? <strong>RED REX BEEF MASS</strong> is the perfect tool to help you reach your muscle-building goals and transform your physique. This gainer delivers high calories through ideal macronutrient levels, helping you hit your daily intake to build lean muscle mass effectively.</p>\n<hr data-sourcepos=\"5:1-5:3\">\n<h3 data-sourcepos=\"7:1-7:50\"><strong>Fuel Your Growth with Premium Beef Protein</strong></h3>\n<p data-sourcepos=\"9:1-9:120\"><strong>RED REX BEEF MASS</strong> is meticulously formulated to provide the precise nutrients your body needs for significant gains:</p>\n<ul data-sourcepos=\"11:1-15:0\">\n<li data-sourcepos=\"11:1-11:149\">\n<strong>High-Calorie Power:</strong> Each serving packs <strong>720 calories</strong>, providing the substantial energy required for intense training and muscle development.</li>\n<li data-sourcepos=\"12:1-12:180\">\n<strong>Optimal Carbohydrates:</strong> With <strong>137 grams of Carbohydrates</strong>, it ensures sustained energy for your workouts and efficient replenishment of muscle glycogen stores post-exercise.</li>\n<li data-sourcepos=\"13:1-13:198\">\n<strong>50g Hydrolyzed Beef Protein Isolate:</strong> This premium, fast-digesting protein source delivers a robust <strong>50 grams of protein</strong> per serving, rich in amino acids to support muscle repair and growth.</li>\n<li data-sourcepos=\"14:1-15:0\">\n<strong>Ultra-Lean Profile:</strong> Featuring only <strong>1 gram of Fat</strong> and <strong>Zero Cholesterol</strong>, it focuses on clean gains without unnecessary extras.</li>\n</ul>\n<hr data-sourcepos=\"16:1-16:3\">\n<p data-sourcepos=\"18:1-18:220\">Making <strong>RED REX BEEF MASS</strong> a part of your daily post-workout plan is a sure-fire strategy to achieve serious growth. Fuel your recovery, enhance your performance, and build the lean muscle mass you've been working for.</p>",
+      "body_text": "RED REX BEEF MASS: Your Ultimate Lean Mass Gainer Ready to pack on serious size and strength? RED REX BEEF MASS is the perfect tool to help you reach your muscle-building goals and transform your physique. This gainer delivers high calories through ideal macronutrient levels, helping you hit your daily intake to build lean muscle mass effectively. Fuel Your Growth with Premium Beef Protein RED REX BEEF MASS is meticulously formulated to provide the precise nutrients your body needs for significant gains: High-Calorie Power: Each serving packs 720 calories , providing the substantial energy required for intense training and muscle development. Optimal Carbohydrates: With 137 grams of Carbohydrates , it ensures sustained energy for your workouts and efficient replenishment of muscle glycogen stores post-exercise. 50g Hydrolyzed Beef Protein Isolate: This premium, fast-digesting protein source delivers a robust 50 grams of protein per serving, rich in amino acids to support muscle repair and growth. Ultra-Lean Profile: Featuring only 1 gram of Fat and Zero Cholesterol , it focuses on clean gains without unnecessary extras. Making RED REX BEEF MASS a part of your daily post-workout plan is a sure-fire strategy to achieve serious growth. Fuel your recovery, enhance your performance, and build the lean muscle mass you've been working for.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_-_CHOCOLATE_-_6lb_Front.jpg?v=1790172072",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_-_VANILLA_-_6lb_Front.jpg?v=1790172073",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_-_CHOCOLATE_PEANUT_BUTTER_-_6lb_Front.jpg?v=1790172073",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_-_STRAWBERRY_-_6lb_Front.jpg?v=1790172073",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_MASS_-_SOUR_GUMMY_-_6lb_Front.jpg?v=1790172073",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_CPB.jpg?v=1751458847",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_Strawberry.jpg?v=1751458847",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_vanilla.jpg?v=1751458847",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_Choco.jpg?v=1751458846",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_Vanilla_Amino_Acid_Profile.jpg?v=1751458845",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_Choco_Amino_Acid_Profile.jpg?v=1751458844",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_CPB_Amino_Acid_Profile.jpg?v=1751458844",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_Mass_Strawberry_Amino_Acid_Profile.jpg?v=1751458843"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "2.7 Kg"
+          ]
+        },
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "Vanilla",
+            "Chocolate Peanut Butter",
+            "Strawberry",
+            "Sour gummies",
+            "Mango",
+            "Green Apple"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 50008493359388,
+          "title": "2.7 Kg / Chocolate",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "FG-RO-094",
+          "available": true,
+          "option1": "2.7 Kg",
+          "option2": "Chocolate",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50008493392156,
+          "title": "2.7 Kg / Vanilla",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "FG-RO-096",
+          "available": true,
+          "option1": "2.7 Kg",
+          "option2": "Vanilla",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50008493457692,
+          "title": "2.7 Kg / Chocolate Peanut Butter",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "FG-RO-095",
+          "available": true,
+          "option1": "2.7 Kg",
+          "option2": "Chocolate Peanut Butter",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 50008635998492,
+          "title": "2.7 Kg / Strawberry",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "FG-RO-101",
+          "available": true,
+          "option1": "2.7 Kg",
+          "option2": "Strawberry",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51848978858268,
+          "title": "2.7 Kg / Sour gummies",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "",
+          "available": false,
+          "option1": "2.7 Kg",
+          "option2": "Sour gummies",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51848982429980,
+          "title": "2.7 Kg / Mango",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "",
+          "available": false,
+          "option1": "2.7 Kg",
+          "option2": "Mango",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51848982462748,
+          "title": "2.7 Kg / Green Apple",
+          "price": 2499.0,
+          "compare_at_price": 2190.0,
+          "sku": "",
+          "available": false,
+          "option1": "2.7 Kg",
+          "option2": "Green Apple",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8161029095708,
+      "handle": "red-rex-100-beef-isolate-protein-4lb",
+      "title": "RED REX 100% BEEF PROTEIN ISOLATE",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Protein",
+      "tags": [
+        "Beef Protein",
+        "Isolate Protein",
+        "Muscle Building",
+        "Protein"
+      ],
+      "body_html": "<h3 data-sourcepos=\"1:1-1:57\"><strong>RED REX Beef Protein Isolate: Premium Paleo Power</strong></h3>\n<p data-sourcepos=\"3:1-3:283\">Looking for a powerful, dairy-free protein source? <strong>RED REX Beef Protein Isolate (BPI)</strong> delivers clean protein and amino acids, making it a top choice for building muscle and boosting performance. Enjoy optimal nutrition and great taste for sustained energy and muscle development.</p>\n<hr data-sourcepos=\"5:1-5:3\">\n<h3 data-sourcepos=\"7:1-7:45\"><strong>Fuel Your Gains with Lean Beef Power:</strong></h3>\n<ul data-sourcepos=\"9:1-14:0\">\n<li data-sourcepos=\"9:1-9:128\">\n<strong>24g Pure Protein:</strong> Each serving packs an astounding <strong>24 grams of beef protein isolate</strong> for serious muscle-building power.</li>\n<li data-sourcepos=\"10:1-10:100\">\n<strong>Ultra-Lean Profile:</strong> Contains just <strong>3 grams of carbs</strong> and <strong>zero fat</strong>, ensuring clean gains.</li>\n<li data-sourcepos=\"11:1-11:107\">\n<strong>Highly Concentrated:</strong> Delivers the protein power of beef that's <strong>350% more concentrated than steak!</strong>\n</li>\n<li data-sourcepos=\"12:1-12:126\">\n<strong>Dairy &amp; Lactose-Free:</strong> An excellent alternative for those sensitive to dairy or looking to avoid milk-based proteins.</li>\n<li data-sourcepos=\"13:1-14:0\">\n<strong>Paleo-Friendly:</strong> A perfect fit for your Paleo diet, focusing on natural, wholesome sources.</li>\n</ul>\n<hr data-sourcepos=\"15:1-15:3\">\n<p data-sourcepos=\"17:1-17:190\"><strong>RED REX BPI</strong> boasts one of the highest concentrations of functional protein available. Get the benefits of beef protein in a delicious, easy-to-mix formula, ideal for recovery and growth.</p>",
+      "body_text": "RED REX Beef Protein Isolate: Premium Paleo Power Looking for a powerful, dairy-free protein source? RED REX Beef Protein Isolate (BPI) delivers clean protein and amino acids, making it a top choice for building muscle and boosting performance. Enjoy optimal nutrition and great taste for sustained energy and muscle development. Fuel Your Gains with Lean Beef Power: 24g Pure Protein: Each serving packs an astounding 24 grams of beef protein isolate for serious muscle-building power. Ultra-Lean Profile: Contains just 3 grams of carbs and zero fat , ensuring clean gains. Highly Concentrated: Delivers the protein power of beef that's 350% more concentrated than steak! Dairy & Lactose-Free: An excellent alternative for those sensitive to dairy or looking to avoid milk-based proteins. Paleo-Friendly: A perfect fit for your Paleo diet, focusing on natural, wholesome sources. RED REX BPI boasts one of the highest concentrations of functional protein available. Get the benefits of beef protein in a delicious, easy-to-mix formula, ideal for recovery and growth.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BEEF_protein_isolate_CPB.png?v=1750840172",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BEEF_protein_isolate_VAN.png?v=1750840172",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/BEEF_protein_isolate_CHOCO.png?v=1750840172",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/beef_protein_isolate_back.png?v=1750840172",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_protein_isolate_choco.jpg?v=1751458847",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_protein_isolate_CPB.jpg?v=1751458846",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Beef_protein_isolate_vanilla.jpg?v=1751458845"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Chocolate",
+            "Vanilla",
+            "Chocolate Peanut Butter",
+            "Peach",
+            "Cola",
+            "Mixed berried",
+            "Mango"
+          ]
+        },
+        {
+          "name": "size",
+          "values": [
+            "1.8 Kg"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 44728297750812,
+          "title": "Chocolate / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "FG-RO-055",
+          "available": true,
+          "option1": "Chocolate",
+          "option2": "1.8 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 44728297783580,
+          "title": "Vanilla / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "FG-RO-054",
+          "available": true,
+          "option1": "Vanilla",
+          "option2": "1.8 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 44728297816348,
+          "title": "Chocolate Peanut Butter / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "FG-RO-069",
+          "available": true,
+          "option1": "Chocolate Peanut Butter",
+          "option2": "1.8 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51849001009436,
+          "title": "Peach / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "",
+          "available": false,
+          "option1": "Peach",
+          "option2": "1.8 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51849001042204,
+          "title": "Cola / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "",
+          "available": false,
+          "option1": "Cola",
+          "option2": "1.8 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51849001074972,
+          "title": "Mixed berried / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "",
+          "available": false,
+          "option1": "Mixed berried",
+          "option2": "1.8 Kg",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51849001140508,
+          "title": "Mango / 1.8 Kg",
+          "price": 3650.0,
+          "compare_at_price": 3190.0,
+          "sku": "",
+          "available": false,
+          "option1": "Mango",
+          "option2": "1.8 Kg",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8088055382300,
+      "handle": "red-rex-creatine-hcl-1500mg-fruit-punch",
+      "title": "RED REX CREATINE HCL 750MG FRUIT PUNCH",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Creatine",
+      "tags": [
+        "Creatine",
+        "Creatine HCL",
+        "Muscle",
+        "Muscle Building"
+      ],
+      "body_html": "<h3 data-sourcepos=\"9:1-9:50\"><strong>RED REX Creatine HCL: Advanced Muscle Fuel</strong></h3>\n<p data-sourcepos=\"11:1-11:206\">Looking for a cutting-edge creatine to power your workouts? <strong>RED REX Creatine Hydrochloride (HCL)</strong> offers superior solubility and unmatched bioavailability, fueling your muscles fast for peak performance.</p>\n<p data-sourcepos=\"13:1-13:209\">This advanced form of creatine is also easier on your stomach than traditional monohydrate. It sets a new standard for lifters seeking a highly soluble creatine solution for their training and supplementation.</p>\n<h4 data-sourcepos=\"15:1-15:38\"><strong>Key Benefits of Creatine HCL:</strong></h4>\n<ul data-sourcepos=\"17:1-24:0\">\n<li data-sourcepos=\"17:1-17:68\">\n<strong>Requires a Lower Dose:</strong> Get powerful results with less product.</li>\n<li data-sourcepos=\"18:1-18:64\">\n<strong>No Loading Cycle Needed:</strong> Start seeing benefits right away.</li>\n<li data-sourcepos=\"19:1-19:56\">\n<strong>Faster Absorption:</strong> Quick delivery to your muscles.</li>\n<li data-sourcepos=\"20:1-20:61\">\n<strong>Increases Body Mass:</strong> Supports significant muscle gains.</li>\n<li data-sourcepos=\"21:1-21:72\">\n<strong>Accelerates Muscle Recovery:</strong> Bounce back quicker between sessions.</li>\n<li data-sourcepos=\"22:1-22:53\">\n<strong>Reduces Fatigue:</strong> Push through tougher workouts.</li>\n<li data-sourcepos=\"23:1-24:0\">\n<strong>Delivers Faster Strength Gains:</strong> Experience a rapid increase in power.</li>\n</ul>\n<p data-sourcepos=\"25:1-25:98\">Elevate your training and recovery with the high-performance benefits of <strong>RED REX Creatine HCL</strong>.</p>",
+      "body_text": "RED REX Creatine HCL: Advanced Muscle Fuel Looking for a cutting-edge creatine to power your workouts? RED REX Creatine Hydrochloride (HCL) offers superior solubility and unmatched bioavailability, fueling your muscles fast for peak performance. This advanced form of creatine is also easier on your stomach than traditional monohydrate. It sets a new standard for lifters seeking a highly soluble creatine solution for their training and supplementation. Key Benefits of Creatine HCL: Requires a Lower Dose: Get powerful results with less product. No Loading Cycle Needed: Start seeing benefits right away. Faster Absorption: Quick delivery to your muscles. Increases Body Mass: Supports significant muscle gains. Accelerates Muscle Recovery: Bounce back quicker between sessions. Reduces Fatigue: Push through tougher workouts. Delivers Faster Strength Gains: Experience a rapid increase in power. Elevate your training and recovery with the high-performance benefits of RED REX Creatine HCL .",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREATINE_HCL_-_FRUIT_PUNCH_-_120gm_Front.jpg?v=1787643074",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREATINE_HCL_-_FRUIT_PUNCH_-_120gm_Back.jpg?v=1787643076",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_CREATINE_HCL_-_FRUIT_PUNCH_-_120gm_Back_001.jpg?v=1787643076",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Creatine_HCL_fruit_punch.jpg?v=1751458843"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "120 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 51854473363740,
+          "title": "120 G",
+          "price": 1200.0,
+          "compare_at_price": 990.0,
+          "sku": "FG-RO-053",
+          "available": true,
+          "option1": "120 G",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8084111294748,
+      "handle": "red-rex-beef-aminos-tablets",
+      "title": "RED REX BEEF AMINOS",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acid",
+      "tags": [
+        "Amino Acid",
+        "BCAA",
+        "Beef Aminos",
+        "Muscle Building"
+      ],
+      "body_html": "<h3 data-sourcepos=\"9:1-9:45\"><strong>RED REX Beef Aminos: Pure Muscle Fuel</strong></h3>\n<p data-sourcepos=\"11:1-11:312\">Unlock your muscle growth potential with <strong>RED REX Beef Aminos</strong>. Made from the finest premium grade Beef Protein Isolate, Beef Albumin, and Beef Liver, this supplement delivers a full spectrum of highly concentrated amino acids and essential nutrients. It's ideal support for your muscle growth and development.</p>\n<hr data-sourcepos=\"13:1-13:3\">\n<h3 data-sourcepos=\"15:1-15:36\"><strong>Key Benefits for Your Gains:</strong></h3>\n<ul data-sourcepos=\"17:1-22:0\">\n<li data-sourcepos=\"17:1-17:88\">\n<strong>High-Potency Formula:</strong> A powerful amino acid supplement sourced directly from beef.</li>\n<li data-sourcepos=\"18:1-18:117\">\n<strong>Triple Protein Support:</strong> Features Beef Protein Isolate, Beef Albumin, and Beef Liver for comprehensive benefits.</li>\n<li data-sourcepos=\"19:1-19:81\">\n<strong>Easy to Digest:</strong> Designed for quick absorption and utilization by your body.</li>\n<li data-sourcepos=\"20:1-20:90\">\n<strong>Daily Amino Delivery:</strong> Provides a consistent supply of crucial amino acids every day.</li>\n<li data-sourcepos=\"21:1-22:0\">\n<strong>Zero Fat or Cholesterol:</strong> A clean source of aminos without unwanted extras.</li>\n</ul>\n<hr data-sourcepos=\"23:1-23:3\">\n<p data-sourcepos=\"25:1-25:162\">Fuel your muscles with the constructive, metabolic power of beef. <strong>RED REX Beef Aminos</strong> gives you the essential building blocks for superior muscle development.</p>",
+      "body_text": "RED REX Beef Aminos: Pure Muscle Fuel Unlock your muscle growth potential with RED REX Beef Aminos . Made from the finest premium grade Beef Protein Isolate, Beef Albumin, and Beef Liver, this supplement delivers a full spectrum of highly concentrated amino acids and essential nutrients. It's ideal support for your muscle growth and development. Key Benefits for Your Gains: High-Potency Formula: A powerful amino acid supplement sourced directly from beef. Triple Protein Support: Features Beef Protein Isolate, Beef Albumin, and Beef Liver for comprehensive benefits. Easy to Digest: Designed for quick absorption and utilization by your body. Daily Amino Delivery: Provides a consistent supply of crucial amino acids every day. Zero Fat or Cholesterol: A clean source of aminos without unwanted extras. Fuel your muscles with the constructive, metabolic power of beef. RED REX Beef Aminos gives you the essential building blocks for superior muscle development.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_AMINO_-_300Tab_Front.jpg?v=1787643809",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_AMINO_-_300Tab_Back_001.jpg?v=1787643811",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_BEEF_AMINO_-_300Tab_Back.jpg?v=1787643812",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/beef_aminos.jpg?v=1751458845"
+      ],
+      "options": [
+        {
+          "name": "size",
+          "values": [
+            "300 Tablets"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 51854298349852,
+          "title": "300 Tablets",
+          "price": 1475.0,
+          "compare_at_price": 1300.0,
+          "sku": "FG-RO-059",
+          "available": true,
+          "option1": "300 Tablets",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8088055808284,
+      "handle": "red-rex-liquid-carnitine-3500mg",
+      "title": "RED REX LIQUID CARNITINE 3500MG",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Weight Loss",
+      "tags": [
+        "Carnitine",
+        "Drinks",
+        "Fat Burner",
+        "Weight Loss"
+      ],
+      "body_html": "<h3 data-sourcepos=\"9:1-9:72\"><strong>RED REX Liquid Carnitine 3500: Ignite Fat Loss &amp; Performance</strong></h3>\n<p data-sourcepos=\"11:1-11:266\">Ready to transform your body and boost your workouts? <strong>RED REX Liquid Carnitine 3500</strong> is a delicious way to convert dietary fats into pure energy, helping you crush your weight loss goals. It also significantly supports improved endurance and athletic performance.</p>\n<p data-sourcepos=\"13:1-13:123\">This is the perfect supplement for anyone aiming to enhance their body composition and achieve superior results in the gym.</p>\n<h4 data-sourcepos=\"15:1-15:22\"><strong>Key Benefits:</strong></h4>\n<ul data-sourcepos=\"17:1-21:0\">\n<li data-sourcepos=\"17:1-17:80\">\n<strong>Boosts Fat Metabolism:</strong> Effectively converts stored fat into usable energy.</li>\n<li data-sourcepos=\"18:1-18:82\">\n<strong>Enhances Endurance:</strong> Supports prolonged physical activity and delays fatigue.</li>\n<li data-sourcepos=\"19:1-19:64\">\n<strong>Improves Performance:</strong> Elevates your athletic capabilities.</li>\n<li data-sourcepos=\"20:1-21:0\">\n<strong>Clean Formula:</strong> It's <strong>Gluten-Free</strong>, <strong>Low Calorie</strong>, and <strong>Low Sugar</strong>.</li>\n</ul>\n<hr data-sourcepos=\"22:1-22:3\">\n<p data-sourcepos=\"24:1-24:85\">Fuel your transformation and push your limits with <strong>RED REX Liquid Carnitine 3500</strong>.</p>",
+      "body_text": "RED REX Liquid Carnitine 3500: Ignite Fat Loss & Performance Ready to transform your body and boost your workouts? RED REX Liquid Carnitine 3500 is a delicious way to convert dietary fats into pure energy, helping you crush your weight loss goals. It also significantly supports improved endurance and athletic performance. This is the perfect supplement for anyone aiming to enhance their body composition and achieve superior results in the gym. Key Benefits: Boosts Fat Metabolism: Effectively converts stored fat into usable energy. Enhances Endurance: Supports prolonged physical activity and delays fatigue. Improves Performance: Elevates your athletic capabilities. Clean Formula: It's Gluten-Free , Low Calorie , and Low Sugar . Fuel your transformation and push your limits with RED REX Liquid Carnitine 3500 .",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_LIQUID_L-CARNITINE_-_PINEAPPLE_-_3500_mg_Front.jpg?v=1787644402",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Red_Rex_3500mg_Liquid_L-Carnitine_Fruit_Punch_Front.jpg?v=1787644387",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_LIQUID_L-CARNITINE_-_WATERMELON_-_3500_mg_Front.jpg?v=1785755550",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_LIQUID_L-CARNITINE_-_PINEAPPLE_-_3500_mg_Back.jpg?v=1787644404",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Red_Rex_3500mg_Liquid_L-Carnitine_Fruit_Punch_Back_001.jpg?v=1787644403",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_LIQUID_L-CARNITINE_-_PINEAPPLE_-_3500_mg_Back_001.jpg?v=1787644404",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Red_Rex_3500mg_Liquid_L-Carnitine_Fruit_Punch_Back.jpg?v=1787644404",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/L-Carnitine_watermelon.jpg?v=1751458845",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/L-Carnitine_Pineapple.jpg?v=1751458844",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/L-Carnitine_fruit_punch.jpg?v=1751458844"
+      ],
+      "options": [
+        {
+          "name": "Flavors",
+          "values": [
+            "Watermelon",
+            "Fruit Punch",
+            "PINEAPPLE"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 44399203647772,
+          "title": "Watermelon",
+          "price": 1350.0,
+          "compare_at_price": 1200.0,
+          "sku": "FG-RO-089",
+          "available": true,
+          "option1": "Watermelon",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 44399203680540,
+          "title": "Fruit Punch",
+          "price": 1350.0,
+          "compare_at_price": 1200.0,
+          "sku": "FG-RO-062",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 46995556073756,
+          "title": "PINEAPPLE",
+          "price": 1350.0,
+          "compare_at_price": 1200.0,
+          "sku": "FG-RO-090",
+          "available": true,
+          "option1": "PINEAPPLE",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8084157661468,
+      "handle": "red-rex-eaa-creatine-hcl",
+      "title": "RED REX EAA + CREATINE HCL",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acid",
+      "tags": [
+        "Amino Acid",
+        "BCAA",
+        "Creatine",
+        "EAA",
+        "Hydration",
+        "Muscle Building",
+        "Recovery"
+      ],
+      "body_html": "<h3 data-sourcepos=\"13:1-13:56\"><strong>RED REX EAA + Creatine HCL: Complete Muscle Fuel</strong></h3>\n<p data-sourcepos=\"15:1-15:348\">Power up your workouts and accelerate recovery with <strong>RED REX EAA + Creatine HCL</strong>. This advanced formula delivers a full spectrum of all 9 Essential Amino Acids and muscle-building Creatine HCL. With 6 grams of BCAAs in every serving, this is a superior, advanced recovery, intra, and post-workout product compared to stand-alone BCAA supplements.</p>\n<hr data-sourcepos=\"17:1-17:3\">\n<h3 data-sourcepos=\"19:1-19:49\"><strong>Maximize Your Performance &amp; Recovery:</strong></h3>\n<ul data-sourcepos=\"21:1-32:0\">\n<li data-sourcepos=\"21:1-21:107\">\n<strong>Complete Amino Profile:</strong> Provides all 9 Essential Amino Acids, vital for comprehensive muscle support.</li>\n<li data-sourcepos=\"22:1-22:178\">\n<strong>Optimal BCAA Ratio:</strong> Contains a 2:1:1 ratio of Leucine, Isoleucine, and Valine for muscle repair and post-workout recovery, helping prevent muscle breakdown during workouts.</li>\n<li data-sourcepos=\"23:1-23:113\">\n<strong>Lean Muscle Growth:</strong> Increases muscle protein synthesis for better gains in lean muscle growth and recovery.</li>\n<li data-sourcepos=\"24:1-32:0\">\n<strong>Advanced Creatine HCL:</strong> This superior creatine form offers:\n<ul data-sourcepos=\"25:5-32:0\">\n<li data-sourcepos=\"25:5-25:62\">\n<strong>Lower Dose Required:</strong> Get powerful results with less.</li>\n<li data-sourcepos=\"26:5-26:69\">\n<strong>No Loading Cycle Needed:</strong> Start seeing benefits immediately.</li>\n<li data-sourcepos=\"27:5-27:60\">\n<strong>Faster Absorption:</strong> Quick delivery to your muscles.</li>\n<li data-sourcepos=\"28:5-28:65\">\n<strong>Increased Body Mass:</strong> Supports significant muscle gains.</li>\n<li data-sourcepos=\"29:5-29:71\">\n<strong>Faster Muscle Recovery:</strong> Bounce back quicker between sessions.</li>\n<li data-sourcepos=\"30:5-30:57\">\n<strong>Reduced Fatigue:</strong> Push through tougher workouts.</li>\n<li data-sourcepos=\"31:5-32:0\">\n<strong>Faster Strength Gains:</strong> Experience a rapid increase in power.</li>\n</ul>\n</li>\n</ul>\n<hr data-sourcepos=\"33:1-33:3\">\n<p data-sourcepos=\"35:1-35:144\">Fuel your muscles completely and elevate your training. <strong>RED REX EAA + Creatine HCL</strong> gives you the ultimate edge for performance and recovery.</p>",
+      "body_text": "RED REX EAA + Creatine HCL: Complete Muscle Fuel Power up your workouts and accelerate recovery with RED REX EAA + Creatine HCL . This advanced formula delivers a full spectrum of all 9 Essential Amino Acids and muscle-building Creatine HCL. With 6 grams of BCAAs in every serving, this is a superior, advanced recovery, intra, and post-workout product compared to stand-alone BCAA supplements. Maximize Your Performance & Recovery: Complete Amino Profile: Provides all 9 Essential Amino Acids, vital for comprehensive muscle support. Optimal BCAA Ratio: Contains a 2:1:1 ratio of Leucine, Isoleucine, and Valine for muscle repair and post-workout recovery, helping prevent muscle breakdown during workouts. Lean Muscle Growth: Increases muscle protein synthesis for better gains in lean muscle growth and recovery. Advanced Creatine HCL: This superior creatine form offers: Lower Dose Required: Get powerful results with less. No Loading Cycle Needed: Start seeing benefits immediately. Faster Absorption: Quick delivery to your muscles. Increased Body Mass: Supports significant muscle gains. Faster Muscle Recovery: Bounce back quicker between sessions. Reduced Fatigue: Push through tougher workouts. Faster Strength Gains: Experience a rapid increase in power. Fuel your muscles completely and elevate your training. RED REX EAA + Creatine HCL gives you the ultimate edge for performance and recovery.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_EAA_CREATINE_HCL_-_FRUIT_PUNCH_-_429gm_Front.jpg?v=1791888145",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_EAA_CREATINE_HCL_-_WATERMELON_-_429gm_Front_5c386845-4109-47c3-928b-c7db88d5e2c9.jpg?v=1791888174",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_EAA_CREATINE_HCL_-_MANGO_-_420gm_Front.jpg?v=1791888188",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_EAA_CREATINE_HCL_-_FRUIT_PUNCH_-_429gm_Back.jpg?v=1791888155",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_EAA_CREATINE_HCL_-_FRUIT_PUNCH_-_429gm_Back_001.jpg?v=1791888160",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/EAA_fruit_punch.jpg?v=1751458847",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/EAA_watermelon.jpg?v=1751458847",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/EAA_Mango.jpg?v=1751458847"
+      ],
+      "options": [
+        {
+          "name": "Flavors",
+          "values": [
+            "MANGO",
+            "WATERMELON",
+            "Fruit Punch"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "420 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 46564363698460,
+          "title": "MANGO / 420 G",
+          "price": 1425.0,
+          "compare_at_price": 1100.0,
+          "sku": "FG-RO-085",
+          "available": true,
+          "option1": "MANGO",
+          "option2": "420 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 46564377624860,
+          "title": "WATERMELON / 420 G",
+          "price": 1425.0,
+          "compare_at_price": 1100.0,
+          "sku": "FG-RO-084",
+          "available": true,
+          "option1": "WATERMELON",
+          "option2": "420 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 44380655911196,
+          "title": "Fruit Punch / 420 G",
+          "price": 1425.0,
+          "compare_at_price": 1100.0,
+          "sku": "FG-RO-061",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "420 G",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8161043611932,
+      "handle": "creatine-5000mg-unflavored",
+      "title": "RED REX CREATINE 5000MG UNFLAVORED",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Creatine",
+      "tags": [
+        "Creatine",
+        "Muscle",
+        "Muscle Building",
+        "Strength"
+      ],
+      "body_html": "<div class=\"user-query-container user-query-bubble-container ng-star-inserted\">\n<div id=\"user-query-content-5\" class=\"query-content ng-star-inserted\">\n<div dir=\"ltr\" class=\"query-text gds-body-l collapsed\" role=\"heading\">\n<h3 data-sourcepos=\"7:1-7:70\"><strong>RED REX Creatine Monohydrate: Unleash Your Strength &amp; Size</strong></h3>\n<p data-sourcepos=\"9:1-9:261\">Ready to maximize your gains? <strong>RED REX Creatine Monohydrate</strong> is a cornerstone supplement, scientifically proven to be one of the most effective tools for boosting muscle mass and strength. Experience significantly enhanced performance and accelerated results.</p>\n<hr data-sourcepos=\"11:1-11:3\">\n<h3 data-sourcepos=\"13:1-13:55\"><strong>Key Benefits of Daily Creatine Supplementation:</strong></h3>\n<ul data-sourcepos=\"15:1-20:0\">\n<li data-sourcepos=\"15:1-15:99\">\n<strong>Boosts Muscle Energy:</strong> Helps muscle cells produce more energy, directly fueling your workouts.</li>\n<li data-sourcepos=\"16:1-16:79\">\n<strong>Promotes Muscle Growth:</strong> Drives significant increases in lean muscle mass.</li>\n<li data-sourcepos=\"17:1-17:103\">\n<strong>Enhances Performance:</strong> Improves high-intensity exercise capabilities, allowing you to push harder.</li>\n<li data-sourcepos=\"18:1-18:97\">\n<strong>Reduces Fatigue:</strong> Fights tiredness, helping you maintain intensity throughout your training.</li>\n<li data-sourcepos=\"19:1-20:0\">\n<strong>Supports Brain Function:</strong> May even improve cognitive performance.</li>\n</ul>\n<hr data-sourcepos=\"21:1-21:3\">\n<p data-sourcepos=\"23:1-23:293\">Daily Creatine supplementation helps you double your strength and lean muscle gains compared to training alone. Whether you're an elite athlete or just starting your fitness journey, <strong>RED REX Creatine Monohydrate</strong> is your go-to for unlocking superior strength, power, and muscle development.</p>\n</div>\n</div>\n</div>",
+      "body_text": "RED REX Creatine Monohydrate: Unleash Your Strength & Size Ready to maximize your gains? RED REX Creatine Monohydrate is a cornerstone supplement, scientifically proven to be one of the most effective tools for boosting muscle mass and strength. Experience significantly enhanced performance and accelerated results. Key Benefits of Daily Creatine Supplementation: Boosts Muscle Energy: Helps muscle cells produce more energy, directly fueling your workouts. Promotes Muscle Growth: Drives significant increases in lean muscle mass. Enhances Performance: Improves high-intensity exercise capabilities, allowing you to push harder. Reduces Fatigue: Fights tiredness, helping you maintain intensity throughout your training. Supports Brain Function: May even improve cognitive performance. Daily Creatine supplementation helps you double your strength and lean muscle gains compared to training alone. Whether you're an elite athlete or just starting your fitness journey, RED REX Creatine Monohydrate is your go-to for unlocking superior strength, power, and muscle development.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Redrex-_Creatine-_Unflavored-_150_gm_Front.jpg?v=1783934104",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Redrex-_Creatine-_Unflavored-_150_gm_Back.jpg?v=1783933986",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Redrex-_Creatine-_Unflavored-_150_gm_Back_001.jpg?v=1783933989",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_EXPORT_-_CREATINE_-_UNFLAVORED_-_300g_Front.jpg?v=1791205117",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/creatine_unf_back.png?v=1751208631",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/creatine_unf_back2.png?v=1751208631",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/creatine_unflav..jpg?v=1751458839"
+      ],
+      "options": [
+        {
+          "name": "size",
+          "values": [
+            "150 G",
+            "300 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 51631812116764,
+          "title": "150 G",
+          "price": 590.0,
+          "compare_at_price": 499.0,
+          "sku": "FG-RO-052",
+          "available": true,
+          "option1": "150 G",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 51631818473756,
+          "title": "300 G",
+          "price": 1100.0,
+          "compare_at_price": 975.0,
+          "sku": "FG-RO-056",
+          "available": true,
+          "option1": "300 G",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8083882115356,
+      "handle": "red-rex-glutamine-5000mg-unflavored",
+      "title": "RED REX GLUTAMINE 5000MG UNFLAVORED",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acid",
+      "tags": [
+        "Amino Acid",
+        "Glutamine",
+        "Gut Health",
+        "Recovery"
+      ],
+      "body_html": "<h3 data-sourcepos=\"2:1-2:62\"><strong>RED REX L-Glutamine: Faster Recovery &amp; Performance</strong></h3>\n<p data-sourcepos=\"4:1-4:235\">Optimize your body's recovery and support overall wellness with <strong>RED REX L-Glutamine</strong>. This vital amino acid is essential for active individuals, helping to minimize muscle breakdown, boost endurance, and enhance nutrient absorption.</p>\n<hr data-sourcepos=\"6:1-6:3\">\n<h4 data-sourcepos=\"8:1-8:43\"><strong>Key Benefits of Daily L-Glutamine:</strong></h4>\n<ul data-sourcepos=\"10:1-15:0\">\n<li data-sourcepos=\"10:1-10:87\">\n<strong>Accelerates Recovery:</strong> Speeds up recovery times and reduces post-workout soreness.</li>\n<li data-sourcepos=\"11:1-11:101\">\n<strong>Strengthens Immune Health:</strong> Maintains a strong immune system, especially after intense activity.</li>\n<li data-sourcepos=\"12:1-12:93\">\n<strong>Enhances Digestive Health:</strong> Promotes better gut function and overall digestive wellness.</li>\n<li data-sourcepos=\"13:1-13:69\">\n<strong>Improves Strength Gains:</strong> Supports increased strength over time.</li>\n<li data-sourcepos=\"14:1-15:0\">\n<strong>Boosts Hydration:</strong> Elevates your body's hydration status.</li>\n</ul>\n<hr data-sourcepos=\"16:1-16:3\">\n<p data-sourcepos=\"18:1-18:142\">Ensure rapid, complete recovery and keep your body performing at its absolute best. Add <strong>RED REX L-Glutamine</strong> to fuel your active lifestyle.</p>",
+      "body_text": "RED REX L-Glutamine: Faster Recovery & Performance Optimize your body's recovery and support overall wellness with RED REX L-Glutamine . This vital amino acid is essential for active individuals, helping to minimize muscle breakdown, boost endurance, and enhance nutrient absorption. Key Benefits of Daily L-Glutamine: Accelerates Recovery: Speeds up recovery times and reduces post-workout soreness. Strengthens Immune Health: Maintains a strong immune system, especially after intense activity. Enhances Digestive Health: Promotes better gut function and overall digestive wellness. Improves Strength Gains: Supports increased strength over time. Boosts Hydration: Elevates your body's hydration status. Ensure rapid, complete recovery and keep your body performing at its absolute best. Add RED REX L-Glutamine to fuel your active lifestyle.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/RED_REX_-_Glutamine_300g_Unflavored_Front.jpg?v=1785766855",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/RED_REX_-_Glutamine_300g_Unflavored_Back.jpg?v=1785767062",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/RED_REX_-_Glutamine_300g_Unflavored_Back_001.jpg?v=1785767064",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Glutamine_unflav..jpg?v=1751458841"
+      ],
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "300 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 51854522777884,
+          "title": "300 G",
+          "price": 950.0,
+          "compare_at_price": null,
+          "sku": "FG-RO-057",
+          "available": true,
+          "option1": "300 G",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "shopify_id": 8203217010972,
+      "handle": "copy-of-red-rex-glutamine-5000mg",
+      "title": "RED REX GLUTAMINE 5000MG FLAVORED",
+      "vendor": "Big Ramy Labs Egypt",
+      "product_type": "Amino Acid",
+      "tags": [
+        "Amino Acid",
+        "Glutamine",
+        "Gut Health",
+        "Recovery"
+      ],
+      "body_html": "<h3 data-sourcepos=\"8:1-8:64\"><strong>RED REX L-Glutamine: Optimize Recovery &amp; Performance</strong></h3>\n<p data-sourcepos=\"10:1-10:303\">Looking to accelerate recovery and support your overall well-being? <strong>RED REX L-Glutamine</strong> provides the most abundant amino acid in the human body, vital for active individuals. It is crucial for minimizing muscle breakdown, supporting endurance, aiding gut function, and enhancing nutrient absorption.</p>\n<hr data-sourcepos=\"12:1-12:3\">\n<h3 data-sourcepos=\"14:1-14:58\"><strong>Key Benefits of Daily L-Glutamine Supplementation:</strong></h3>\n<ul data-sourcepos=\"16:1-21:0\">\n<li data-sourcepos=\"16:1-16:105\">\n<strong>Accelerates Recovery Times:</strong> Helps to significantly reduce recovery times and post-workout soreness.</li>\n<li data-sourcepos=\"17:1-17:133\">\n<strong>Restores Immune System Health:</strong> Plays a role in maintaining a healthy immune system, especially after intense physical activity.</li>\n<li data-sourcepos=\"18:1-18:110\">\n<strong>Supports Improved Digestive Health:</strong> Contributes to improved gut function and overall digestive wellness.</li>\n<li data-sourcepos=\"19:1-19:81\">\n<strong>Aids Strength Gains:</strong> May help improve your strength achievements over time.</li>\n<li data-sourcepos=\"20:1-21:0\">\n<strong>Improves Hydration:</strong> Works to enhance the body's hydration status.</li>\n</ul>\n<hr data-sourcepos=\"22:1-22:3\">\n<p data-sourcepos=\"24:1-24:232\">Your body rapidly uses and depletes Glutamine, particularly with workouts or sports. Make <strong>RED REX L-Glutamine</strong> part of your daily regimen to safeguard your muscles, boost your endurance, and ensure faster, more complete recovery.</p>",
+      "body_text": "RED REX L-Glutamine: Optimize Recovery & Performance Looking to accelerate recovery and support your overall well-being? RED REX L-Glutamine provides the most abundant amino acid in the human body, vital for active individuals. It is crucial for minimizing muscle breakdown, supporting endurance, aiding gut function, and enhancing nutrient absorption. Key Benefits of Daily L-Glutamine Supplementation: Accelerates Recovery Times: Helps to significantly reduce recovery times and post-workout soreness. Restores Immune System Health: Plays a role in maintaining a healthy immune system, especially after intense physical activity. Supports Improved Digestive Health: Contributes to improved gut function and overall digestive wellness. Aids Strength Gains: May help improve your strength achievements over time. Improves Hydration: Works to enhance the body's hydration status. Your body rapidly uses and depletes Glutamine, particularly with workouts or sports. Make RED REX L-Glutamine part of your daily regimen to safeguard your muscles, boost your endurance, and ensure faster, more complete recovery.",
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_GLUTAMINE_-_FRUIT_PUNCH_-_305gm_Front.jpg?v=1787645601",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_GLUTAMINE_-_LEMON_LIME_-_305gm_Front.jpg?v=1787645602",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_GLUTAMINE_-_FRUIT_PUNCH_-_305gm_Back_001.jpg?v=1787645601",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_GLUTAMINE_-_LEMON_LIME_-_305gm_Back.jpg?v=1787645601",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_GLUTAMINE_-_LEMON_LIME_-_305gm_Back_001.jpg?v=1787645603",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/REDREX_-_LOCAL_-_GLUTAMINE_-_FRUIT_PUNCH_-_305gm_Back.jpg?v=1787645604",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Glutamine_lemon_lime.jpg?v=1751458843",
+        "https://cdn.shopify.com/s/files/1/0707/5174/8380/files/Glutamine_fruit_punch.jpg?v=1751458843"
+      ],
+      "options": [
+        {
+          "name": "Flavor",
+          "values": [
+            "Fruit Punch",
+            "LEMON LIME"
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            "305 G"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "shopify_variant_id": 45605300732188,
+          "title": "Fruit Punch / 305 G",
+          "price": 950.0,
+          "compare_at_price": 790.0,
+          "sku": "FG-RO-083",
+          "available": true,
+          "option1": "Fruit Punch",
+          "option2": "305 G",
+          "option3": null
+        },
+        {
+          "shopify_variant_id": 45605310333212,
+          "title": "LEMON LIME / 305 G",
+          "price": 950.0,
+          "compare_at_price": 790.0,
+          "sku": "FG-RO-082",
+          "available": true,
+          "option1": "LEMON LIME",
+          "option2": "305 G",
+          "option3": null
+        }
+      ],
+      "status": "active"
+    }
+  ],
+  "collections": [
+    {
+      "handle": "best-sellers",
+      "title": "Best Sellers",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-gym-shaker-600-ml",
+        "creatine-5000mg-unflavored",
+        "red-rex-all-in-isolate",
+        "red-rex-creatine-5000mg-unflavored-copy",
+        "red-rex-big-whey",
+        "red-rex-all-in-protein",
+        "red-rex-100-beef-isolate-protein-4lb",
+        "red-rex-creatine-hcl-1500mg-fruit-punch",
+        "red-rex-carbo-big",
+        "red-rex-big-mass-gainer",
+        "red-rex-citrulline-90-gm",
+        "casein"
+      ]
+    },
+    {
+      "handle": "bundles",
+      "title": "Bundles",
+      "description": "",
+      "image": null,
+      "products": [
+        "bundle-7",
+        "bundle-6",
+        "bundle-4",
+        "bundle-2"
+      ]
+    },
+    {
+      "handle": "amino-recovery",
+      "title": "احماض امينية",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Amino-_-Recovery.png?v=1750839627",
+      "products": [
+        "red-rex-citrulline-90-gm",
+        "red-rex-glutamine-5000mg-unflavored",
+        "red-rex-eaa-creatine-hcl",
+        "red-rex-argenine",
+        "red-rex-beta-alanine",
+        "copy-of-red-rex-glutamine-5000mg",
+        "red-rex-beef-aminos-tablets",
+        "red-rex-bcaa-5000mg-fruit-punch-copy",
+        "redrex-daa-120-gm"
+      ]
+    },
+    {
+      "handle": "accessories",
+      "title": "اكسسوارات",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-gym-shaker-600-ml"
+      ]
+    },
+    {
+      "handle": "amino-acids-eaas",
+      "title": "الأحماض الأمينية الأساسية",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-citrulline-90-gm",
+        "red-rex-glutamine-5000mg-unflavored",
+        "red-rex-eaa-creatine-hcl",
+        "red-rex-argenine",
+        "red-rex-beta-alanine",
+        "copy-of-red-rex-glutamine-5000mg",
+        "red-rex-beef-aminos-tablets",
+        "red-rex-bcaa-5000mg-fruit-punch-copy",
+        "redrex-daa-120-gm"
+      ]
+    },
+    {
+      "handle": "muscle-recovery",
+      "title": "الاستشفاء العضلي",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-citrulline-90-gm",
+        "red-rex-glutamine-5000mg-unflavored",
+        "red-rex-eaa-creatine-hcl",
+        "red-rex-argenine",
+        "red-rex-beta-alanine",
+        "copy-of-red-rex-glutamine-5000mg",
+        "red-rex-beef-aminos-tablets",
+        "red-rex-bcaa-5000mg-fruit-punch-copy",
+        "redrex-daa-120-gm"
+      ]
+    },
+    {
+      "handle": "essential-proteins",
+      "title": "البروتينات الأساسية",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Essential-Proteins.png?v=1750839555",
+      "products": [
+        "red-rex-all-in-protein",
+        "red-rex-100-beef-isolate-protein-4lb",
+        "red-rex-all-in-isolate",
+        "red-rex-big-whey",
+        "red-rex-cream-of-rice",
+        "red-rex-hydro-big",
+        "red-rex-protein-oats",
+        "red-rex-beef-mass-plus-1",
+        "casein"
+      ]
+    },
+    {
+      "handle": "essential-proteins-1",
+      "title": "البروتينات الأساسية",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-all-in-protein",
+        "red-rex-100-beef-isolate-protein-4lb",
+        "red-rex-all-in-isolate",
+        "red-rex-big-whey",
+        "red-rex-big-mass-gainer",
+        "red-rex-beef-mass-gainer-copy",
+        "red-rex-cream-of-rice",
+        "red-rex-hydro-big",
+        "red-rex-protein-oats"
+      ]
+    },
+    {
+      "handle": "weight-loss",
+      "title": "الرشاقة والتخسيس",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-100-beef-isolate-protein-4lb",
+        "red-rex-liquid-carnitine-3500mg"
+      ]
+    },
+    {
+      "handle": "frontpage",
+      "title": "الصفحة الرئيسية",
+      "description": "",
+      "image": null,
+      "products": [
+        "creatine-5000mg-unflavored",
+        "red-rex-creatine-5000mg-unflavored-copy",
+        "red-rex-100-beef-isolate-protein-4lb",
+        "red-rex-creatine-hcl-1500mg-fruit-punch",
+        "red-rex-big-whey",
+        "red-rex-citrulline-90-gm",
+        "red-rex-big-mass-gainer",
+        "red-rex-glutamine-5000mg-unflavored",
+        "red-rex-eaa-creatine-hcl",
+        "red-rex-beef-mass-gainer-copy",
+        "red-rex-stomp-preworkout-copy",
+        "copy-of-red-rex-glutamine-5000mg",
+        "red-rex-beef-aminos-tablets",
+        "red-rex-bcaa-5000mg-fruit-punch-copy",
+        "red-rex-beef-mass-plus-1"
+      ]
+    },
+    {
+      "handle": "creatine",
+      "title": "الكرياتين",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Creatine..png?v=1750839614",
+      "products": [
+        "creatine-5000mg-unflavored",
+        "red-rex-creatine-5000mg-unflavored-copy",
+        "red-rex-creatine-hcl-1500mg-fruit-punch",
+        "red-rex-eaa-creatine-hcl"
+      ]
+    },
+    {
+      "handle": "creatine-1",
+      "title": "الكرياتين",
+      "description": "",
+      "image": null,
+      "products": [
+        "creatine-5000mg-unflavored",
+        "red-rex-creatine-5000mg-unflavored-copy",
+        "red-rex-creatine-hcl-1500mg-fruit-punch"
+      ]
+    },
+    {
+      "handle": "new-arrivals",
+      "title": "المنتجات الجديدة",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-gym-shaker-600-ml",
+        "red-rex-all-in-protein",
+        "red-rex-cream-of-rice",
+        "red-rex-all-in-isolate",
+        "red-rex-protein-oats",
+        "red-rex-hydro-big",
+        "red-rex-carbo-big",
+        "red-rex-citrulline-90-gm",
+        "red-rex-argenine",
+        "red-rex-beta-alanine",
+        "redrex-daa-120-gm",
+        "casein",
+        "red-rex-beef-mass-plus-1"
+      ]
+    },
+    {
+      "handle": "mass-growth",
+      "title": "تضخيم",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Mass-_-Growth.png?v=1750839655",
+      "products": [
+        "red-rex-big-mass-gainer",
+        "red-rex-beef-mass-gainer-copy",
+        "red-rex-carbo-big",
+        "red-rex-cream-of-rice",
+        "red-rex-hydro-big",
+        "red-rex-protein-oats",
+        "red-rex-beef-mass-plus-1",
+        "casein"
+      ]
+    },
+    {
+      "handle": "fat-burner",
+      "title": "حارق الدهون",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-liquid-carnitine-3500mg"
+      ]
+    },
+    {
+      "handle": "performance-fuel",
+      "title": "طاقة و اداء",
+      "description": "",
+      "image": "https://cdn.shopify.com/s/files/1/0707/5174/8380/collections/Performance-Fuel..png?v=1750839639",
+      "products": [
+        "red-rex-stomp-preworkout-copy",
+        "red-rex-liquid-carnitine-3500mg",
+        "red-rex-creatine-hcl-1500mg-fruit-punch",
+        "red-rex-carbo-big",
+        "red-rex-protein-oats",
+        "red-rex-cream-of-rice"
+      ]
+    },
+    {
+      "handle": "big-november-promos",
+      "title": "عروض نوفمبر الكبرى",
+      "description": "",
+      "image": null,
+      "products": []
+    },
+    {
+      "handle": "energy-performance",
+      "title": "لتعزيز الطاقة والأداء",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-citrulline-90-gm",
+        "red-rex-liquid-carnitine-3500mg",
+        "red-rex-argenine",
+        "red-rex-beta-alanine",
+        "red-rex-stomp-preworkout-copy",
+        "redrex-daa-120-gm"
+      ]
+    },
+    {
+      "handle": "build-muscle-strength",
+      "title": "للبناء العضلي والقوة",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-beta-alanine",
+        "red-rex-citrulline-90-gm",
+        "redrex-daa-120-gm",
+        "red-rex-argenine",
+        "creatine-5000mg-unflavored",
+        "red-rex-carbo-big",
+        "red-rex-creatine-5000mg-unflavored-copy",
+        "red-rex-creatine-hcl-1500mg-fruit-punch",
+        "red-rex-protein-oats",
+        "red-rex-beef-aminos-tablets",
+        "red-rex-all-in-protein",
+        "red-rex-all-in-isolate",
+        "red-rex-beef-mass-plus-1",
+        "red-rex-beef-mass-gainer-copy",
+        "red-rex-big-whey",
+        "red-rex-hydro-big",
+        "casein",
+        "red-rex-big-mass-gainer",
+        "red-rex-100-beef-isolate-protein-4lb"
+      ]
+    },
+    {
+      "handle": "pre-workout",
+      "title": "محفزات الأداء",
+      "description": "",
+      "image": null,
+      "products": [
+        "red-rex-citrulline-90-gm",
+        "red-rex-argenine",
+        "red-rex-beta-alanine",
+        "red-rex-stomp-preworkout-copy",
+        "redrex-daa-120-gm"
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "name": "All-In + Creatine Bundle",
+      "type": "specific_mix",
+      "status": "active",
+      "fixed_total": 2000,
+      "discount_amount": null,
+      "discount_percent": null,
+      "items": [
+        {
+          "product_handle": "red-rex-all-in-protein",
+          "quantity": 1
+        },
+        {
+          "product_handle": "creatine-5000mg-unflavored",
+          "quantity": 1
+        }
+      ],
+      "description": "Buy All-In 30 srv with Creatine 60 srv for EGP 2000 total. Only this mix qualifies — not 2x the same product."
+    }
+  ]
+}
