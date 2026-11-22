@@ -6,10 +6,21 @@ Self-hosted clone of [eg.bigramylabs.com](https://eg.bigramylabs.com/en) with a 
 
 Needs **Node.js 20+** installed.
 
+### Windows (Command Prompt / PowerShell)
+
+1. Install [Node.js LTS](https://nodejs.org) and reopen the terminal.
+2. Open the `bigramy-store` folder (the one with `package.json`).
+3. Run:
+
+```bat
+npm install
+npm run dev
+```
+
+### Mac / Linux
+
 ```bash
-git clone https://github.com/Mohamedgamalabdelnasser/websites.git
-cd websites/bigramy-store
-git checkout cursor/bigramy-store-admin-f929
+cd bigramy-store
 npm install
 npm run dev
 ```
@@ -22,7 +33,7 @@ Open:
 
 To use another port:
 
-```bash
+```bat
 npx next dev -p 4000
 ```
 
